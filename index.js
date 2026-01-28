@@ -21,7 +21,7 @@ const svg = d3.select("#chart-container")
 
 // Load the data from the CSV
 
-d3.csv("united_competitive_results_post_ferguson.csv").then(function (data) {
+d3.csv("data/united_competitive_results_post_ferguson.csv").then(function (data) {
     const parseDate = d3.timeParse("%Y-%m-%d");
     let accumulator = 0;
     data.forEach(d => {
