@@ -235,5 +235,5 @@ if __name__ == '__main__':
                 results['ga'].append(ga)
                 results['gd'].append(gf - ga)
     df = pd.DataFrame.from_dict(results)
-    df.to_csv(f'united_results_post_ferguson_extracted_{datetime.now().strftime('%Y%m%d%H%M%S')}.csv')
-    df.to_csv('united_results_post_ferguson_latest.csv')
+    df.to_csv(f'./data/united_results_post_ferguson_extracted_{datetime.now().strftime('%Y%m%d%H%M%S')}.csv')
+    df.to_csv('./data/united_results_post_ferguson_latest.csv')

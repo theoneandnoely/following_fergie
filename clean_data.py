@@ -1,6 +1,6 @@
 import pandas as pd
 # Import Data
-df = pd.read_csv('united_results_post_ferguson_latest.csv',index_col=1).drop('Unnamed: 0', axis=1)
+df = pd.read_csv('./data/united_results_post_ferguson_latest.csv',index_col=1).drop('Unnamed: 0', axis=1)
 # Sort By Match Date
 df = df.sort_values(by=['date'])
 # Remove Friendlies and Pre-season Competitions
@@ -27,4 +27,4 @@ df['stage'] = df['competition'].apply(lambda x: competitions[x]['stage'])
 df = df[['trophy','stage','date','manager','manager_type','opponent','h_a','gf','ga','gd']]
 df.rename({'trophy':'competition'}, axis=1, inplace=True)
 # Export as CSV
-df.to_csv('united_competitive_results_post_ferguson.csv')
+df.to_csv('./data/united_competitive_results_post_ferguson.csv')
