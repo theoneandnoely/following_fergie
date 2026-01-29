@@ -316,12 +316,35 @@ listening_rect.on("mousemove", function(event) {
         .attr("r", 5)
     ;
 
+    // Datetime options
+    const options = {
+        year:"numeric",
+        month:"short",
+        day:"numeric"
+    }
     // Add tooltip
     tooltip
         .style("display", "block")
         .style("left", `${xPos < (width/4) ? xPos + margin.left + 10 : xPos - margin.left - 75}px`)
         .style("top", `${yPos < (height/2) ? yPos + margin.top + 10 : yPos - margin.top - 10}px`)
-        .html(`<div class="match-container" style="display:flex; justify-content:space-between; gap:2px"><div class="match-details" style="text-align:left">${d.opponent} (${d.h_a === 'h' ? 'H' : 'A'})<br>${d.h_a === 'h' ? `<strong>${d.gf}</strong>` : d.ga} - ${d.h_a === 'h' ? d.ga : `<strong>${d.gf}</strong>` }</div><div class="logo"><img src=${d.logo} width="25" height="30"></div></div><strong>Date:</strong> ${d.date.toLocaleDateString()}<br><strong>Cumulative GD:</strong> ${d.cum_gd > 0 ? `+${d.cum_gd}` : d.cum_gd}`)
+        .style("border",`1px solid ${colourMap.get(d.manager)}`)
+        .html(
+            `<div class="match-container" style="display:flex; justify-content:space-between; gap:2px">
+                <div class="match-details" style="text-align:left; display:flex-row">
+                    <div class="match-date" style="font-size:0.75em">${d.date.toLocaleDateString('en-IE', options)}</div>
+                    <div class="opponent" ><strong>${d.opponent}</strong> (${d.h_a === 'h' ? 'H' : 'A'})</div>
+                    <div class="score">${d.h_a === 'h' ? `<strong>${d.gf}</strong>` : d.ga} - ${d.h_a === 'h' ? d.ga : `<strong>${d.gf}</strong>` }</div>
+                </div>
+                <div class="logo">
+                    <img src=${d.logo} width="25" height="30">
+                </div>
+            </div>
+            <div class="manager-container" style="display:flex; justify-content:space-between; gap:2px">
+                <div class="manager_name"><strong>${d.manager}</strong></div>
+                <div class="gd">${d.cum_gd > 0 ? `+${d.cum_gd}` : d.cum_gd}</div>
+            </div>`
+            // <strong>Cumulative GD:</strong> ${d.cum_gd > 0 ? `+${d.cum_gd}` : d.cum_gd}`
+        )
     ;
 });
 
