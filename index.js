@@ -1,7 +1,7 @@
 // Set dimensions and margins for chart
 const margin = { top: 40, right: 40, bottom: 50, left: 50 };
-const width = 1000 - margin.left - margin.right;
-const height = 600 - margin.top - margin.bottom;
+const width = window.innerWidth - margin.left - margin.right;
+const height = window.innerHeight - margin.top - margin.bottom;
 
 // Set up the x and y scales
 const x = d3.scaleTime()
@@ -47,6 +47,28 @@ d3.csv("data/united_competitive_results_post_ferguson.csv").then(function (data)
         d.cum_gd = accumulator +d.gd
         accumulator = accumulator + +d.gd
     });
+
+// Group data by manager_type
+const types = d3.group(
+    data,
+    (d) => d.manager_type
+);
+
+// Group each manager type by manager
+const permanents = d3.group(
+    types.get("Permanent"),
+    (d) => d.manager
+);
+const interims = d3.group(
+    types.get("Interim"),
+    (d) => d.manager
+);
+const caretakers = d3.group(
+    types.get("Caretaker"),
+    (d) => d.manager
+);
+
+console.log(permanents);
 
 // Define the x and y domains
 x.domain(d3.extent(data, d => d.date));
@@ -210,12 +232,41 @@ g_timeframes.append("text")
     .text(d => d.label);
 
 // Add the line path to the SVG element
-svg.append("path")
-    .datum(data)
-    .attr("fill", "none")
-    .attr("stroke", "#c3102b")
-    .attr("stroke-width", 1)
-    .attr("d", line);
+// svg.append("path")
+//     .datum(data)
+//     .attr("fill", "none")
+//     .attr("stroke", "#c3102b")
+//     .attr("stroke-width", 1)
+//     .attr("d", line);
+svg
+    .selectAll('.permanent_manager_path')
+    .data(permanents)
+    .join('path')
+        .attr('d', (d) => line(d[1]))
+        .attr('fill','none')
+        .attr('stroke','#c3102b')
+        .attr('stroke-width',1)
+;
+svg
+    .selectAll('.interim_manager_path')
+    .data(interims)
+    .join('path')
+        .attr('d', (d) => line(d[1]))
+        .attr('fill','none')
+        .attr('stroke','#c3102b')
+        .attr('stroke-width',1)
+        .style('stroke-dasharray', '4,2')
+;
+svg
+    .selectAll('.caretaker_manager_path')
+    .data(caretakers)
+    .join('path')
+        .attr('d', (d) => line(d[1]))
+        .attr('fill','none')
+        .attr('stroke','#c3102b')
+        .attr('stroke-width',1)
+        .style('stroke-dasharray','2,2')
+;
 
 // Add circle element for tooltip
 const circle = svg.append("circle")
@@ -260,8 +311,8 @@ listening_rect.on("mousemove", function(event) {
     // Add tooltip
     tooltip
         .style("display", "block")
-        .style("left", `${xPos + margin.left + 10}px`)
-        .style("top", `${yPos + margin.top + 10}px`)
+        .style("left", `${xPos < (width/4) ? xPos + margin.left + 10 : xPos - margin.left - 75}px`)
+        .style("top", `${yPos < (height/2) ? yPos + margin.top + 10 : yPos - margin.top - 10}px`)
         .html(`<div class="match-container" style="display:flex; justify-content:space-between; gap:2px"><div class="match-details" style="text-align:left">${d.opponent} (${d.h_a === 'h' ? 'H' : 'A'})<br>${d.h_a === 'h' ? `<strong>${d.gf}</strong>` : d.ga} - ${d.h_a === 'h' ? d.ga : `<strong>${d.gf}</strong>` }</div><div class="logo"><img src=${d.logo} width="25" height="30"></div></div><strong>Date:</strong> ${d.date.toLocaleDateString()}<br><strong>Cumulative GD:</strong> ${d.cum_gd > 0 ? `+${d.cum_gd}` : d.cum_gd}`)
     ;
 });
