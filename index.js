@@ -34,6 +34,20 @@ logoMap.set('League Cup','images/League_Cup.png');
 logoMap.set('Community Shield','images/Community_Shield.png');
 logoMap.set('UEFA Super Cup','images/UEFA_Super_Cup.png');
 
+// Create Colour Map for Managers
+const colourMap = new Map();
+colourMap.set('David Moyes','#d40b29');
+colourMap.set('Ryan Giggs','#17334d');
+colourMap.set('Louis van Gaal','#ffe697');
+colourMap.set('José Mourinho','#527d5a');
+colourMap.set('Ole Gunnar Solskjaer','#c3102b');
+colourMap.set('Ralf Rangnick','#ffc5ce');
+colourMap.set('Michael Carrick','#082036');
+colourMap.set('Erik ten Hag','#f36c21');
+colourMap.set('Ruben Amorim','#9bc693');
+colourMap.set('Ruud van Nistelrooy','#646464');
+colourMap.set('Darren Fletcher','#eed99b');
+
 // Load the data from the CSV
 d3.csv("data/united_competitive_results_post_ferguson.csv").then(function (data) {
     const parseDate = d3.timeParse("%Y-%m-%d");
@@ -232,19 +246,13 @@ g_timeframes.append("text")
     .text(d => d.label);
 
 // Add the line path to the SVG element
-// svg.append("path")
-//     .datum(data)
-//     .attr("fill", "none")
-//     .attr("stroke", "#c3102b")
-//     .attr("stroke-width", 1)
-//     .attr("d", line);
 svg
     .selectAll('.permanent_manager_path')
     .data(permanents)
     .join('path')
         .attr('d', (d) => line(d[1]))
         .attr('fill','none')
-        .attr('stroke','#c3102b')
+        .attr('stroke',(d) => colourMap.get(d[0]))
         .attr('stroke-width',1)
 ;
 svg
@@ -253,7 +261,7 @@ svg
     .join('path')
         .attr('d', (d) => line(d[1]))
         .attr('fill','none')
-        .attr('stroke','#c3102b')
+        .attr('stroke',(d) => colourMap.get(d[0]))
         .attr('stroke-width',1)
         .style('stroke-dasharray', '4,2')
 ;
@@ -263,7 +271,7 @@ svg
     .join('path')
         .attr('d', (d) => line(d[1]))
         .attr('fill','none')
-        .attr('stroke','#c3102b')
+        .attr('stroke',(d) => colourMap.get(d[0]))
         .attr('stroke-width',1)
         .style('stroke-dasharray','2,2')
 ;
