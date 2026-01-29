@@ -322,9 +322,17 @@ listening_rect.on("mousemove", function(event) {
         day:"numeric"
     }
     // Add tooltip
+    // if (xPos > (width/4)){
+    //     tooltip.style("right",`${(width + margin.right - 20) - xPos}px`);
+    //     tooltip.style("left",`${xPos - margin.left - 80}px`);
+    // } else {
+    //     tooltip.style("left", `${xPos + margin.left + 10}px`);
+    // }
+
     tooltip
         .style("display", "block")
-        .style("left", `${xPos < (width/4) ? xPos + margin.left + 10 : xPos - margin.left - 75}px`)
+        .style("left", `${xPos < (width/4) ? (xPos + margin.left + 10) : (xPos - margin.left - 80)}px`)
+        .style("right", `${xPos < (width/4) ? width - margin.right - 120 - xPos : (width + margin.right - 20) - xPos}px`)
         .style("top", `${yPos < (height/2) ? yPos + margin.top + 10 : yPos - margin.top - 10}px`)
         .style("border",`1px solid ${colourMap.get(d.manager)}`)
         .html(
@@ -341,6 +349,7 @@ listening_rect.on("mousemove", function(event) {
                     <img src=${d.logo} width="25" height="30">
                 </div>
             </div>
+            <hr style="background-color:${colourMap.get(d.manager)}; height:1px; border:0">
             <div class="manager-container" style="display:flex; justify-content:space-between; gap:2px">
                 <div class="manager_name"><strong>${d.manager}</strong></div>
                 <div class="manager-gd">${d.manager_gd > 0 ? `+${d.manager_gd}` : d.manager_gd}</div>
@@ -352,6 +361,14 @@ listening_rect.on("mousemove", function(event) {
             // <strong>Cumulative GD:</strong> ${d.cum_gd > 0 ? `+${d.cum_gd}` : d.cum_gd}`
         )
     ;
+});
+
+listening_rect.on("mouseleave", function() {
+    circle.transition()
+        .duration(50)
+        .attr("r",0)
+    ;
+    tooltip.style("display","none");
 });
 
 
