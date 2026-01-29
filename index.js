@@ -51,15 +51,14 @@ colourMap.set('Darren Fletcher','#eed99b');
 // Load the data from the CSV
 d3.csv("data/united_competitive_results_post_ferguson.csv").then(function (data) {
     const parseDate = d3.timeParse("%Y-%m-%d");
-    let accumulator = 0;
     data.forEach(d => {
         d.date = parseDate(d.date);
         d.logo = logoMap.get(d.competition);
         d.gf = +d.gf;
         d.ga = +d.ga;
         d.gd = +d.gd;
-        d.cum_gd = accumulator +d.gd
-        accumulator = accumulator + +d.gd
+        d.manager_gd = +d.manager_gd
+        d.cum_gd = +d.cum_gd
     });
 
 // Group data by manager_type
@@ -333,7 +332,10 @@ listening_rect.on("mousemove", function(event) {
                 <div class="match-details" style="text-align:left; display:flex-row">
                     <div class="match-date" style="font-size:0.75em">${d.date.toLocaleDateString('en-IE', options)}</div>
                     <div class="opponent" ><strong>${d.opponent}</strong> (${d.h_a === 'h' ? 'H' : 'A'})</div>
-                    <div class="score">${d.h_a === 'h' ? `<strong>${d.gf}</strong>` : d.ga} - ${d.h_a === 'h' ? d.ga : `<strong>${d.gf}</strong>` }</div>
+                    <div class="score-container" style="display:flex; justify-content:space-between; gap:2px">
+                        <div class="score">${d.h_a === 'h' ? `<strong>${d.gf}</strong>` : d.ga} - ${d.h_a === 'h' ? d.ga : `<strong>${d.gf}</strong>` }</div>
+                        <div class="match-gd">${d.gd > 0 ? `(+${d.gd})` : `(${d.gd})`}</div>
+                    </div>
                 </div>
                 <div class="logo">
                     <img src=${d.logo} width="25" height="30">
@@ -341,7 +343,11 @@ listening_rect.on("mousemove", function(event) {
             </div>
             <div class="manager-container" style="display:flex; justify-content:space-between; gap:2px">
                 <div class="manager_name"><strong>${d.manager}</strong></div>
-                <div class="gd">${d.cum_gd > 0 ? `+${d.cum_gd}` : d.cum_gd}</div>
+                <div class="manager-gd">${d.manager_gd > 0 ? `+${d.manager_gd}` : d.manager_gd}</div>
+            </div>
+            <div class="post-fergie-gd-container" style="display:flex; justify-content:space-between; gap:2px">
+                <div><strong>GD post Fergie:</strong></div>
+                <div class="cum-gd">${d.cum_gd > 0 ? `+${d.cum_gd}` : d.cum_gd}</div>
             </div>`
             // <strong>Cumulative GD:</strong> ${d.cum_gd > 0 ? `+${d.cum_gd}` : d.cum_gd}`
         )

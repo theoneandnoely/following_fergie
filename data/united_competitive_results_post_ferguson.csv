@@ -1,702 +1,702 @@
-match_id,competition,stage,date,manager,manager_type,opponent,h_a,gf,ga,gd
-1453002,Community Shield,knockout,2013-08-11,David Moyes,Permanent,Wigan,h,2,0,2
-1474079,Premier League,league,2013-08-17,David Moyes,Permanent,Swansea,a,4,1,3
-1474133,Premier League,league,2013-08-26,David Moyes,Permanent,Chelsea,h,0,0,0
-1474162,Premier League,league,2013-09-01,David Moyes,Permanent,Liverpool,a,0,1,-1
-1474178,Premier League,league,2013-09-14,David Moyes,Permanent,Crystal Palace,h,2,0,2
-1573681,Champions League,league,2013-09-17,David Moyes,Permanent,Leverkusen,h,4,2,2
-1474200,Premier League,league,2013-09-22,David Moyes,Permanent,Man City,a,1,4,-3
-1573093,League Cup,knockout,2013-09-25,David Moyes,Permanent,Liverpool,h,1,0,1
-1474213,Premier League,league,2013-09-28,David Moyes,Permanent,West Brom,h,1,2,-1
-1573683,Champions League,league,2013-10-02,David Moyes,Permanent,Shakhtar Donetsk,a,1,1,0
-1474241,Premier League,league,2013-10-05,David Moyes,Permanent,Sunderland,a,2,1,1
-1474262,Premier League,league,2013-10-19,David Moyes,Permanent,Southampton,h,1,1,0
-1573692,Champions League,league,2013-10-23,David Moyes,Permanent,Real Sociedad,h,1,0,1
-1474298,Premier League,league,2013-10-26,David Moyes,Permanent,Stoke,h,3,2,1
-1591075,League Cup,knockout,2013-10-29,David Moyes,Permanent,Norwich,h,4,0,4
-1474332,Premier League,league,2013-11-02,David Moyes,Permanent,Fulham,a,3,1,2
-1573694,Champions League,league,2013-11-05,David Moyes,Permanent,Real Sociedad,a,0,0,0
-1474368,Premier League,league,2013-11-10,David Moyes,Permanent,Arsenal,h,1,0,1
-1474387,Premier League,league,2013-11-24,David Moyes,Permanent,Cardiff,a,2,2,0
-1573714,Champions League,league,2013-11-27,David Moyes,Permanent,Leverkusen,a,5,0,5
-1474430,Premier League,league,2013-12-01,David Moyes,Permanent,Tottenham,a,2,2,0
-1474459,Premier League,league,2013-12-04,David Moyes,Permanent,Everton,h,0,1,-1
-1474518,Premier League,league,2013-12-07,David Moyes,Permanent,Newcastle,h,0,1,-1
-1573716,Champions League,league,2013-12-10,David Moyes,Permanent,Shakhtar Donetsk,h,1,0,1
-1474533,Premier League,league,2013-12-15,David Moyes,Permanent,Aston Villa,a,3,0,3
-1609811,League Cup,knockout,2013-12-18,David Moyes,Permanent,Stoke,a,2,0,2
-1474576,Premier League,league,2013-12-21,David Moyes,Permanent,West Ham,h,3,1,2
-1474610,Premier League,league,2013-12-26,David Moyes,Permanent,Hull,a,3,2,1
-1474659,Premier League,league,2013-12-28,David Moyes,Permanent,Norwich,a,1,0,1
-1474698,Premier League,league,2014-01-01,David Moyes,Permanent,Tottenham,h,1,2,-1
-1622466,FA Cup,knockout,2014-01-05,David Moyes,Permanent,Swansea,h,1,2,-1
-1626421,League Cup,knockout,2014-01-07,David Moyes,Permanent,Sunderland,a,1,2,-1
-1474912,Premier League,league,2014-01-11,David Moyes,Permanent,Swansea,h,2,0,2
-1474923,Premier League,league,2014-01-19,David Moyes,Permanent,Chelsea,a,1,3,-2
-1626423,League Cup,knockout,2014-01-22,David Moyes,Permanent,Sunderland,h,2,1,1
-1474937,Premier League,league,2014-01-28,David Moyes,Permanent,Cardiff,h,2,0,2
-1474954,Premier League,league,2014-02-01,David Moyes,Permanent,Stoke,a,1,2,-1
-1474962,Premier League,league,2014-02-09,David Moyes,Permanent,Fulham,h,2,2,0
-1474968,Premier League,league,2014-02-12,David Moyes,Permanent,Arsenal,a,0,0,0
-1474984,Premier League,league,2014-02-22,David Moyes,Permanent,Crystal Palace,a,2,0,2
-1625212,Champions League,knockout,2014-02-25,David Moyes,Permanent,Olympiacos,a,0,2,-2
-1475013,Premier League,league,2014-03-08,David Moyes,Permanent,West Brom,a,3,0,3
-1475020,Premier League,league,2014-03-16,David Moyes,Permanent,Liverpool,h,0,3,-3
-1625219,Champions League,knockout,2014-03-19,David Moyes,Permanent,Olympiacos,h,3,0,3
-1475038,Premier League,league,2014-03-22,David Moyes,Permanent,West Ham,a,2,0,2
-1474997,Premier League,league,2014-03-25,David Moyes,Permanent,Man City,h,0,3,-3
-1475043,Premier League,league,2014-03-29,David Moyes,Permanent,Aston Villa,h,4,1,3
-1679352,Champions League,knockout,2014-04-01,David Moyes,Permanent,Bayern München,h,1,1,0
-1475058,Premier League,league,2014-04-05,David Moyes,Permanent,Newcastle,a,4,0,4
-1679353,Champions League,knockout,2014-04-09,David Moyes,Permanent,Bayern München,a,1,3,-2
-1475078,Premier League,league,2014-04-20,David Moyes,Permanent,Everton,a,0,2,-2
-1475091,Premier League,league,2014-04-26,Ryan Giggs,Caretaker,Norwich,h,4,0,4
-1475103,Premier League,league,2014-05-03,Ryan Giggs,Caretaker,Sunderland,h,0,1,-1
-1475067,Premier League,league,2014-05-06,Ryan Giggs,Caretaker,Hull,h,3,1,2
-1475116,Premier League,league,2014-05-11,Ryan Giggs,Caretaker,Southampton,a,1,1,0
-1723986,Premier League,league,2014-08-16,Louis van Gaal,Permanent,Swansea,h,1,2,-1
-1723999,Premier League,league,2014-08-24,Louis van Gaal,Permanent,Sunderland,a,1,1,0
-1809097,League Cup,knockout,2014-08-26,Louis van Gaal,Permanent,MK Dons,a,0,4,-4
-1724003,Premier League,league,2014-08-30,Louis van Gaal,Permanent,Burnley,a,0,0,0
-1724017,Premier League,league,2014-09-14,Louis van Gaal,Permanent,QPR,h,4,0,4
-1724025,Premier League,league,2014-09-21,Louis van Gaal,Permanent,Leicester,a,3,5,-2
-1724037,Premier League,league,2014-09-27,Louis van Gaal,Permanent,West Ham,h,2,1,1
-1724047,Premier League,league,2014-10-05,Louis van Gaal,Permanent,Everton,h,2,1,1
-1724061,Premier League,league,2014-10-20,Louis van Gaal,Permanent,West Brom,a,2,2,0
-1724064,Premier League,league,2014-10-26,Louis van Gaal,Permanent,Chelsea,h,1,1,0
-1724079,Premier League,league,2014-11-02,Louis van Gaal,Permanent,Man City,a,0,1,-1
-1724084,Premier League,league,2014-11-08,Louis van Gaal,Permanent,Crystal Palace,h,1,0,1
-1724092,Premier League,league,2014-11-22,Louis van Gaal,Permanent,Arsenal,a,2,1,1
-1724104,Premier League,league,2014-11-29,Louis van Gaal,Permanent,Hull,h,3,0,3
-1724115,Premier League,league,2014-12-02,Louis van Gaal,Permanent,Stoke,h,2,1,1
-1724128,Premier League,league,2014-12-08,Louis van Gaal,Permanent,Southampton,a,2,1,1
-1724138,Premier League,league,2014-12-14,Louis van Gaal,Permanent,Liverpool,h,3,0,3
-1724142,Premier League,league,2014-12-20,Louis van Gaal,Permanent,Aston Villa,a,1,1,0
-1724158,Premier League,league,2014-12-26,Louis van Gaal,Permanent,Newcastle,h,3,1,2
-1724170,Premier League,league,2014-12-28,Louis van Gaal,Permanent,Tottenham,a,0,0,0
-1724179,Premier League,league,2015-01-01,Louis van Gaal,Permanent,Stoke,a,1,1,0
-1873315,FA Cup,knockout,2015-01-04,Louis van Gaal,Permanent,Yeovil,a,2,0,2
-1724188,Premier League,league,2015-01-11,Louis van Gaal,Permanent,Southampton,h,0,1,-1
-1724198,Premier League,league,2015-01-17,Louis van Gaal,Permanent,QPR,a,2,0,2
-1892472,FA Cup,knockout,2015-01-23,Louis van Gaal,Permanent,Cambridge,a,0,0,0
-1724207,Premier League,league,2015-01-31,Louis van Gaal,Permanent,Leicester,h,3,1,2
-1905875,FA Cup,knockout,2015-02-03,Louis van Gaal,Permanent,Cambridge,h,3,0,3
-1724221,Premier League,league,2015-02-08,Louis van Gaal,Permanent,West Ham,a,1,1,0
-1724224,Premier League,league,2015-02-11,Louis van Gaal,Permanent,Burnley,h,3,1,2
-1906622,FA Cup,knockout,2015-02-16,Louis van Gaal,Permanent,Preston,a,3,1,2
-1724240,Premier League,league,2015-02-21,Louis van Gaal,Permanent,Swansea,a,1,2,-1
-1724246,Premier League,league,2015-02-28,Louis van Gaal,Permanent,Sunderland,h,2,0,2
-1724259,Premier League,league,2015-03-04,Louis van Gaal,Permanent,Newcastle,a,1,0,1
-1924582,FA Cup,knockout,2015-03-09,Louis van Gaal,Permanent,Arsenal,h,1,2,-1
-1724268,Premier League,league,2015-03-15,Louis van Gaal,Permanent,Tottenham,h,3,0,3
-1724274,Premier League,league,2015-03-22,Louis van Gaal,Permanent,Liverpool,a,2,1,1
-1724288,Premier League,league,2015-04-04,Louis van Gaal,Permanent,Aston Villa,h,3,1,2
-1724294,Premier League,league,2015-04-12,Louis van Gaal,Permanent,Man City,h,4,2,2
-1724304,Premier League,league,2015-04-18,Louis van Gaal,Permanent,Chelsea,a,0,1,-1
-1724315,Premier League,league,2015-04-26,Louis van Gaal,Permanent,Everton,a,0,3,-3
-1724327,Premier League,league,2015-05-02,Louis van Gaal,Permanent,West Brom,h,0,1,-1
-1724335,Premier League,league,2015-05-09,Louis van Gaal,Permanent,Crystal Palace,a,2,1,1
-1724344,Premier League,league,2015-05-17,Louis van Gaal,Permanent,Arsenal,h,1,1,0
-1724357,Premier League,league,2015-05-24,Louis van Gaal,Permanent,Hull,a,0,0,0
-1987037,Premier League,league,2015-08-08,Louis van Gaal,Permanent,Tottenham,h,1,0,1
-1987078,Premier League,league,2015-08-14,Louis van Gaal,Permanent,Aston Villa,a,1,0,1
-2072950,Champions League,qualification,2015-08-18,Louis van Gaal,Permanent,Club Brugge,h,3,1,2
-1988734,Premier League,league,2015-08-22,Louis van Gaal,Permanent,Newcastle,h,0,0,0
-2072951,Champions League,qualification,2015-08-26,Louis van Gaal,Permanent,Club Brugge,a,4,0,4
-1988748,Premier League,league,2015-08-30,Louis van Gaal,Permanent,Swansea,a,1,2,-1
-1988754,Premier League,league,2015-09-12,Louis van Gaal,Permanent,Liverpool,h,3,1,2
-2088231,Champions League,league,2015-09-15,Louis van Gaal,Permanent,PSV Eindhoven,a,1,2,-1
-1988766,Premier League,league,2015-09-20,Louis van Gaal,Permanent,Southampton,a,3,2,1
-2086659,League Cup,knockout,2015-09-23,Louis van Gaal,Permanent,Ipswich,h,3,0,3
-1988772,Premier League,league,2015-09-26,Louis van Gaal,Permanent,Sunderland,h,3,0,3
-2088232,Champions League,league,2015-09-30,Louis van Gaal,Permanent,Wolfsburg,h,2,1,1
-1988780,Premier League,league,2015-10-04,Louis van Gaal,Permanent,Arsenal,a,0,3,-3
-1988792,Premier League,league,2015-10-17,Louis van Gaal,Permanent,Everton,a,3,0,3
-2088234,Champions League,league,2015-10-21,Louis van Gaal,Permanent,CSKA,a,1,1,0
-1988805,Premier League,league,2015-10-25,Louis van Gaal,Permanent,Man City,h,0,0,0
-2110149,League Cup,knockout,2015-10-28,Louis van Gaal,Permanent,Middlesbrough,h,0,0,0
-1988811,Premier League,league,2015-10-31,Louis van Gaal,Permanent,Crystal Palace,a,0,0,0
-2088236,Champions League,league,2015-11-03,Louis van Gaal,Permanent,CSKA,h,1,0,1
-1988825,Premier League,league,2015-11-07,Louis van Gaal,Permanent,West Brom,h,2,0,2
-1988838,Premier League,league,2015-11-21,Louis van Gaal,Permanent,Watford,a,2,1,1
-2088239,Champions League,league,2015-11-25,Louis van Gaal,Permanent,PSV Eindhoven,h,0,0,0
-1988843,Premier League,league,2015-11-28,Louis van Gaal,Permanent,Leicester,a,1,1,0
-1988853,Premier League,league,2015-12-05,Louis van Gaal,Permanent,West Ham,h,0,0,0
-2088240,Champions League,league,2015-12-08,Louis van Gaal,Permanent,Wolfsburg,a,2,3,-1
-1988861,Premier League,league,2015-12-12,Louis van Gaal,Permanent,Bournemouth,a,1,2,-1
-1988873,Premier League,league,2015-12-19,Louis van Gaal,Permanent,Norwich,h,1,2,-1
-1988887,Premier League,league,2015-12-26,Louis van Gaal,Permanent,Stoke,a,0,2,-2
-1988894,Premier League,league,2015-12-28,Louis van Gaal,Permanent,Chelsea,h,0,0,0
-1988904,Premier League,league,2016-01-02,Louis van Gaal,Permanent,Swansea,h,2,1,1
-2146180,FA Cup,knockout,2016-01-09,Louis van Gaal,Permanent,Sheff Utd,h,1,0,1
-1988916,Premier League,league,2016-01-12,Louis van Gaal,Permanent,Newcastle,a,3,3,0
-1988923,Premier League,league,2016-01-17,Louis van Gaal,Permanent,Liverpool,a,1,0,1
-1988934,Premier League,league,2016-01-23,Louis van Gaal,Permanent,Southampton,h,0,1,-1
-2168562,FA Cup,knockout,2016-01-29,Louis van Gaal,Permanent,Derby,a,3,1,2
-1988947,Premier League,league,2016-02-02,Louis van Gaal,Permanent,Stoke,h,3,0,3
-1988952,Premier League,league,2016-02-07,Louis van Gaal,Permanent,Chelsea,a,1,1,0
-1988968,Premier League,league,2016-02-13,Louis van Gaal,Permanent,Sunderland,a,1,2,-1
-2148510,Europa League,knockout,2016-02-18,Louis van Gaal,Permanent,FC Midtjylland,a,1,2,-1
-2180766,FA Cup,knockout,2016-02-22,Louis van Gaal,Permanent,Shrewsbury,a,3,0,3
-2148526,Europa League,knockout,2016-02-25,Louis van Gaal,Permanent,FC Midtjylland,h,5,1,4
-1988972,Premier League,league,2016-02-28,Louis van Gaal,Permanent,Arsenal,h,3,2,1
-1988988,Premier League,league,2016-03-02,Louis van Gaal,Permanent,Watford,h,1,0,1
-1988999,Premier League,league,2016-03-06,Louis van Gaal,Permanent,West Brom,a,0,1,-1
-2193808,Europa League,knockout,2016-03-10,Louis van Gaal,Permanent,Liverpool,a,0,2,-2
-2192035,FA Cup,knockout,2016-03-13,Louis van Gaal,Permanent,West Ham,h,1,1,0
-2193816,Europa League,knockout,2016-03-17,Louis van Gaal,Permanent,Liverpool,h,1,1,0
-1989013,Premier League,league,2016-03-20,Louis van Gaal,Permanent,Man City,a,1,0,1
-1989025,Premier League,league,2016-04-03,Louis van Gaal,Permanent,Everton,h,1,0,1
-1989037,Premier League,league,2016-04-10,Louis van Gaal,Permanent,Tottenham,a,0,3,-3
-2203395,FA Cup,knockout,2016-04-13,Louis van Gaal,Permanent,West Ham,a,2,1,1
-1989045,Premier League,league,2016-04-16,Louis van Gaal,Permanent,Aston Villa,h,1,0,1
-1989005,Premier League,league,2016-04-20,Louis van Gaal,Permanent,Crystal Palace,h,2,0,2
-2203795,FA Cup,knockout,2016-04-23,Louis van Gaal,Permanent,Everton,a,2,1,1
-1989063,Premier League,league,2016-05-01,Louis van Gaal,Permanent,Leicester,h,1,1,0
-1989076,Premier League,league,2016-05-07,Louis van Gaal,Permanent,Norwich,a,1,0,1
-1989059,Premier League,league,2016-05-10,Louis van Gaal,Permanent,West Ham,a,2,3,-1
-1987600,Premier League,league,2016-05-17,Louis van Gaal,Permanent,Bournemouth,h,3,1,2
-2222400,FA Cup,knockout,2016-05-21,Louis van Gaal,Permanent,Crystal Palace,a,2,1,1
-2235220,Community Shield,knockout,2016-08-07,José Mourinho,Permanent,Leicester,a,2,1,1
-2252173,Premier League,league,2016-08-14,José Mourinho,Permanent,Bournemouth,a,3,1,2
-2252194,Premier League,league,2016-08-19,José Mourinho,Permanent,Southampton,h,2,0,2
-2252205,Premier League,league,2016-08-27,José Mourinho,Permanent,Hull,a,1,0,1
-2252216,Premier League,league,2016-09-10,José Mourinho,Permanent,Man City,h,1,2,-1
-2365374,Europa League,league,2016-09-15,José Mourinho,Permanent,Feyenoord,a,0,1,-1
-2252230,Premier League,league,2016-09-18,José Mourinho,Permanent,Watford,a,1,3,-2
-2363155,League Cup,knockout,2016-09-21,José Mourinho,Permanent,Northampton,a,3,1,2
-2252236,Premier League,league,2016-09-24,José Mourinho,Permanent,Leicester,h,4,1,3
-2365377,Europa League,league,2016-09-29,José Mourinho,Permanent,Zorya,h,1,0,1
-2252246,Premier League,league,2016-10-02,José Mourinho,Permanent,Stoke,h,1,1,0
-2252256,Premier League,league,2016-10-17,José Mourinho,Permanent,Liverpool,a,0,0,0
-2365378,Europa League,league,2016-10-20,José Mourinho,Permanent,Fenerbahçe,h,4,1,3
-2252265,Premier League,league,2016-10-23,José Mourinho,Permanent,Chelsea,a,0,4,-4
-2380579,League Cup,knockout,2016-10-26,José Mourinho,Permanent,Man City,h,1,0,1
-2252274,Premier League,league,2016-10-29,José Mourinho,Permanent,Burnley,h,0,0,0
-2365380,Europa League,league,2016-11-03,José Mourinho,Permanent,Fenerbahçe,a,1,2,-1
-2252290,Premier League,league,2016-11-06,José Mourinho,Permanent,Swansea,a,3,1,2
-2252294,Premier League,league,2016-11-19,José Mourinho,Permanent,Arsenal,h,1,1,0
-2365382,Europa League,league,2016-11-24,José Mourinho,Permanent,Feyenoord,h,4,0,4
-2252308,Premier League,league,2016-11-27,José Mourinho,Permanent,West Ham,h,1,1,0
-2401686,League Cup,knockout,2016-11-30,José Mourinho,Permanent,West Ham,h,4,1,3
-2252314,Premier League,league,2016-12-04,José Mourinho,Permanent,Everton,a,1,1,0
-2365385,Europa League,league,2016-12-08,José Mourinho,Permanent,Zorya,a,2,0,2
-2252328,Premier League,league,2016-12-11,José Mourinho,Permanent,Tottenham,h,1,0,1
-2252336,Premier League,league,2016-12-14,José Mourinho,Permanent,Crystal Palace,a,2,1,1
-2252350,Premier League,league,2016-12-17,José Mourinho,Permanent,West Brom,a,2,0,2
-2252358,Premier League,league,2016-12-26,José Mourinho,Permanent,Sunderland,h,3,1,2
-2252368,Premier League,league,2016-12-31,José Mourinho,Permanent,Middlesbrough,h,2,1,1
-2252381,Premier League,league,2017-01-02,José Mourinho,Permanent,West Ham,a,2,0,2
-2418642,FA Cup,knockout,2017-01-07,José Mourinho,Permanent,Reading,h,4,0,4
-2416740,League Cup,knockout,2017-01-10,José Mourinho,Permanent,Hull,h,2,0,2
-2252386,Premier League,league,2017-01-15,José Mourinho,Permanent,Liverpool,h,1,1,0
-2252400,Premier League,league,2017-01-21,José Mourinho,Permanent,Stoke,a,1,1,0
-2416742,League Cup,knockout,2017-01-26,José Mourinho,Permanent,Hull,a,1,2,-1
-2440552,FA Cup,knockout,2017-01-29,José Mourinho,Permanent,Wigan,h,4,0,4
-2252409,Premier League,league,2017-02-01,José Mourinho,Permanent,Hull,h,0,0,0
-2252416,Premier League,league,2017-02-05,José Mourinho,Permanent,Leicester,a,3,0,3
-2252426,Premier League,league,2017-02-11,José Mourinho,Permanent,Watford,h,2,0,2
-2422915,Europa League,knockout,2017-02-16,José Mourinho,Permanent,Saint-Etienne,h,3,0,3
-2452895,FA Cup,knockout,2017-02-19,José Mourinho,Permanent,Blackburn,a,2,1,1
-2422931,Europa League,knockout,2017-02-22,José Mourinho,Permanent,Saint-Etienne,a,1,0,1
-2451392,League Cup,knockout,2017-02-26,José Mourinho,Permanent,Southampton,h,3,2,1
-2252444,Premier League,league,2017-03-04,José Mourinho,Permanent,Bournemouth,h,1,1,0
-2466342,Europa League,knockout,2017-03-09,José Mourinho,Permanent,Rostov,a,1,1,0
-2463480,FA Cup,knockout,2017-03-13,José Mourinho,Permanent,Chelsea,a,0,1,-1
-2466350,Europa League,knockout,2017-03-16,José Mourinho,Permanent,Rostov,h,1,0,1
-2252466,Premier League,league,2017-03-19,José Mourinho,Permanent,Middlesbrough,a,3,1,2
-2252478,Premier League,league,2017-04-01,José Mourinho,Permanent,West Brom,h,0,0,0
-2252488,Premier League,league,2017-04-04,José Mourinho,Permanent,Everton,h,1,1,0
-2252498,Premier League,league,2017-04-09,José Mourinho,Permanent,Sunderland,a,3,0,3
-2476899,Europa League,knockout,2017-04-13,José Mourinho,Permanent,Anderlecht,a,1,1,0
-2252504,Premier League,league,2017-04-16,José Mourinho,Permanent,Chelsea,h,2,0,2
-2476903,Europa League,knockout,2017-04-20,José Mourinho,Permanent,Anderlecht,h,2,1,1
-2252514,Premier League,league,2017-04-23,José Mourinho,Permanent,Burnley,a,2,0,2
-2252437,Premier League,league,2017-04-27,José Mourinho,Permanent,Man City,a,0,0,0
-2252524,Premier League,league,2017-04-30,José Mourinho,Permanent,Swansea,h,1,1,0
-2490522,Europa League,knockout,2017-05-04,José Mourinho,Permanent,Celta Vigo,a,1,0,1
-2252532,Premier League,league,2017-05-07,José Mourinho,Permanent,Arsenal,a,0,2,-2
-2490524,Europa League,knockout,2017-05-11,José Mourinho,Permanent,Celta Vigo,h,1,1,0
-2252549,Premier League,league,2017-05-14,José Mourinho,Permanent,Tottenham,a,1,2,-1
-2252461,Premier League,league,2017-05-17,José Mourinho,Permanent,Southampton,a,0,0,0
-2252188,Premier League,league,2017-05-21,José Mourinho,Permanent,Crystal Palace,h,2,0,2
-2490528,Europa League,knockout,2017-05-24,José Mourinho,Permanent,Ajax,a,2,0,2
-2504461,UEFA Super Cup,knockout,2017-08-08,José Mourinho,Permanent,Real Madrid,a,1,2,-1
-2522748,Premier League,league,2017-08-13,José Mourinho,Permanent,West Ham,h,4,0,4
-2522760,Premier League,league,2017-08-19,José Mourinho,Permanent,Swansea,a,4,0,4
-2522768,Premier League,league,2017-08-26,José Mourinho,Permanent,Leicester,h,2,0,2
-2522780,Premier League,league,2017-09-09,José Mourinho,Permanent,Stoke,a,2,2,0
-2620438,Champions League,league,2017-09-12,José Mourinho,Permanent,Basel,h,3,0,3
-2522788,Premier League,league,2017-09-17,José Mourinho,Permanent,Everton,h,4,0,4
-2619647,League Cup,knockout,2017-09-20,José Mourinho,Permanent,Burton,h,4,1,3
-2522799,Premier League,league,2017-09-23,José Mourinho,Permanent,Southampton,a,1,0,1
-2620440,Champions League,league,2017-09-27,José Mourinho,Permanent,CSKA,a,4,1,3
-2522808,Premier League,league,2017-09-30,José Mourinho,Permanent,Crystal Palace,h,4,0,4
-2522817,Premier League,league,2017-10-14,José Mourinho,Permanent,Liverpool,a,0,0,0
-2620442,Champions League,league,2017-10-18,José Mourinho,Permanent,Benfica,a,1,0,1
-2522825,Premier League,league,2017-10-21,José Mourinho,Permanent,Huddersfield,a,1,2,-1
-2637230,League Cup,knockout,2017-10-24,José Mourinho,Permanent,Swansea,a,2,0,2
-2522840,Premier League,league,2017-10-28,José Mourinho,Permanent,Tottenham,h,1,0,1
-2620444,Champions League,league,2017-10-31,José Mourinho,Permanent,Benfica,h,2,0,2
-2522843,Premier League,league,2017-11-05,José Mourinho,Permanent,Chelsea,a,0,1,-1
-2522860,Premier League,league,2017-11-18,José Mourinho,Permanent,Newcastle,h,4,1,3
-2620446,Champions League,league,2017-11-22,José Mourinho,Permanent,Basel,a,0,1,-1
-2522867,Premier League,league,2017-11-25,José Mourinho,Permanent,Brighton,h,1,0,1
-2522877,Premier League,league,2017-11-28,José Mourinho,Permanent,Watford,a,4,2,2
-2522883,Premier League,league,2017-12-02,José Mourinho,Permanent,Arsenal,a,3,1,2
-2620448,Champions League,league,2017-12-05,José Mourinho,Permanent,CSKA,h,2,1,1
-2522897,Premier League,league,2017-12-10,José Mourinho,Permanent,Man City,h,1,2,-1
-2522908,Premier League,league,2017-12-13,José Mourinho,Permanent,Bournemouth,h,1,0,1
-2522922,Premier League,league,2017-12-17,José Mourinho,Permanent,West Brom,a,2,1,1
-2659298,League Cup,knockout,2017-12-20,José Mourinho,Permanent,Bristol City,a,1,2,-1
-2522927,Premier League,league,2017-12-23,José Mourinho,Permanent,Leicester,a,2,2,0
-2522938,Premier League,league,2017-12-26,José Mourinho,Permanent,Burnley,h,2,2,0
-2522948,Premier League,league,2017-12-30,José Mourinho,Permanent,Southampton,h,0,0,0
-2522956,Premier League,league,2018-01-01,José Mourinho,Permanent,Everton,a,2,0,2
-2678196,FA Cup,knockout,2018-01-05,José Mourinho,Permanent,Derby,h,2,0,2
-2522968,Premier League,league,2018-01-15,José Mourinho,Permanent,Stoke,h,3,0,3
-2522975,Premier League,league,2018-01-20,José Mourinho,Permanent,Burnley,a,1,0,1
-2694826,FA Cup,knockout,2018-01-26,José Mourinho,Permanent,Yeovil,a,4,0,4
-2522992,Premier League,league,2018-01-31,José Mourinho,Permanent,Tottenham,a,0,2,-2
-2523000,Premier League,league,2018-02-03,José Mourinho,Permanent,Huddersfield,h,2,0,2
-2523007,Premier League,league,2018-02-11,José Mourinho,Permanent,Newcastle,a,0,1,-1
-2713076,FA Cup,knockout,2018-02-17,José Mourinho,Permanent,Huddersfield,a,2,0,2
-2680944,Champions League,knockout,2018-02-21,José Mourinho,Permanent,Sevilla,a,0,0,0
-2523020,Premier League,league,2018-02-25,José Mourinho,Permanent,Chelsea,h,2,1,1
-2523025,Premier League,league,2018-03-05,José Mourinho,Permanent,Crystal Palace,a,3,2,1
-2523038,Premier League,league,2018-03-10,José Mourinho,Permanent,Liverpool,h,2,1,1
-2680952,Champions League,knockout,2018-03-13,José Mourinho,Permanent,Sevilla,h,1,2,-1
-2723652,FA Cup,knockout,2018-03-17,José Mourinho,Permanent,Brighton,h,2,0,2
-2523058,Premier League,league,2018-03-31,José Mourinho,Permanent,Swansea,h,2,0,2
-2523069,Premier League,league,2018-04-07,José Mourinho,Permanent,Man City,a,3,2,1
-2523077,Premier League,league,2018-04-15,José Mourinho,Permanent,West Brom,h,0,1,-1
-2523084,Premier League,league,2018-04-18,José Mourinho,Permanent,Bournemouth,a,2,0,2
-2737810,FA Cup,knockout,2018-04-21,José Mourinho,Permanent,Tottenham,h,2,1,1
-2523097,Premier League,league,2018-04-29,José Mourinho,Permanent,Arsenal,h,2,1,1
-2523105,Premier League,league,2018-05-04,José Mourinho,Permanent,Brighton,a,0,1,-1
-2523052,Premier League,league,2018-05-10,José Mourinho,Permanent,West Ham,a,0,0,0
-2523117,Premier League,league,2018-05-13,José Mourinho,Permanent,Watford,h,1,0,1
-2750073,FA Cup,knockout,2018-05-19,José Mourinho,Permanent,Chelsea,a,0,1,-1
-2781955,Premier League,league,2018-08-10,José Mourinho,Permanent,Leicester,h,2,1,1
-2781964,Premier League,league,2018-08-19,José Mourinho,Permanent,Brighton,a,2,3,-1
-2781979,Premier League,league,2018-08-27,José Mourinho,Permanent,Tottenham,h,0,3,-3
-2781985,Premier League,league,2018-09-02,José Mourinho,Permanent,Burnley,a,2,0,2
-2782002,Premier League,league,2018-09-15,José Mourinho,Permanent,Watford,a,2,1,1
-2876460,Champions League,league,2018-09-19,José Mourinho,Permanent,Young Boys,a,3,0,3
-2782012,Premier League,league,2018-09-22,José Mourinho,Permanent,Wolves,h,1,1,0
-2876440,League Cup,knockout,2018-09-25,José Mourinho,Permanent,Derby,h,2,2,0
-2782022,Premier League,league,2018-09-29,José Mourinho,Permanent,West Ham,a,1,3,-2
-2876462,Champions League,league,2018-10-02,José Mourinho,Permanent,Valencia,h,0,0,0
-2782030,Premier League,league,2018-10-06,José Mourinho,Permanent,Newcastle,h,3,2,1
-2782037,Premier League,league,2018-10-20,José Mourinho,Permanent,Chelsea,a,2,2,0
-2876464,Champions League,league,2018-10-23,José Mourinho,Permanent,Juventus,h,0,1,-1
-2782050,Premier League,league,2018-10-28,José Mourinho,Permanent,Everton,h,2,1,1
-2782055,Premier League,league,2018-11-03,José Mourinho,Permanent,Bournemouth,a,2,1,1
-2876465,Champions League,league,2018-11-07,José Mourinho,Permanent,Juventus,a,2,1,1
-2782071,Premier League,league,2018-11-11,José Mourinho,Permanent,Man City,a,1,3,-2
-2782079,Premier League,league,2018-11-24,José Mourinho,Permanent,Crystal Palace,h,0,0,0
-2876467,Champions League,league,2018-11-27,José Mourinho,Permanent,Young Boys,h,1,0,1
-2782093,Premier League,league,2018-12-01,José Mourinho,Permanent,Southampton,a,2,2,0
-2782101,Premier League,league,2018-12-05,José Mourinho,Permanent,Arsenal,h,2,2,0
-2782111,Premier League,league,2018-12-08,José Mourinho,Permanent,Fulham,h,4,1,3
-2876470,Champions League,league,2018-12-12,José Mourinho,Permanent,Valencia,a,1,2,-1
-2782118,Premier League,league,2018-12-16,José Mourinho,Permanent,Liverpool,a,1,3,-2
-2782126,Premier League,league,2018-12-22,Ole Gunnar Solskjaer,Interim,Cardiff,a,5,1,4
-2782140,Premier League,league,2018-12-26,Ole Gunnar Solskjaer,Interim,Huddersfield,h,3,1,2
-2782150,Premier League,league,2018-12-30,Ole Gunnar Solskjaer,Interim,Bournemouth,h,4,1,3
-2782161,Premier League,league,2019-01-02,Ole Gunnar Solskjaer,Interim,Newcastle,a,2,0,2
-2942379,FA Cup,knockout,2019-01-05,Ole Gunnar Solskjaer,Interim,Reading,h,2,0,2
-2782172,Premier League,league,2019-01-13,Ole Gunnar Solskjaer,Interim,Tottenham,a,1,0,1
-2782179,Premier League,league,2019-01-19,Ole Gunnar Solskjaer,Interim,Brighton,h,2,1,1
-2961430,FA Cup,knockout,2019-01-25,Ole Gunnar Solskjaer,Interim,Arsenal,a,3,1,2
-2782189,Premier League,league,2019-01-29,Ole Gunnar Solskjaer,Interim,Burnley,h,2,2,0
-2782200,Premier League,league,2019-02-03,Ole Gunnar Solskjaer,Interim,Leicester,a,1,0,1
-2782206,Premier League,league,2019-02-09,Ole Gunnar Solskjaer,Interim,Fulham,a,3,0,3
-2947298,Champions League,knockout,2019-02-12,Ole Gunnar Solskjaer,Interim,PSG,h,0,2,-2
-2978889,FA Cup,knockout,2019-02-18,Ole Gunnar Solskjaer,Interim,Chelsea,a,2,0,2
-2782221,Premier League,league,2019-02-24,Ole Gunnar Solskjaer,Interim,Liverpool,h,0,0,0
-2782228,Premier League,league,2019-02-27,Ole Gunnar Solskjaer,Interim,Crystal Palace,a,3,1,2
-2782239,Premier League,league,2019-03-02,Ole Gunnar Solskjaer,Interim,Southampton,h,3,2,1
-2947306,Champions League,knockout,2019-03-06,Ole Gunnar Solskjaer,Interim,PSG,a,3,1,2
-2782244,Premier League,league,2019-03-10,Ole Gunnar Solskjaer,Interim,Arsenal,a,0,2,-2
-2992815,FA Cup,knockout,2019-03-16,Ole Gunnar Solskjaer,Interim,Wolves,a,1,2,-1
-2782272,Premier League,league,2019-03-30,Ole Gunnar Solskjaer,Permanent,Watford,h,2,1,1
-2782283,Premier League,league,2019-04-02,Ole Gunnar Solskjaer,Permanent,Wolves,a,1,2,-1
-3010093,Champions League,knockout,2019-04-10,Ole Gunnar Solskjaer,Permanent,Barcelona,h,0,1,-1
-2782290,Premier League,league,2019-04-13,Ole Gunnar Solskjaer,Permanent,West Ham,h,2,1,1
-3010094,Champions League,knockout,2019-04-16,Ole Gunnar Solskjaer,Permanent,Barcelona,a,0,3,-3
-2782298,Premier League,league,2019-04-21,Ole Gunnar Solskjaer,Permanent,Everton,a,0,4,-4
-2782259,Premier League,league,2019-04-24,Ole Gunnar Solskjaer,Permanent,Man City,h,0,2,-2
-2782310,Premier League,league,2019-04-28,Ole Gunnar Solskjaer,Permanent,Chelsea,h,1,1,0
-2782319,Premier League,league,2019-05-05,Ole Gunnar Solskjaer,Permanent,Huddersfield,a,1,1,0
-2782330,Premier League,league,2019-05-12,Ole Gunnar Solskjaer,Permanent,Cardiff,h,0,2,-2
-3055747,Premier League,league,2019-08-11,Ole Gunnar Solskjaer,Permanent,Chelsea,h,4,0,4
-3055757,Premier League,league,2019-08-19,Ole Gunnar Solskjaer,Permanent,Wolves,a,1,1,0
-3055762,Premier League,league,2019-08-24,Ole Gunnar Solskjaer,Permanent,Crystal Palace,h,1,2,-1
-3055776,Premier League,league,2019-08-31,Ole Gunnar Solskjaer,Permanent,Southampton,a,1,1,0
-3055782,Premier League,league,2019-09-14,Ole Gunnar Solskjaer,Permanent,Leicester,h,1,0,1
-3171197,Europa League,league,2019-09-19,Ole Gunnar Solskjaer,Permanent,FC Astana,h,1,0,1
-3055797,Premier League,league,2019-09-22,Ole Gunnar Solskjaer,Permanent,West Ham,a,0,2,-2
-3168626,League Cup,knockout,2019-09-25,Ole Gunnar Solskjaer,Permanent,Rochdale,h,1,1,0
-3055804,Premier League,league,2019-09-30,Ole Gunnar Solskjaer,Permanent,Arsenal,h,1,1,0
-3171196,Europa League,league,2019-10-03,Ole Gunnar Solskjaer,Permanent,AZ Alkmaar,a,0,0,0
-3055813,Premier League,league,2019-10-06,Ole Gunnar Solskjaer,Permanent,Newcastle,a,0,1,-1
-3055824,Premier League,league,2019-10-20,Ole Gunnar Solskjaer,Permanent,Liverpool,h,1,1,0
-3171199,Europa League,league,2019-10-24,Ole Gunnar Solskjaer,Permanent,Partizan Beograd,a,1,0,1
-3055834,Premier League,league,2019-10-27,Ole Gunnar Solskjaer,Permanent,Norwich,a,3,1,2
-3191328,League Cup,knockout,2019-10-30,Ole Gunnar Solskjaer,Permanent,Chelsea,a,2,1,1
-3055840,Premier League,league,2019-11-02,Ole Gunnar Solskjaer,Permanent,Bournemouth,a,0,1,-1
-3171201,Europa League,league,2019-11-07,Ole Gunnar Solskjaer,Permanent,Partizan Beograd,h,3,0,3
-3055852,Premier League,league,2019-11-10,Ole Gunnar Solskjaer,Permanent,Brighton,h,3,1,2
-3055865,Premier League,league,2019-11-24,Ole Gunnar Solskjaer,Permanent,Sheff Utd,a,3,3,0
-3171205,Europa League,league,2019-11-28,Ole Gunnar Solskjaer,Permanent,FC Astana,a,1,2,-1
-3055872,Premier League,league,2019-12-01,Ole Gunnar Solskjaer,Permanent,Aston Villa,h,2,2,0
-3055883,Premier League,league,2019-12-04,Ole Gunnar Solskjaer,Permanent,Tottenham,h,2,1,1
-3055892,Premier League,league,2019-12-07,Ole Gunnar Solskjaer,Permanent,Man City,a,2,1,1
-3171204,Europa League,league,2019-12-12,Ole Gunnar Solskjaer,Permanent,AZ Alkmaar,h,4,0,4
-3055904,Premier League,league,2019-12-15,Ole Gunnar Solskjaer,Permanent,Everton,h,1,1,0
-3212365,League Cup,knockout,2019-12-18,Ole Gunnar Solskjaer,Permanent,Colchester,h,3,0,3
-3055916,Premier League,league,2019-12-22,Ole Gunnar Solskjaer,Permanent,Watford,a,0,2,-2
-3055924,Premier League,league,2019-12-26,Ole Gunnar Solskjaer,Permanent,Newcastle,h,4,1,3
-3055930,Premier League,league,2019-12-28,Ole Gunnar Solskjaer,Permanent,Burnley,a,2,0,2
-3055938,Premier League,league,2020-01-01,Ole Gunnar Solskjaer,Permanent,Arsenal,a,0,2,-2
-3231223,FA Cup,knockout,2020-01-04,Ole Gunnar Solskjaer,Permanent,Wolves,a,0,0,0
-3237220,League Cup,knockout,2020-01-07,Ole Gunnar Solskjaer,Permanent,Man City,h,1,3,-2
-3055954,Premier League,league,2020-01-11,Ole Gunnar Solskjaer,Permanent,Norwich,h,4,0,4
-3248539,FA Cup,knockout,2020-01-15,Ole Gunnar Solskjaer,Permanent,Wolves,h,1,0,1
-3055961,Premier League,league,2020-01-19,Ole Gunnar Solskjaer,Permanent,Liverpool,a,0,2,-2
-3055974,Premier League,league,2020-01-22,Ole Gunnar Solskjaer,Permanent,Burnley,h,0,2,-2
-3249672,FA Cup,knockout,2020-01-26,Ole Gunnar Solskjaer,Permanent,Tranmere,a,6,0,6
-3237222,League Cup,knockout,2020-01-29,Ole Gunnar Solskjaer,Permanent,Man City,a,1,0,1
-3055983,Premier League,league,2020-02-01,Ole Gunnar Solskjaer,Permanent,Wolves,h,0,0,0
-3055991,Premier League,league,2020-02-17,Ole Gunnar Solskjaer,Permanent,Chelsea,a,2,0,2
-3236287,Europa League,knockout,2020-02-20,Ole Gunnar Solskjaer,Permanent,Club Brugge,a,1,1,0
-3056004,Premier League,league,2020-02-23,Ole Gunnar Solskjaer,Permanent,Watford,h,3,0,3
-3236288,Europa League,knockout,2020-02-27,Ole Gunnar Solskjaer,Permanent,Club Brugge,h,5,0,5
-3056011,Premier League,league,2020-03-01,Ole Gunnar Solskjaer,Permanent,Everton,a,1,1,0
-3267699,FA Cup,knockout,2020-03-05,Ole Gunnar Solskjaer,Permanent,Derby,a,3,0,3
-3056024,Premier League,league,2020-03-08,Ole Gunnar Solskjaer,Permanent,Man City,h,2,0,2
-3284794,Europa League,knockout,2020-03-12,Ole Gunnar Solskjaer,Permanent,LASK,a,5,0,5
-3056035,Premier League,league,2020-06-19,Ole Gunnar Solskjaer,Permanent,Tottenham,a,1,1,0
-3056042,Premier League,league,2020-06-24,Ole Gunnar Solskjaer,Permanent,Sheff Utd,h,3,0,3
-3287551,FA Cup,knockout,2020-06-27,Ole Gunnar Solskjaer,Permanent,Norwich,a,2,1,1
-3056051,Premier League,league,2020-06-30,Ole Gunnar Solskjaer,Permanent,Brighton,a,3,0,3
-3056062,Premier League,league,2020-07-04,Ole Gunnar Solskjaer,Permanent,Bournemouth,h,5,2,3
-3056069,Premier League,league,2020-07-09,Ole Gunnar Solskjaer,Permanent,Aston Villa,a,3,0,3
-3056082,Premier League,league,2020-07-13,Ole Gunnar Solskjaer,Permanent,Southampton,h,2,2,0
-3056091,Premier League,league,2020-07-16,Ole Gunnar Solskjaer,Permanent,Crystal Palace,a,2,0,2
-3354531,FA Cup,knockout,2020-07-19,Ole Gunnar Solskjaer,Permanent,Chelsea,h,1,3,-2
-3056102,Premier League,league,2020-07-22,Ole Gunnar Solskjaer,Permanent,West Ham,h,1,1,0
-3056113,Premier League,league,2020-07-26,Ole Gunnar Solskjaer,Permanent,Leicester,a,2,0,2
-3284802,Europa League,knockout,2020-08-05,Ole Gunnar Solskjaer,Permanent,LASK,h,2,1,1
-3363676,Europa League,knockout,2020-08-10,Ole Gunnar Solskjaer,Permanent,FC København,h,1,0,1
-3363679,Europa League,knockout,2020-08-16,Ole Gunnar Solskjaer,Permanent,Sevilla,a,1,2,-1
-3411365,Premier League,league,2020-09-19,Ole Gunnar Solskjaer,Permanent,Crystal Palace,h,1,3,-2
-3434041,League Cup,knockout,2020-09-22,Ole Gunnar Solskjaer,Permanent,Luton,a,3,0,3
-3411369,Premier League,league,2020-09-26,Ole Gunnar Solskjaer,Permanent,Brighton,a,3,2,1
-3447820,League Cup,knockout,2020-09-30,Ole Gunnar Solskjaer,Permanent,Brighton,a,3,0,3
-3411385,Premier League,league,2020-10-04,Ole Gunnar Solskjaer,Permanent,Tottenham,h,1,6,-5
-3411395,Premier League,league,2020-10-17,Ole Gunnar Solskjaer,Permanent,Newcastle,a,4,1,3
-3462201,Champions League,league,2020-10-20,Ole Gunnar Solskjaer,Permanent,PSG,a,2,1,1
-3411405,Premier League,league,2020-10-24,Ole Gunnar Solskjaer,Permanent,Chelsea,h,0,0,0
-3462203,Champions League,league,2020-10-28,Ole Gunnar Solskjaer,Permanent,RB Leipzig,h,5,0,5
-3411414,Premier League,league,2020-11-01,Ole Gunnar Solskjaer,Permanent,Arsenal,h,0,1,-1
-3462204,Champions League,league,2020-11-04,Ole Gunnar Solskjaer,Permanent,Başakşehir,a,1,2,-1
-3411423,Premier League,league,2020-11-07,Ole Gunnar Solskjaer,Permanent,Everton,a,3,1,2
-3411434,Premier League,league,2020-11-21,Ole Gunnar Solskjaer,Permanent,West Brom,h,1,0,1
-3462207,Champions League,league,2020-11-24,Ole Gunnar Solskjaer,Permanent,Başakşehir,h,4,1,3
-3411446,Premier League,league,2020-11-29,Ole Gunnar Solskjaer,Permanent,Southampton,a,3,2,1
-3462209,Champions League,league,2020-12-02,Ole Gunnar Solskjaer,Permanent,PSG,h,1,3,-2
-3411458,Premier League,league,2020-12-05,Ole Gunnar Solskjaer,Permanent,West Ham,a,3,1,2
-3462211,Champions League,league,2020-12-08,Ole Gunnar Solskjaer,Permanent,RB Leipzig,a,2,3,-1
-3411465,Premier League,league,2020-12-12,Ole Gunnar Solskjaer,Permanent,Man City,h,0,0,0
-3411474,Premier League,league,2020-12-17,Ole Gunnar Solskjaer,Permanent,Sheff Utd,a,3,2,1
-3411484,Premier League,league,2020-12-20,Ole Gunnar Solskjaer,Permanent,Leeds,h,6,2,4
-3461127,League Cup,knockout,2020-12-23,Ole Gunnar Solskjaer,Permanent,Everton,a,2,0,2
-3411493,Premier League,league,2020-12-26,Ole Gunnar Solskjaer,Permanent,Leicester,a,2,2,0
-3411504,Premier League,league,2020-12-29,Ole Gunnar Solskjaer,Permanent,Wolves,h,1,0,1
-3411514,Premier League,league,2021-01-01,Ole Gunnar Solskjaer,Permanent,Aston Villa,h,2,1,1
-3500936,League Cup,knockout,2021-01-06,Ole Gunnar Solskjaer,Permanent,Man City,h,0,2,-2
-3491312,FA Cup,knockout,2021-01-09,Ole Gunnar Solskjaer,Permanent,Watford,h,1,0,1
-3411340,Premier League,league,2021-01-12,Ole Gunnar Solskjaer,Permanent,Burnley,a,1,0,1
-3411534,Premier League,league,2021-01-17,Ole Gunnar Solskjaer,Permanent,Liverpool,a,0,0,0
-3411521,Premier League,league,2021-01-20,Ole Gunnar Solskjaer,Permanent,Fulham,a,2,1,1
-3510574,FA Cup,knockout,2021-01-24,Ole Gunnar Solskjaer,Permanent,Liverpool,h,3,2,1
-3411542,Premier League,league,2021-01-27,Ole Gunnar Solskjaer,Permanent,Sheff Utd,h,1,2,-1
-3411549,Premier League,league,2021-01-30,Ole Gunnar Solskjaer,Permanent,Arsenal,a,0,0,0
-3411565,Premier League,league,2021-02-02,Ole Gunnar Solskjaer,Permanent,Southampton,h,9,0,9
-3411574,Premier League,league,2021-02-06,Ole Gunnar Solskjaer,Permanent,Everton,h,3,3,0
-3510590,FA Cup,knockout,2021-02-09,Ole Gunnar Solskjaer,Permanent,West Ham,h,1,0,1
-3411587,Premier League,league,2021-02-14,Ole Gunnar Solskjaer,Permanent,West Brom,a,1,1,0
-3497181,Europa League,knockout,2021-02-18,Ole Gunnar Solskjaer,Permanent,Real Sociedad,a,4,0,4
-3411595,Premier League,league,2021-02-21,Ole Gunnar Solskjaer,Permanent,Newcastle,h,3,1,2
-3497182,Europa League,knockout,2021-02-25,Ole Gunnar Solskjaer,Permanent,Real Sociedad,h,0,0,0
-3411599,Premier League,league,2021-02-28,Ole Gunnar Solskjaer,Permanent,Chelsea,a,0,0,0
-3411631,Premier League,league,2021-03-03,Ole Gunnar Solskjaer,Permanent,Crystal Palace,a,0,0,0
-3411614,Premier League,league,2021-03-07,Ole Gunnar Solskjaer,Permanent,Man City,a,2,0,2
-3542765,Europa League,knockout,2021-03-11,Ole Gunnar Solskjaer,Permanent,Milan,h,1,1,0
-3411625,Premier League,league,2021-03-14,Ole Gunnar Solskjaer,Permanent,West Ham,h,1,0,1
-3542766,Europa League,knockout,2021-03-18,Ole Gunnar Solskjaer,Permanent,Milan,a,1,0,1
-3533166,FA Cup,knockout,2021-03-21,Ole Gunnar Solskjaer,Permanent,Leicester,a,1,3,-2
-3411645,Premier League,league,2021-04-04,Ole Gunnar Solskjaer,Permanent,Brighton,h,2,1,1
-3557697,Europa League,knockout,2021-04-08,Ole Gunnar Solskjaer,Permanent,Granada,a,2,0,2
-3411656,Premier League,league,2021-04-11,Ole Gunnar Solskjaer,Permanent,Tottenham,a,3,1,2
-3557698,Europa League,knockout,2021-04-15,Ole Gunnar Solskjaer,Permanent,Granada,h,2,0,2
-3411665,Premier League,league,2021-04-18,Ole Gunnar Solskjaer,Permanent,Burnley,h,3,1,2
-3411672,Premier League,league,2021-04-25,Ole Gunnar Solskjaer,Permanent,Leeds,a,0,0,0
-3557705,Europa League,knockout,2021-04-29,Ole Gunnar Solskjaer,Permanent,Roma,h,6,2,4
-3557706,Europa League,knockout,2021-05-06,Ole Gunnar Solskjaer,Permanent,Roma,a,2,3,-1
-3411690,Premier League,league,2021-05-09,Ole Gunnar Solskjaer,Permanent,Aston Villa,a,3,1,2
-3411702,Premier League,league,2021-05-11,Ole Gunnar Solskjaer,Permanent,Leicester,h,1,2,-1
-3411684,Premier League,league,2021-05-13,Ole Gunnar Solskjaer,Permanent,Liverpool,h,2,4,-2
-3411714,Premier League,league,2021-05-18,Ole Gunnar Solskjaer,Permanent,Fulham,h,1,1,0
-3411728,Premier League,league,2021-05-23,Ole Gunnar Solskjaer,Permanent,Wolves,a,2,1,1
-3557709,Europa League,knockout,2021-05-26,Ole Gunnar Solskjaer,Permanent,Villarreal,a,1,1,0
-3609934,Premier League,league,2021-08-14,Ole Gunnar Solskjaer,Permanent,Leeds,h,5,1,4
-3609946,Premier League,league,2021-08-22,Ole Gunnar Solskjaer,Permanent,Southampton,a,1,1,0
-3609958,Premier League,league,2021-08-29,Ole Gunnar Solskjaer,Permanent,Wolves,a,1,0,1
-3609966,Premier League,league,2021-09-11,Ole Gunnar Solskjaer,Permanent,Newcastle,h,4,1,3
-3714058,Champions League,league,2021-09-14,Ole Gunnar Solskjaer,Permanent,Young Boys,a,1,2,-1
-3609977,Premier League,league,2021-09-19,Ole Gunnar Solskjaer,Permanent,West Ham,a,2,1,1
-3712998,League Cup,knockout,2021-09-22,Ole Gunnar Solskjaer,Permanent,West Ham,h,0,1,-1
-3609986,Premier League,league,2021-09-25,Ole Gunnar Solskjaer,Permanent,Aston Villa,h,0,1,-1
-3714061,Champions League,league,2021-09-29,Ole Gunnar Solskjaer,Permanent,Villarreal,h,2,1,1
-3609995,Premier League,league,2021-10-02,Ole Gunnar Solskjaer,Permanent,Everton,h,1,1,0
-3610003,Premier League,league,2021-10-16,Ole Gunnar Solskjaer,Permanent,Leicester,a,2,4,-2
-3714063,Champions League,league,2021-10-20,Ole Gunnar Solskjaer,Permanent,Atalanta,h,3,2,1
-3610016,Premier League,league,2021-10-24,Ole Gunnar Solskjaer,Permanent,Liverpool,h,0,5,-5
-3610026,Premier League,league,2021-10-30,Ole Gunnar Solskjaer,Permanent,Tottenham,a,3,0,3
-3714065,Champions League,league,2021-11-02,Ole Gunnar Solskjaer,Permanent,Atalanta,a,2,2,0
-3610036,Premier League,league,2021-11-06,Ole Gunnar Solskjaer,Permanent,Man City,h,0,2,-2
-3610047,Premier League,league,2021-11-20,Ole Gunnar Solskjaer,Permanent,Watford,a,1,4,-3
-3714066,Champions League,league,2021-11-23,Michael Carrick,Caretaker,Villarreal,a,2,0,2
-3610053,Premier League,league,2021-11-28,Michael Carrick,Caretaker,Chelsea,a,1,1,0
-3610065,Premier League,league,2021-12-02,Michael Carrick,Caretaker,Arsenal,h,3,2,1
-3610072,Premier League,league,2021-12-05,Ralf Rangnick,Interim,Crystal Palace,h,1,0,1
-3714068,Champions League,league,2021-12-08,Ralf Rangnick,Interim,Young Boys,h,1,1,0
-3610089,Premier League,league,2021-12-11,Ralf Rangnick,Interim,Norwich,a,1,0,1
-3610115,Premier League,league,2021-12-27,Ralf Rangnick,Interim,Newcastle,a,1,1,0
-3610128,Premier League,league,2021-12-30,Ralf Rangnick,Interim,Burnley,h,3,1,2
-3610137,Premier League,league,2022-01-03,Ralf Rangnick,Interim,Wolves,h,0,1,-1
-3777846,FA Cup,knockout,2022-01-10,Ralf Rangnick,Interim,Aston Villa,h,1,0,1
-3610140,Premier League,league,2022-01-15,Ralf Rangnick,Interim,Aston Villa,a,2,2,0
-3610091,Premier League,league,2022-01-19,Ralf Rangnick,Interim,Brentford,a,3,1,2
-3610157,Premier League,league,2022-01-22,Ralf Rangnick,Interim,West Ham,h,1,0,1
-3799289,FA Cup,knockout,2022-02-04,Ralf Rangnick,Interim,Middlesbrough,h,1,1,0
-3610162,Premier League,league,2022-02-08,Ralf Rangnick,Interim,Burnley,a,1,1,0
-3610175,Premier League,league,2022-02-12,Ralf Rangnick,Interim,Southampton,h,1,1,0
-3610103,Premier League,league,2022-02-15,Ralf Rangnick,Interim,Brighton,h,2,0,2
-3610184,Premier League,league,2022-02-20,Ralf Rangnick,Interim,Leeds,a,4,2,2
-3780918,Champions League,knockout,2022-02-23,Ralf Rangnick,Interim,Atletico Madrid,a,1,1,0
-3610197,Premier League,league,2022-02-26,Ralf Rangnick,Interim,Watford,h,0,0,0
-3610204,Premier League,league,2022-03-06,Ralf Rangnick,Interim,Man City,a,1,4,-3
-3610217,Premier League,league,2022-03-12,Ralf Rangnick,Interim,Tottenham,h,3,2,1
-3780926,Champions League,knockout,2022-03-15,Ralf Rangnick,Interim,Atletico Madrid,h,0,1,-1
-3610233,Premier League,league,2022-04-02,Ralf Rangnick,Interim,Leicester,h,1,1,0
-3610246,Premier League,league,2022-04-09,Ralf Rangnick,Interim,Everton,a,0,1,-1
-3610256,Premier League,league,2022-04-16,Ralf Rangnick,Interim,Norwich,h,3,2,1
-3610223,Premier League,league,2022-04-19,Ralf Rangnick,Interim,Liverpool,a,0,4,-4
-3610269,Premier League,league,2022-04-23,Ralf Rangnick,Interim,Arsenal,a,1,3,-2
-3610296,Premier League,league,2022-04-28,Ralf Rangnick,Interim,Chelsea,h,1,1,0
-3610276,Premier League,league,2022-05-02,Ralf Rangnick,Interim,Brentford,h,3,0,3
-3610287,Premier League,league,2022-05-07,Ralf Rangnick,Interim,Brighton,a,0,4,-4
-3610305,Premier League,league,2022-05-22,Ralf Rangnick,Interim,Crystal Palace,a,0,1,-1
-3900940,Premier League,league,2022-08-07,Erik ten Hag,Permanent,Brighton,h,1,2,-1
-3900944,Premier League,league,2022-08-13,Erik ten Hag,Permanent,Brentford,a,0,4,-4
-3900958,Premier League,league,2022-08-22,Erik ten Hag,Permanent,Liverpool,h,2,1,1
-3900970,Premier League,league,2022-08-27,Erik ten Hag,Permanent,Southampton,a,1,0,1
-3900976,Premier League,league,2022-09-01,Erik ten Hag,Permanent,Leicester,a,1,0,1
-3900987,Premier League,league,2022-09-04,Erik ten Hag,Permanent,Arsenal,h,3,1,2
-4010305,Europa League,league,2022-09-08,Erik ten Hag,Permanent,Real Sociedad,h,0,1,-1
-4010307,Europa League,league,2022-09-15,Erik ten Hag,Permanent,FC Sheriff,a,2,0,2
-3901019,Premier League,league,2022-10-02,Erik ten Hag,Permanent,Man City,a,3,6,-3
-4010310,Europa League,league,2022-10-06,Erik ten Hag,Permanent,Omonia Nicosia,a,3,2,1
-3901027,Premier League,league,2022-10-09,Erik ten Hag,Permanent,Everton,a,2,1,1
-4010311,Europa League,league,2022-10-13,Erik ten Hag,Permanent,Omonia Nicosia,h,1,0,1
-3901038,Premier League,league,2022-10-16,Erik ten Hag,Permanent,Newcastle,h,0,0,0
-3901051,Premier League,league,2022-10-19,Erik ten Hag,Permanent,Tottenham,h,2,0,2
-3901053,Premier League,league,2022-10-22,Erik ten Hag,Permanent,Chelsea,a,1,1,0
-4010313,Europa League,league,2022-10-27,Erik ten Hag,Permanent,FC Sheriff,h,3,0,3
-3901070,Premier League,league,2022-10-30,Erik ten Hag,Permanent,West Ham,h,1,0,1
-4010315,Europa League,league,2022-11-03,Erik ten Hag,Permanent,Real Sociedad,a,1,0,1
-3901072,Premier League,league,2022-11-06,Erik ten Hag,Permanent,Aston Villa,a,1,3,-2
-4009216,League Cup,knockout,2022-11-10,Erik ten Hag,Permanent,Aston Villa,h,4,2,2
-3901084,Premier League,league,2022-11-13,Erik ten Hag,Permanent,Fulham,a,2,1,1
-4062033,League Cup,knockout,2022-12-21,Erik ten Hag,Permanent,Burnley,h,2,0,2
-3901100,Premier League,league,2022-12-27,Erik ten Hag,Permanent,Nottm Forest,h,3,0,3
-3901111,Premier League,league,2022-12-31,Erik ten Hag,Permanent,Wolves,a,1,0,1
-3901120,Premier League,league,2023-01-03,Erik ten Hag,Permanent,Bournemouth,h,3,0,3
-4072408,FA Cup,knockout,2023-01-06,Erik ten Hag,Permanent,Everton,h,3,1,2
-4086130,League Cup,knockout,2023-01-10,Erik ten Hag,Permanent,Charlton,h,3,0,3
-3901127,Premier League,league,2023-01-14,Erik ten Hag,Permanent,Man City,h,2,1,1
-3900994,Premier League,league,2023-01-18,Erik ten Hag,Permanent,Crystal Palace,a,1,1,0
-3901132,Premier League,league,2023-01-22,Erik ten Hag,Permanent,Arsenal,a,2,3,-1
-4096567,League Cup,knockout,2023-01-25,Erik ten Hag,Permanent,Nottm Forest,a,3,0,3
-4094714,FA Cup,knockout,2023-01-28,Erik ten Hag,Permanent,Reading,h,3,1,2
-4096569,League Cup,knockout,2023-02-01,Erik ten Hag,Permanent,Nottm Forest,h,2,0,2
-3901147,Premier League,league,2023-02-04,Erik ten Hag,Permanent,Crystal Palace,h,2,1,1
-3901007,Premier League,league,2023-02-08,Erik ten Hag,Permanent,Leeds,h,2,2,0
-3901156,Premier League,league,2023-02-12,Erik ten Hag,Permanent,Leeds,a,2,0,2
-4060616,Europa League,knockout,2023-02-16,Erik ten Hag,Permanent,Barcelona,a,2,2,0
-3901167,Premier League,league,2023-02-19,Erik ten Hag,Permanent,Leicester,h,3,0,3
-4060624,Europa League,knockout,2023-02-23,Erik ten Hag,Permanent,Barcelona,h,2,1,1
-4100320,League Cup,knockout,2023-02-26,Erik ten Hag,Permanent,Newcastle,h,2,0,2
-4113168,FA Cup,knockout,2023-03-01,Erik ten Hag,Permanent,West Ham,h,3,1,2
-3901187,Premier League,league,2023-03-05,Erik ten Hag,Permanent,Liverpool,a,0,7,-7
-4128631,Europa League,knockout,2023-03-09,Erik ten Hag,Permanent,Real Betis,h,4,1,3
-3901198,Premier League,league,2023-03-12,Erik ten Hag,Permanent,Southampton,h,0,0,0
-4128639,Europa League,knockout,2023-03-16,Erik ten Hag,Permanent,Real Betis,a,1,0,1
-4131189,FA Cup,knockout,2023-03-19,Erik ten Hag,Permanent,Fulham,h,3,1,2
-3901219,Premier League,league,2023-04-02,Erik ten Hag,Permanent,Newcastle,a,0,2,-2
-3901178,Premier League,league,2023-04-05,Erik ten Hag,Permanent,Brentford,h,1,0,1
-3901228,Premier League,league,2023-04-08,Erik ten Hag,Permanent,Everton,h,2,0,2
-4140613,Europa League,knockout,2023-04-13,Erik ten Hag,Permanent,Sevilla,h,2,2,0
-3901237,Premier League,league,2023-04-16,Erik ten Hag,Permanent,Nottm Forest,a,2,0,2
-4140614,Europa League,knockout,2023-04-20,Erik ten Hag,Permanent,Sevilla,a,0,3,-3
-4141880,FA Cup,knockout,2023-04-23,Erik ten Hag,Permanent,Brighton,a,0,0,0
-3901255,Premier League,league,2023-04-27,Erik ten Hag,Permanent,Tottenham,a,2,2,0
-3901270,Premier League,league,2023-04-30,Erik ten Hag,Permanent,Aston Villa,h,1,0,1
-3901205,Premier League,league,2023-05-04,Erik ten Hag,Permanent,Brighton,a,0,1,-1
-3901280,Premier League,league,2023-05-07,Erik ten Hag,Permanent,West Ham,a,0,1,-1
-3901290,Premier League,league,2023-05-13,Erik ten Hag,Permanent,Wolves,h,2,0,2
-3901292,Premier League,league,2023-05-20,Erik ten Hag,Permanent,Bournemouth,a,1,0,1
-3901250,Premier League,league,2023-05-25,Erik ten Hag,Permanent,Chelsea,h,4,1,3
-3901310,Premier League,league,2023-05-28,Erik ten Hag,Permanent,Fulham,h,2,1,1
-4141911,FA Cup,knockout,2023-06-03,Erik ten Hag,Permanent,Man City,a,1,2,-1
-4193459,Premier League,league,2023-08-14,Erik ten Hag,Permanent,Wolves,h,1,0,1
-4193477,Premier League,league,2023-08-19,Erik ten Hag,Permanent,Tottenham,a,0,2,-2
-4193487,Premier League,league,2023-08-26,Erik ten Hag,Permanent,Nottm Forest,h,3,2,1
-4193490,Premier League,league,2023-09-03,Erik ten Hag,Permanent,Arsenal,a,1,3,-2
-4193504,Premier League,league,2023-09-16,Erik ten Hag,Permanent,Brighton,h,1,3,-2
-4314996,Champions League,league,2023-09-20,Erik ten Hag,Permanent,Bayern München,a,3,4,-1
-4193513,Premier League,league,2023-09-23,Erik ten Hag,Permanent,Burnley,a,1,0,1
-4313494,League Cup,knockout,2023-09-26,Erik ten Hag,Permanent,Crystal Palace,h,3,0,3
-4193524,Premier League,league,2023-09-30,Erik ten Hag,Permanent,Crystal Palace,h,0,1,-1
-4314998,Champions League,league,2023-10-03,Erik ten Hag,Permanent,Galatasaray,h,2,3,-1
-4193537,Premier League,league,2023-10-07,Erik ten Hag,Permanent,Brentford,h,2,1,1
-4193548,Premier League,league,2023-10-21,Erik ten Hag,Permanent,Sheff Utd,a,2,1,1
-4315000,Champions League,league,2023-10-24,Erik ten Hag,Permanent,FC København,h,1,0,1
-4193557,Premier League,league,2023-10-29,Erik ten Hag,Permanent,Man City,h,0,3,-3
-4338085,League Cup,knockout,2023-11-01,Erik ten Hag,Permanent,Newcastle,h,0,3,-3
-4193563,Premier League,league,2023-11-04,Erik ten Hag,Permanent,Fulham,a,1,0,1
-4315002,Champions League,league,2023-11-08,Erik ten Hag,Permanent,FC København,a,3,4,-1
-4193577,Premier League,league,2023-11-11,Erik ten Hag,Permanent,Luton,h,1,0,1
-4193653,Premier League,league,2023-11-26,Erik ten Hag,Permanent,Everton,a,3,0,3
-4315004,Champions League,league,2023-11-29,Erik ten Hag,Permanent,Galatasaray,a,3,3,0
-4193668,Premier League,league,2023-12-02,Erik ten Hag,Permanent,Newcastle,a,0,1,-1
-4193680,Premier League,league,2023-12-06,Erik ten Hag,Permanent,Chelsea,h,2,1,1
-4193687,Premier League,league,2023-12-09,Erik ten Hag,Permanent,Bournemouth,h,0,3,-3
-4315006,Champions League,league,2023-12-12,Erik ten Hag,Permanent,Bayern München,h,0,1,-1
-4193696,Premier League,league,2023-12-17,Erik ten Hag,Permanent,Liverpool,a,0,0,0
-4193709,Premier League,league,2023-12-23,Erik ten Hag,Permanent,West Ham,a,0,2,-2
-4193718,Premier League,league,2023-12-26,Erik ten Hag,Permanent,Aston Villa,h,3,2,1
-4193727,Premier League,league,2023-12-30,Erik ten Hag,Permanent,Nottm Forest,a,1,2,-1
-4374885,FA Cup,knockout,2024-01-08,Erik ten Hag,Permanent,Wigan,a,2,0,2
-4193738,Premier League,league,2024-01-14,Erik ten Hag,Permanent,Tottenham,h,2,2,0
-4397794,FA Cup,knockout,2024-01-28,Erik ten Hag,Permanent,Newport,a,4,2,2
-4193747,Premier League,league,2024-02-01,Erik ten Hag,Permanent,Wolves,a,4,3,1
-4193758,Premier League,league,2024-02-04,Erik ten Hag,Permanent,West Ham,h,3,0,3
-4193761,Premier League,league,2024-02-11,Erik ten Hag,Permanent,Aston Villa,a,2,1,1
-4193775,Premier League,league,2024-02-18,Erik ten Hag,Permanent,Luton,a,2,1,1
-4193788,Premier League,league,2024-02-24,Erik ten Hag,Permanent,Fulham,h,1,2,-1
-4414637,FA Cup,knockout,2024-02-28,Erik ten Hag,Permanent,Nottm Forest,a,1,0,1
-4193796,Premier League,league,2024-03-03,Erik ten Hag,Permanent,Man City,a,1,3,-2
-4193808,Premier League,league,2024-03-09,Erik ten Hag,Permanent,Everton,h,2,0,2
-4435125,FA Cup,knockout,2024-03-17,Erik ten Hag,Permanent,Liverpool,h,4,3,1
-4193823,Premier League,league,2024-03-30,Erik ten Hag,Permanent,Brentford,a,1,1,0
-4193837,Premier League,league,2024-04-04,Erik ten Hag,Permanent,Chelsea,a,3,4,-1
-4193847,Premier League,league,2024-04-07,Erik ten Hag,Permanent,Liverpool,h,2,2,0
-4193851,Premier League,league,2024-04-13,Erik ten Hag,Permanent,Bournemouth,a,2,2,0
-4447992,FA Cup,knockout,2024-04-21,Erik ten Hag,Permanent,Coventry,a,3,3,0
-4193818,Premier League,league,2024-04-24,Erik ten Hag,Permanent,Sheff Utd,h,4,2,2
-4193875,Premier League,league,2024-04-27,Erik ten Hag,Permanent,Burnley,h,1,1,0
-4193886,Premier League,league,2024-05-06,Erik ten Hag,Permanent,Crystal Palace,a,0,4,-4
-4193895,Premier League,league,2024-05-12,Erik ten Hag,Permanent,Arsenal,h,0,1,-1
-4193867,Premier League,league,2024-05-15,Erik ten Hag,Permanent,Newcastle,h,3,2,1
-4193903,Premier League,league,2024-05-19,Erik ten Hag,Permanent,Brighton,a,2,0,2
-4448111,FA Cup,knockout,2024-05-25,Erik ten Hag,Permanent,Man City,a,2,1,1
-4485126,Community Shield,knockout,2024-08-10,Erik ten Hag,Permanent,Man City,a,1,1,0
-4506263,Premier League,league,2024-08-16,Erik ten Hag,Permanent,Fulham,h,1,0,1
-4506275,Premier League,league,2024-08-24,Erik ten Hag,Permanent,Brighton,a,1,2,-1
-4506289,Premier League,league,2024-09-01,Erik ten Hag,Permanent,Liverpool,h,0,3,-3
-4506300,Premier League,league,2024-09-14,Erik ten Hag,Permanent,Southampton,a,3,0,3
-4620886,League Cup,knockout,2024-09-17,Erik ten Hag,Permanent,Barnsley,h,7,0,7
-4506305,Premier League,league,2024-09-21,Erik ten Hag,Permanent,Crystal Palace,a,0,0,0
-4622038,Europa League,league,2024-09-25,Erik ten Hag,Permanent,FC Twente,h,1,1,0
-4506319,Premier League,league,2024-09-29,Erik ten Hag,Permanent,Tottenham,h,0,3,-3
-4622026,Europa League,league,2024-10-03,Erik ten Hag,Permanent,FC Porto,a,3,3,0
-4506324,Premier League,league,2024-10-06,Erik ten Hag,Permanent,Aston Villa,a,0,0,0
-4506397,Premier League,league,2024-10-19,Erik ten Hag,Permanent,Brentford,h,2,1,1
-4622055,Europa League,league,2024-10-24,Erik ten Hag,Permanent,Fenerbahçe,a,1,1,0
-4506417,Premier League,league,2024-10-27,Erik ten Hag,Permanent,West Ham,a,1,2,-1
-4646921,League Cup,knockout,2024-10-30,Ruud van Nistelrooy,Caretaker,Leicester,h,5,2,3
-4506467,Premier League,league,2024-11-03,Ruud van Nistelrooy,Caretaker,Chelsea,h,1,1,0
-4622036,Europa League,league,2024-11-07,Ruud van Nistelrooy,Caretaker,PAOK Thessaloniki,h,2,0,2
-4506478,Premier League,league,2024-11-10,Ruud van Nistelrooy,Caretaker,Leicester,h,3,0,3
-4506538,Premier League,league,2024-11-24,Ruben Amorim,Permanent,Ipswich,a,1,1,0
-4622037,Europa League,league,2024-11-28,Ruben Amorim,Permanent,Bodø/Glimt,h,3,2,1
-4506418,Premier League,league,2024-12-01,Ruben Amorim,Permanent,Everton,h,4,0,4
-4506424,Premier League,league,2024-12-04,Ruben Amorim,Permanent,Arsenal,a,0,2,-2
-4506440,Premier League,league,2024-12-07,Ruben Amorim,Permanent,Nottm Forest,h,2,3,-1
-4622120,Europa League,league,2024-12-12,Ruben Amorim,Permanent,Viktoria Plzen,a,2,1,1
-4506448,Premier League,league,2024-12-15,Ruben Amorim,Permanent,Man City,a,2,1,1
-4667718,League Cup,knockout,2024-12-19,Ruben Amorim,Permanent,Tottenham,a,3,4,-1
-4506460,Premier League,league,2024-12-22,Ruben Amorim,Permanent,Bournemouth,h,0,3,-3
-4506492,Premier League,league,2024-12-26,Ruben Amorim,Permanent,Wolves,a,0,2,-2
-4506500,Premier League,league,2024-12-30,Ruben Amorim,Permanent,Newcastle,h,0,2,-2
-4506508,Premier League,league,2025-01-05,Ruben Amorim,Permanent,Liverpool,a,2,2,0
-4684071,FA Cup,knockout,2025-01-12,Ruben Amorim,Permanent,Arsenal,a,1,1,0
-4506522,Premier League,league,2025-01-16,Ruben Amorim,Permanent,Southampton,h,3,1,2
-4506529,Premier League,league,2025-01-19,Ruben Amorim,Permanent,Brighton,h,1,3,-2
-4622035,Europa League,league,2025-01-23,Ruben Amorim,Permanent,Rangers,h,2,1,1
-4506607,Premier League,league,2025-01-26,Ruben Amorim,Permanent,Fulham,a,1,0,1
-4622150,Europa League,league,2025-01-30,Ruben Amorim,Permanent,FCSB,a,2,0,2
-4506619,Premier League,league,2025-02-02,Ruben Amorim,Permanent,Crystal Palace,h,0,2,-2
-4710565,FA Cup,knockout,2025-02-07,Ruben Amorim,Permanent,Leicester,h,2,1,1
-4506631,Premier League,league,2025-02-16,Ruben Amorim,Permanent,Tottenham,a,0,1,-1
-4506636,Premier League,league,2025-02-22,Ruben Amorim,Permanent,Everton,a,2,2,0
-4506342,Premier League,league,2025-02-26,Ruben Amorim,Permanent,Ipswich,h,3,2,1
-4730565,FA Cup,knockout,2025-03-02,Ruben Amorim,Permanent,Fulham,h,1,1,0
-4737589,Europa League,knockout,2025-03-06,Ruben Amorim,Permanent,Real Sociedad,a,1,1,0
-4506348,Premier League,league,2025-03-09,Ruben Amorim,Permanent,Arsenal,h,1,1,0
-4737597,Europa League,knockout,2025-03-13,Ruben Amorim,Permanent,Real Sociedad,h,4,1,3
-4506359,Premier League,league,2025-03-16,Ruben Amorim,Permanent,Leicester,a,3,0,3
-4506366,Premier League,league,2025-04-01,Ruben Amorim,Permanent,Nottm Forest,a,0,1,-1
-4506380,Premier League,league,2025-04-06,Ruben Amorim,Permanent,Man City,h,0,0,0
-4737719,Europa League,knockout,2025-04-10,Ruben Amorim,Permanent,Lyon,a,2,2,0
-4506389,Premier League,league,2025-04-13,Ruben Amorim,Permanent,Newcastle,a,1,4,-3
-4737723,Europa League,knockout,2025-04-17,Ruben Amorim,Permanent,Lyon,h,5,4,1
-4506550,Premier League,league,2025-04-20,Ruben Amorim,Permanent,Wolves,h,0,1,-1
-4506553,Premier League,league,2025-04-27,Ruben Amorim,Permanent,Bournemouth,a,1,1,0
-4737725,Europa League,knockout,2025-05-01,Ruben Amorim,Permanent,Athletic Club,a,3,0,3
-4506565,Premier League,league,2025-05-04,Ruben Amorim,Permanent,Brentford,a,3,4,-1
-4737727,Europa League,knockout,2025-05-08,Ruben Amorim,Permanent,Athletic Club,h,4,1,3
-4506577,Premier League,league,2025-05-11,Ruben Amorim,Permanent,West Ham,h,0,2,-2
-4506587,Premier League,league,2025-05-16,Ruben Amorim,Permanent,Chelsea,a,0,1,-1
-4737728,Europa League,knockout,2025-05-21,Ruben Amorim,Permanent,Tottenham,a,0,1,-1
-4506597,Premier League,league,2025-05-25,Ruben Amorim,Permanent,Aston Villa,h,2,0,2
-4813382,Premier League,league,2025-08-17,Ruben Amorim,Permanent,Arsenal,h,0,1,-1
-4813391,Premier League,league,2025-08-24,Ruben Amorim,Permanent,Fulham,a,1,1,0
-4927193,League Cup,knockout,2025-08-27,Ruben Amorim,Permanent,Grimsby,a,2,2,0
-4813400,Premier League,league,2025-08-30,Ruben Amorim,Permanent,Burnley,h,3,2,1
-4813412,Premier League,league,2025-09-14,Ruben Amorim,Permanent,Man City,a,0,3,-3
-4813421,Premier League,league,2025-09-20,Ruben Amorim,Permanent,Chelsea,h,2,1,1
-4813426,Premier League,league,2025-09-27,Ruben Amorim,Permanent,Brentford,a,1,3,-2
-4813442,Premier League,league,2025-10-04,Ruben Amorim,Permanent,Sunderland,h,2,0,2
-4813449,Premier League,league,2025-10-19,Ruben Amorim,Permanent,Liverpool,a,2,1,1
-4813462,Premier League,league,2025-10-25,Ruben Amorim,Permanent,Brighton,h,4,2,2
-4813471,Premier League,league,2025-11-01,Ruben Amorim,Permanent,Nottm Forest,a,2,2,0
-4813483,Premier League,league,2025-11-08,Ruben Amorim,Permanent,Tottenham,a,2,2,0
-4813492,Premier League,league,2025-11-24,Ruben Amorim,Permanent,Everton,h,0,1,-1
-4813498,Premier League,league,2025-11-30,Ruben Amorim,Permanent,Crystal Palace,a,2,1,1
-4813512,Premier League,league,2025-12-04,Ruben Amorim,Permanent,West Ham,h,1,1,0
-4813524,Premier League,league,2025-12-08,Ruben Amorim,Permanent,Wolves,a,4,1,3
-4813531,Premier League,league,2025-12-15,Ruben Amorim,Permanent,Bournemouth,h,4,4,0
-4813536,Premier League,league,2025-12-21,Ruben Amorim,Permanent,Aston Villa,a,1,2,-1
-4813551,Premier League,league,2025-12-26,Ruben Amorim,Permanent,Newcastle,h,1,0,1
-4813561,Premier League,league,2025-12-30,Ruben Amorim,Permanent,Wolves,h,1,1,0
-4813570,Premier League,league,2026-01-04,Ruben Amorim,Permanent,Leeds,a,1,1,0
-4813578,Premier League,league,2026-01-07,Darren Fletcher,Caretaker,Burnley,a,2,2,0
-5089922,FA Cup,knockout,2026-01-11,Darren Fletcher,Caretaker,Brighton,h,1,2,-1
-4813590,Premier League,league,2026-01-17,Michael Carrick,Interim,Man City,h,2,0,2
-4813596,Premier League,league,2026-01-25,Michael Carrick,Interim,Arsenal,a,3,2,1
+match_id,competition,stage,date,manager,manager_type,opponent,h_a,gf,ga,gd,manager_gd,cum_gd
+1453002,Community Shield,knockout,2013-08-11,David Moyes,Permanent,Wigan,h,2,0,2,2,2
+1474079,Premier League,league,2013-08-17,David Moyes,Permanent,Swansea,a,4,1,3,5,5
+1474133,Premier League,league,2013-08-26,David Moyes,Permanent,Chelsea,h,0,0,0,5,5
+1474162,Premier League,league,2013-09-01,David Moyes,Permanent,Liverpool,a,0,1,-1,4,4
+1474178,Premier League,league,2013-09-14,David Moyes,Permanent,Crystal Palace,h,2,0,2,6,6
+1573681,Champions League,league,2013-09-17,David Moyes,Permanent,Leverkusen,h,4,2,2,8,8
+1474200,Premier League,league,2013-09-22,David Moyes,Permanent,Man City,a,1,4,-3,5,5
+1573093,League Cup,knockout,2013-09-25,David Moyes,Permanent,Liverpool,h,1,0,1,6,6
+1474213,Premier League,league,2013-09-28,David Moyes,Permanent,West Brom,h,1,2,-1,5,5
+1573683,Champions League,league,2013-10-02,David Moyes,Permanent,Shakhtar Donetsk,a,1,1,0,5,5
+1474241,Premier League,league,2013-10-05,David Moyes,Permanent,Sunderland,a,2,1,1,6,6
+1474262,Premier League,league,2013-10-19,David Moyes,Permanent,Southampton,h,1,1,0,6,6
+1573692,Champions League,league,2013-10-23,David Moyes,Permanent,Real Sociedad,h,1,0,1,7,7
+1474298,Premier League,league,2013-10-26,David Moyes,Permanent,Stoke,h,3,2,1,8,8
+1591075,League Cup,knockout,2013-10-29,David Moyes,Permanent,Norwich,h,4,0,4,12,12
+1474332,Premier League,league,2013-11-02,David Moyes,Permanent,Fulham,a,3,1,2,14,14
+1573694,Champions League,league,2013-11-05,David Moyes,Permanent,Real Sociedad,a,0,0,0,14,14
+1474368,Premier League,league,2013-11-10,David Moyes,Permanent,Arsenal,h,1,0,1,15,15
+1474387,Premier League,league,2013-11-24,David Moyes,Permanent,Cardiff,a,2,2,0,15,15
+1573714,Champions League,league,2013-11-27,David Moyes,Permanent,Leverkusen,a,5,0,5,20,20
+1474430,Premier League,league,2013-12-01,David Moyes,Permanent,Tottenham,a,2,2,0,20,20
+1474459,Premier League,league,2013-12-04,David Moyes,Permanent,Everton,h,0,1,-1,19,19
+1474518,Premier League,league,2013-12-07,David Moyes,Permanent,Newcastle,h,0,1,-1,18,18
+1573716,Champions League,league,2013-12-10,David Moyes,Permanent,Shakhtar Donetsk,h,1,0,1,19,19
+1474533,Premier League,league,2013-12-15,David Moyes,Permanent,Aston Villa,a,3,0,3,22,22
+1609811,League Cup,knockout,2013-12-18,David Moyes,Permanent,Stoke,a,2,0,2,24,24
+1474576,Premier League,league,2013-12-21,David Moyes,Permanent,West Ham,h,3,1,2,26,26
+1474610,Premier League,league,2013-12-26,David Moyes,Permanent,Hull,a,3,2,1,27,27
+1474659,Premier League,league,2013-12-28,David Moyes,Permanent,Norwich,a,1,0,1,28,28
+1474698,Premier League,league,2014-01-01,David Moyes,Permanent,Tottenham,h,1,2,-1,27,27
+1622466,FA Cup,knockout,2014-01-05,David Moyes,Permanent,Swansea,h,1,2,-1,26,26
+1626421,League Cup,knockout,2014-01-07,David Moyes,Permanent,Sunderland,a,1,2,-1,25,25
+1474912,Premier League,league,2014-01-11,David Moyes,Permanent,Swansea,h,2,0,2,27,27
+1474923,Premier League,league,2014-01-19,David Moyes,Permanent,Chelsea,a,1,3,-2,25,25
+1626423,League Cup,knockout,2014-01-22,David Moyes,Permanent,Sunderland,h,2,1,1,26,26
+1474937,Premier League,league,2014-01-28,David Moyes,Permanent,Cardiff,h,2,0,2,28,28
+1474954,Premier League,league,2014-02-01,David Moyes,Permanent,Stoke,a,1,2,-1,27,27
+1474962,Premier League,league,2014-02-09,David Moyes,Permanent,Fulham,h,2,2,0,27,27
+1474968,Premier League,league,2014-02-12,David Moyes,Permanent,Arsenal,a,0,0,0,27,27
+1474984,Premier League,league,2014-02-22,David Moyes,Permanent,Crystal Palace,a,2,0,2,29,29
+1625212,Champions League,knockout,2014-02-25,David Moyes,Permanent,Olympiacos,a,0,2,-2,27,27
+1475013,Premier League,league,2014-03-08,David Moyes,Permanent,West Brom,a,3,0,3,30,30
+1475020,Premier League,league,2014-03-16,David Moyes,Permanent,Liverpool,h,0,3,-3,27,27
+1625219,Champions League,knockout,2014-03-19,David Moyes,Permanent,Olympiacos,h,3,0,3,30,30
+1475038,Premier League,league,2014-03-22,David Moyes,Permanent,West Ham,a,2,0,2,32,32
+1474997,Premier League,league,2014-03-25,David Moyes,Permanent,Man City,h,0,3,-3,29,29
+1475043,Premier League,league,2014-03-29,David Moyes,Permanent,Aston Villa,h,4,1,3,32,32
+1679352,Champions League,knockout,2014-04-01,David Moyes,Permanent,Bayern München,h,1,1,0,32,32
+1475058,Premier League,league,2014-04-05,David Moyes,Permanent,Newcastle,a,4,0,4,36,36
+1679353,Champions League,knockout,2014-04-09,David Moyes,Permanent,Bayern München,a,1,3,-2,34,34
+1475078,Premier League,league,2014-04-20,David Moyes,Permanent,Everton,a,0,2,-2,32,32
+1475091,Premier League,league,2014-04-26,Ryan Giggs,Caretaker,Norwich,h,4,0,4,4,36
+1475103,Premier League,league,2014-05-03,Ryan Giggs,Caretaker,Sunderland,h,0,1,-1,3,35
+1475067,Premier League,league,2014-05-06,Ryan Giggs,Caretaker,Hull,h,3,1,2,5,37
+1475116,Premier League,league,2014-05-11,Ryan Giggs,Caretaker,Southampton,a,1,1,0,5,37
+1723986,Premier League,league,2014-08-16,Louis van Gaal,Permanent,Swansea,h,1,2,-1,-1,36
+1723999,Premier League,league,2014-08-24,Louis van Gaal,Permanent,Sunderland,a,1,1,0,-1,36
+1809097,League Cup,knockout,2014-08-26,Louis van Gaal,Permanent,MK Dons,a,0,4,-4,-5,32
+1724003,Premier League,league,2014-08-30,Louis van Gaal,Permanent,Burnley,a,0,0,0,-5,32
+1724017,Premier League,league,2014-09-14,Louis van Gaal,Permanent,QPR,h,4,0,4,-1,36
+1724025,Premier League,league,2014-09-21,Louis van Gaal,Permanent,Leicester,a,3,5,-2,-3,34
+1724037,Premier League,league,2014-09-27,Louis van Gaal,Permanent,West Ham,h,2,1,1,-2,35
+1724047,Premier League,league,2014-10-05,Louis van Gaal,Permanent,Everton,h,2,1,1,-1,36
+1724061,Premier League,league,2014-10-20,Louis van Gaal,Permanent,West Brom,a,2,2,0,-1,36
+1724064,Premier League,league,2014-10-26,Louis van Gaal,Permanent,Chelsea,h,1,1,0,-1,36
+1724079,Premier League,league,2014-11-02,Louis van Gaal,Permanent,Man City,a,0,1,-1,-2,35
+1724084,Premier League,league,2014-11-08,Louis van Gaal,Permanent,Crystal Palace,h,1,0,1,-1,36
+1724092,Premier League,league,2014-11-22,Louis van Gaal,Permanent,Arsenal,a,2,1,1,0,37
+1724104,Premier League,league,2014-11-29,Louis van Gaal,Permanent,Hull,h,3,0,3,3,40
+1724115,Premier League,league,2014-12-02,Louis van Gaal,Permanent,Stoke,h,2,1,1,4,41
+1724128,Premier League,league,2014-12-08,Louis van Gaal,Permanent,Southampton,a,2,1,1,5,42
+1724138,Premier League,league,2014-12-14,Louis van Gaal,Permanent,Liverpool,h,3,0,3,8,45
+1724142,Premier League,league,2014-12-20,Louis van Gaal,Permanent,Aston Villa,a,1,1,0,8,45
+1724158,Premier League,league,2014-12-26,Louis van Gaal,Permanent,Newcastle,h,3,1,2,10,47
+1724170,Premier League,league,2014-12-28,Louis van Gaal,Permanent,Tottenham,a,0,0,0,10,47
+1724179,Premier League,league,2015-01-01,Louis van Gaal,Permanent,Stoke,a,1,1,0,10,47
+1873315,FA Cup,knockout,2015-01-04,Louis van Gaal,Permanent,Yeovil,a,2,0,2,12,49
+1724188,Premier League,league,2015-01-11,Louis van Gaal,Permanent,Southampton,h,0,1,-1,11,48
+1724198,Premier League,league,2015-01-17,Louis van Gaal,Permanent,QPR,a,2,0,2,13,50
+1892472,FA Cup,knockout,2015-01-23,Louis van Gaal,Permanent,Cambridge,a,0,0,0,13,50
+1724207,Premier League,league,2015-01-31,Louis van Gaal,Permanent,Leicester,h,3,1,2,15,52
+1905875,FA Cup,knockout,2015-02-03,Louis van Gaal,Permanent,Cambridge,h,3,0,3,18,55
+1724221,Premier League,league,2015-02-08,Louis van Gaal,Permanent,West Ham,a,1,1,0,18,55
+1724224,Premier League,league,2015-02-11,Louis van Gaal,Permanent,Burnley,h,3,1,2,20,57
+1906622,FA Cup,knockout,2015-02-16,Louis van Gaal,Permanent,Preston,a,3,1,2,22,59
+1724240,Premier League,league,2015-02-21,Louis van Gaal,Permanent,Swansea,a,1,2,-1,21,58
+1724246,Premier League,league,2015-02-28,Louis van Gaal,Permanent,Sunderland,h,2,0,2,23,60
+1724259,Premier League,league,2015-03-04,Louis van Gaal,Permanent,Newcastle,a,1,0,1,24,61
+1924582,FA Cup,knockout,2015-03-09,Louis van Gaal,Permanent,Arsenal,h,1,2,-1,23,60
+1724268,Premier League,league,2015-03-15,Louis van Gaal,Permanent,Tottenham,h,3,0,3,26,63
+1724274,Premier League,league,2015-03-22,Louis van Gaal,Permanent,Liverpool,a,2,1,1,27,64
+1724288,Premier League,league,2015-04-04,Louis van Gaal,Permanent,Aston Villa,h,3,1,2,29,66
+1724294,Premier League,league,2015-04-12,Louis van Gaal,Permanent,Man City,h,4,2,2,31,68
+1724304,Premier League,league,2015-04-18,Louis van Gaal,Permanent,Chelsea,a,0,1,-1,30,67
+1724315,Premier League,league,2015-04-26,Louis van Gaal,Permanent,Everton,a,0,3,-3,27,64
+1724327,Premier League,league,2015-05-02,Louis van Gaal,Permanent,West Brom,h,0,1,-1,26,63
+1724335,Premier League,league,2015-05-09,Louis van Gaal,Permanent,Crystal Palace,a,2,1,1,27,64
+1724344,Premier League,league,2015-05-17,Louis van Gaal,Permanent,Arsenal,h,1,1,0,27,64
+1724357,Premier League,league,2015-05-24,Louis van Gaal,Permanent,Hull,a,0,0,0,27,64
+1987037,Premier League,league,2015-08-08,Louis van Gaal,Permanent,Tottenham,h,1,0,1,28,65
+1987078,Premier League,league,2015-08-14,Louis van Gaal,Permanent,Aston Villa,a,1,0,1,29,66
+2072950,Champions League,qualification,2015-08-18,Louis van Gaal,Permanent,Club Brugge,h,3,1,2,31,68
+1988734,Premier League,league,2015-08-22,Louis van Gaal,Permanent,Newcastle,h,0,0,0,31,68
+2072951,Champions League,qualification,2015-08-26,Louis van Gaal,Permanent,Club Brugge,a,4,0,4,35,72
+1988748,Premier League,league,2015-08-30,Louis van Gaal,Permanent,Swansea,a,1,2,-1,34,71
+1988754,Premier League,league,2015-09-12,Louis van Gaal,Permanent,Liverpool,h,3,1,2,36,73
+2088231,Champions League,league,2015-09-15,Louis van Gaal,Permanent,PSV Eindhoven,a,1,2,-1,35,72
+1988766,Premier League,league,2015-09-20,Louis van Gaal,Permanent,Southampton,a,3,2,1,36,73
+2086659,League Cup,knockout,2015-09-23,Louis van Gaal,Permanent,Ipswich,h,3,0,3,39,76
+1988772,Premier League,league,2015-09-26,Louis van Gaal,Permanent,Sunderland,h,3,0,3,42,79
+2088232,Champions League,league,2015-09-30,Louis van Gaal,Permanent,Wolfsburg,h,2,1,1,43,80
+1988780,Premier League,league,2015-10-04,Louis van Gaal,Permanent,Arsenal,a,0,3,-3,40,77
+1988792,Premier League,league,2015-10-17,Louis van Gaal,Permanent,Everton,a,3,0,3,43,80
+2088234,Champions League,league,2015-10-21,Louis van Gaal,Permanent,CSKA,a,1,1,0,43,80
+1988805,Premier League,league,2015-10-25,Louis van Gaal,Permanent,Man City,h,0,0,0,43,80
+2110149,League Cup,knockout,2015-10-28,Louis van Gaal,Permanent,Middlesbrough,h,0,0,0,43,80
+1988811,Premier League,league,2015-10-31,Louis van Gaal,Permanent,Crystal Palace,a,0,0,0,43,80
+2088236,Champions League,league,2015-11-03,Louis van Gaal,Permanent,CSKA,h,1,0,1,44,81
+1988825,Premier League,league,2015-11-07,Louis van Gaal,Permanent,West Brom,h,2,0,2,46,83
+1988838,Premier League,league,2015-11-21,Louis van Gaal,Permanent,Watford,a,2,1,1,47,84
+2088239,Champions League,league,2015-11-25,Louis van Gaal,Permanent,PSV Eindhoven,h,0,0,0,47,84
+1988843,Premier League,league,2015-11-28,Louis van Gaal,Permanent,Leicester,a,1,1,0,47,84
+1988853,Premier League,league,2015-12-05,Louis van Gaal,Permanent,West Ham,h,0,0,0,47,84
+2088240,Champions League,league,2015-12-08,Louis van Gaal,Permanent,Wolfsburg,a,2,3,-1,46,83
+1988861,Premier League,league,2015-12-12,Louis van Gaal,Permanent,Bournemouth,a,1,2,-1,45,82
+1988873,Premier League,league,2015-12-19,Louis van Gaal,Permanent,Norwich,h,1,2,-1,44,81
+1988887,Premier League,league,2015-12-26,Louis van Gaal,Permanent,Stoke,a,0,2,-2,42,79
+1988894,Premier League,league,2015-12-28,Louis van Gaal,Permanent,Chelsea,h,0,0,0,42,79
+1988904,Premier League,league,2016-01-02,Louis van Gaal,Permanent,Swansea,h,2,1,1,43,80
+2146180,FA Cup,knockout,2016-01-09,Louis van Gaal,Permanent,Sheff Utd,h,1,0,1,44,81
+1988916,Premier League,league,2016-01-12,Louis van Gaal,Permanent,Newcastle,a,3,3,0,44,81
+1988923,Premier League,league,2016-01-17,Louis van Gaal,Permanent,Liverpool,a,1,0,1,45,82
+1988934,Premier League,league,2016-01-23,Louis van Gaal,Permanent,Southampton,h,0,1,-1,44,81
+2168562,FA Cup,knockout,2016-01-29,Louis van Gaal,Permanent,Derby,a,3,1,2,46,83
+1988947,Premier League,league,2016-02-02,Louis van Gaal,Permanent,Stoke,h,3,0,3,49,86
+1988952,Premier League,league,2016-02-07,Louis van Gaal,Permanent,Chelsea,a,1,1,0,49,86
+1988968,Premier League,league,2016-02-13,Louis van Gaal,Permanent,Sunderland,a,1,2,-1,48,85
+2148510,Europa League,knockout,2016-02-18,Louis van Gaal,Permanent,FC Midtjylland,a,1,2,-1,47,84
+2180766,FA Cup,knockout,2016-02-22,Louis van Gaal,Permanent,Shrewsbury,a,3,0,3,50,87
+2148526,Europa League,knockout,2016-02-25,Louis van Gaal,Permanent,FC Midtjylland,h,5,1,4,54,91
+1988972,Premier League,league,2016-02-28,Louis van Gaal,Permanent,Arsenal,h,3,2,1,55,92
+1988988,Premier League,league,2016-03-02,Louis van Gaal,Permanent,Watford,h,1,0,1,56,93
+1988999,Premier League,league,2016-03-06,Louis van Gaal,Permanent,West Brom,a,0,1,-1,55,92
+2193808,Europa League,knockout,2016-03-10,Louis van Gaal,Permanent,Liverpool,a,0,2,-2,53,90
+2192035,FA Cup,knockout,2016-03-13,Louis van Gaal,Permanent,West Ham,h,1,1,0,53,90
+2193816,Europa League,knockout,2016-03-17,Louis van Gaal,Permanent,Liverpool,h,1,1,0,53,90
+1989013,Premier League,league,2016-03-20,Louis van Gaal,Permanent,Man City,a,1,0,1,54,91
+1989025,Premier League,league,2016-04-03,Louis van Gaal,Permanent,Everton,h,1,0,1,55,92
+1989037,Premier League,league,2016-04-10,Louis van Gaal,Permanent,Tottenham,a,0,3,-3,52,89
+2203395,FA Cup,knockout,2016-04-13,Louis van Gaal,Permanent,West Ham,a,2,1,1,53,90
+1989045,Premier League,league,2016-04-16,Louis van Gaal,Permanent,Aston Villa,h,1,0,1,54,91
+1989005,Premier League,league,2016-04-20,Louis van Gaal,Permanent,Crystal Palace,h,2,0,2,56,93
+2203795,FA Cup,knockout,2016-04-23,Louis van Gaal,Permanent,Everton,a,2,1,1,57,94
+1989063,Premier League,league,2016-05-01,Louis van Gaal,Permanent,Leicester,h,1,1,0,57,94
+1989076,Premier League,league,2016-05-07,Louis van Gaal,Permanent,Norwich,a,1,0,1,58,95
+1989059,Premier League,league,2016-05-10,Louis van Gaal,Permanent,West Ham,a,2,3,-1,57,94
+1987600,Premier League,league,2016-05-17,Louis van Gaal,Permanent,Bournemouth,h,3,1,2,59,96
+2222400,FA Cup,knockout,2016-05-21,Louis van Gaal,Permanent,Crystal Palace,a,2,1,1,60,97
+2235220,Community Shield,knockout,2016-08-07,José Mourinho,Permanent,Leicester,a,2,1,1,1,98
+2252173,Premier League,league,2016-08-14,José Mourinho,Permanent,Bournemouth,a,3,1,2,3,100
+2252194,Premier League,league,2016-08-19,José Mourinho,Permanent,Southampton,h,2,0,2,5,102
+2252205,Premier League,league,2016-08-27,José Mourinho,Permanent,Hull,a,1,0,1,6,103
+2252216,Premier League,league,2016-09-10,José Mourinho,Permanent,Man City,h,1,2,-1,5,102
+2365374,Europa League,league,2016-09-15,José Mourinho,Permanent,Feyenoord,a,0,1,-1,4,101
+2252230,Premier League,league,2016-09-18,José Mourinho,Permanent,Watford,a,1,3,-2,2,99
+2363155,League Cup,knockout,2016-09-21,José Mourinho,Permanent,Northampton,a,3,1,2,4,101
+2252236,Premier League,league,2016-09-24,José Mourinho,Permanent,Leicester,h,4,1,3,7,104
+2365377,Europa League,league,2016-09-29,José Mourinho,Permanent,Zorya,h,1,0,1,8,105
+2252246,Premier League,league,2016-10-02,José Mourinho,Permanent,Stoke,h,1,1,0,8,105
+2252256,Premier League,league,2016-10-17,José Mourinho,Permanent,Liverpool,a,0,0,0,8,105
+2365378,Europa League,league,2016-10-20,José Mourinho,Permanent,Fenerbahçe,h,4,1,3,11,108
+2252265,Premier League,league,2016-10-23,José Mourinho,Permanent,Chelsea,a,0,4,-4,7,104
+2380579,League Cup,knockout,2016-10-26,José Mourinho,Permanent,Man City,h,1,0,1,8,105
+2252274,Premier League,league,2016-10-29,José Mourinho,Permanent,Burnley,h,0,0,0,8,105
+2365380,Europa League,league,2016-11-03,José Mourinho,Permanent,Fenerbahçe,a,1,2,-1,7,104
+2252290,Premier League,league,2016-11-06,José Mourinho,Permanent,Swansea,a,3,1,2,9,106
+2252294,Premier League,league,2016-11-19,José Mourinho,Permanent,Arsenal,h,1,1,0,9,106
+2365382,Europa League,league,2016-11-24,José Mourinho,Permanent,Feyenoord,h,4,0,4,13,110
+2252308,Premier League,league,2016-11-27,José Mourinho,Permanent,West Ham,h,1,1,0,13,110
+2401686,League Cup,knockout,2016-11-30,José Mourinho,Permanent,West Ham,h,4,1,3,16,113
+2252314,Premier League,league,2016-12-04,José Mourinho,Permanent,Everton,a,1,1,0,16,113
+2365385,Europa League,league,2016-12-08,José Mourinho,Permanent,Zorya,a,2,0,2,18,115
+2252328,Premier League,league,2016-12-11,José Mourinho,Permanent,Tottenham,h,1,0,1,19,116
+2252336,Premier League,league,2016-12-14,José Mourinho,Permanent,Crystal Palace,a,2,1,1,20,117
+2252350,Premier League,league,2016-12-17,José Mourinho,Permanent,West Brom,a,2,0,2,22,119
+2252358,Premier League,league,2016-12-26,José Mourinho,Permanent,Sunderland,h,3,1,2,24,121
+2252368,Premier League,league,2016-12-31,José Mourinho,Permanent,Middlesbrough,h,2,1,1,25,122
+2252381,Premier League,league,2017-01-02,José Mourinho,Permanent,West Ham,a,2,0,2,27,124
+2418642,FA Cup,knockout,2017-01-07,José Mourinho,Permanent,Reading,h,4,0,4,31,128
+2416740,League Cup,knockout,2017-01-10,José Mourinho,Permanent,Hull,h,2,0,2,33,130
+2252386,Premier League,league,2017-01-15,José Mourinho,Permanent,Liverpool,h,1,1,0,33,130
+2252400,Premier League,league,2017-01-21,José Mourinho,Permanent,Stoke,a,1,1,0,33,130
+2416742,League Cup,knockout,2017-01-26,José Mourinho,Permanent,Hull,a,1,2,-1,32,129
+2440552,FA Cup,knockout,2017-01-29,José Mourinho,Permanent,Wigan,h,4,0,4,36,133
+2252409,Premier League,league,2017-02-01,José Mourinho,Permanent,Hull,h,0,0,0,36,133
+2252416,Premier League,league,2017-02-05,José Mourinho,Permanent,Leicester,a,3,0,3,39,136
+2252426,Premier League,league,2017-02-11,José Mourinho,Permanent,Watford,h,2,0,2,41,138
+2422915,Europa League,knockout,2017-02-16,José Mourinho,Permanent,Saint-Etienne,h,3,0,3,44,141
+2452895,FA Cup,knockout,2017-02-19,José Mourinho,Permanent,Blackburn,a,2,1,1,45,142
+2422931,Europa League,knockout,2017-02-22,José Mourinho,Permanent,Saint-Etienne,a,1,0,1,46,143
+2451392,League Cup,knockout,2017-02-26,José Mourinho,Permanent,Southampton,h,3,2,1,47,144
+2252444,Premier League,league,2017-03-04,José Mourinho,Permanent,Bournemouth,h,1,1,0,47,144
+2466342,Europa League,knockout,2017-03-09,José Mourinho,Permanent,Rostov,a,1,1,0,47,144
+2463480,FA Cup,knockout,2017-03-13,José Mourinho,Permanent,Chelsea,a,0,1,-1,46,143
+2466350,Europa League,knockout,2017-03-16,José Mourinho,Permanent,Rostov,h,1,0,1,47,144
+2252466,Premier League,league,2017-03-19,José Mourinho,Permanent,Middlesbrough,a,3,1,2,49,146
+2252478,Premier League,league,2017-04-01,José Mourinho,Permanent,West Brom,h,0,0,0,49,146
+2252488,Premier League,league,2017-04-04,José Mourinho,Permanent,Everton,h,1,1,0,49,146
+2252498,Premier League,league,2017-04-09,José Mourinho,Permanent,Sunderland,a,3,0,3,52,149
+2476899,Europa League,knockout,2017-04-13,José Mourinho,Permanent,Anderlecht,a,1,1,0,52,149
+2252504,Premier League,league,2017-04-16,José Mourinho,Permanent,Chelsea,h,2,0,2,54,151
+2476903,Europa League,knockout,2017-04-20,José Mourinho,Permanent,Anderlecht,h,2,1,1,55,152
+2252514,Premier League,league,2017-04-23,José Mourinho,Permanent,Burnley,a,2,0,2,57,154
+2252437,Premier League,league,2017-04-27,José Mourinho,Permanent,Man City,a,0,0,0,57,154
+2252524,Premier League,league,2017-04-30,José Mourinho,Permanent,Swansea,h,1,1,0,57,154
+2490522,Europa League,knockout,2017-05-04,José Mourinho,Permanent,Celta Vigo,a,1,0,1,58,155
+2252532,Premier League,league,2017-05-07,José Mourinho,Permanent,Arsenal,a,0,2,-2,56,153
+2490524,Europa League,knockout,2017-05-11,José Mourinho,Permanent,Celta Vigo,h,1,1,0,56,153
+2252549,Premier League,league,2017-05-14,José Mourinho,Permanent,Tottenham,a,1,2,-1,55,152
+2252461,Premier League,league,2017-05-17,José Mourinho,Permanent,Southampton,a,0,0,0,55,152
+2252188,Premier League,league,2017-05-21,José Mourinho,Permanent,Crystal Palace,h,2,0,2,57,154
+2490528,Europa League,knockout,2017-05-24,José Mourinho,Permanent,Ajax,a,2,0,2,59,156
+2504461,UEFA Super Cup,knockout,2017-08-08,José Mourinho,Permanent,Real Madrid,a,1,2,-1,58,155
+2522748,Premier League,league,2017-08-13,José Mourinho,Permanent,West Ham,h,4,0,4,62,159
+2522760,Premier League,league,2017-08-19,José Mourinho,Permanent,Swansea,a,4,0,4,66,163
+2522768,Premier League,league,2017-08-26,José Mourinho,Permanent,Leicester,h,2,0,2,68,165
+2522780,Premier League,league,2017-09-09,José Mourinho,Permanent,Stoke,a,2,2,0,68,165
+2620438,Champions League,league,2017-09-12,José Mourinho,Permanent,Basel,h,3,0,3,71,168
+2522788,Premier League,league,2017-09-17,José Mourinho,Permanent,Everton,h,4,0,4,75,172
+2619647,League Cup,knockout,2017-09-20,José Mourinho,Permanent,Burton,h,4,1,3,78,175
+2522799,Premier League,league,2017-09-23,José Mourinho,Permanent,Southampton,a,1,0,1,79,176
+2620440,Champions League,league,2017-09-27,José Mourinho,Permanent,CSKA,a,4,1,3,82,179
+2522808,Premier League,league,2017-09-30,José Mourinho,Permanent,Crystal Palace,h,4,0,4,86,183
+2522817,Premier League,league,2017-10-14,José Mourinho,Permanent,Liverpool,a,0,0,0,86,183
+2620442,Champions League,league,2017-10-18,José Mourinho,Permanent,Benfica,a,1,0,1,87,184
+2522825,Premier League,league,2017-10-21,José Mourinho,Permanent,Huddersfield,a,1,2,-1,86,183
+2637230,League Cup,knockout,2017-10-24,José Mourinho,Permanent,Swansea,a,2,0,2,88,185
+2522840,Premier League,league,2017-10-28,José Mourinho,Permanent,Tottenham,h,1,0,1,89,186
+2620444,Champions League,league,2017-10-31,José Mourinho,Permanent,Benfica,h,2,0,2,91,188
+2522843,Premier League,league,2017-11-05,José Mourinho,Permanent,Chelsea,a,0,1,-1,90,187
+2522860,Premier League,league,2017-11-18,José Mourinho,Permanent,Newcastle,h,4,1,3,93,190
+2620446,Champions League,league,2017-11-22,José Mourinho,Permanent,Basel,a,0,1,-1,92,189
+2522867,Premier League,league,2017-11-25,José Mourinho,Permanent,Brighton,h,1,0,1,93,190
+2522877,Premier League,league,2017-11-28,José Mourinho,Permanent,Watford,a,4,2,2,95,192
+2522883,Premier League,league,2017-12-02,José Mourinho,Permanent,Arsenal,a,3,1,2,97,194
+2620448,Champions League,league,2017-12-05,José Mourinho,Permanent,CSKA,h,2,1,1,98,195
+2522897,Premier League,league,2017-12-10,José Mourinho,Permanent,Man City,h,1,2,-1,97,194
+2522908,Premier League,league,2017-12-13,José Mourinho,Permanent,Bournemouth,h,1,0,1,98,195
+2522922,Premier League,league,2017-12-17,José Mourinho,Permanent,West Brom,a,2,1,1,99,196
+2659298,League Cup,knockout,2017-12-20,José Mourinho,Permanent,Bristol City,a,1,2,-1,98,195
+2522927,Premier League,league,2017-12-23,José Mourinho,Permanent,Leicester,a,2,2,0,98,195
+2522938,Premier League,league,2017-12-26,José Mourinho,Permanent,Burnley,h,2,2,0,98,195
+2522948,Premier League,league,2017-12-30,José Mourinho,Permanent,Southampton,h,0,0,0,98,195
+2522956,Premier League,league,2018-01-01,José Mourinho,Permanent,Everton,a,2,0,2,100,197
+2678196,FA Cup,knockout,2018-01-05,José Mourinho,Permanent,Derby,h,2,0,2,102,199
+2522968,Premier League,league,2018-01-15,José Mourinho,Permanent,Stoke,h,3,0,3,105,202
+2522975,Premier League,league,2018-01-20,José Mourinho,Permanent,Burnley,a,1,0,1,106,203
+2694826,FA Cup,knockout,2018-01-26,José Mourinho,Permanent,Yeovil,a,4,0,4,110,207
+2522992,Premier League,league,2018-01-31,José Mourinho,Permanent,Tottenham,a,0,2,-2,108,205
+2523000,Premier League,league,2018-02-03,José Mourinho,Permanent,Huddersfield,h,2,0,2,110,207
+2523007,Premier League,league,2018-02-11,José Mourinho,Permanent,Newcastle,a,0,1,-1,109,206
+2713076,FA Cup,knockout,2018-02-17,José Mourinho,Permanent,Huddersfield,a,2,0,2,111,208
+2680944,Champions League,knockout,2018-02-21,José Mourinho,Permanent,Sevilla,a,0,0,0,111,208
+2523020,Premier League,league,2018-02-25,José Mourinho,Permanent,Chelsea,h,2,1,1,112,209
+2523025,Premier League,league,2018-03-05,José Mourinho,Permanent,Crystal Palace,a,3,2,1,113,210
+2523038,Premier League,league,2018-03-10,José Mourinho,Permanent,Liverpool,h,2,1,1,114,211
+2680952,Champions League,knockout,2018-03-13,José Mourinho,Permanent,Sevilla,h,1,2,-1,113,210
+2723652,FA Cup,knockout,2018-03-17,José Mourinho,Permanent,Brighton,h,2,0,2,115,212
+2523058,Premier League,league,2018-03-31,José Mourinho,Permanent,Swansea,h,2,0,2,117,214
+2523069,Premier League,league,2018-04-07,José Mourinho,Permanent,Man City,a,3,2,1,118,215
+2523077,Premier League,league,2018-04-15,José Mourinho,Permanent,West Brom,h,0,1,-1,117,214
+2523084,Premier League,league,2018-04-18,José Mourinho,Permanent,Bournemouth,a,2,0,2,119,216
+2737810,FA Cup,knockout,2018-04-21,José Mourinho,Permanent,Tottenham,h,2,1,1,120,217
+2523097,Premier League,league,2018-04-29,José Mourinho,Permanent,Arsenal,h,2,1,1,121,218
+2523105,Premier League,league,2018-05-04,José Mourinho,Permanent,Brighton,a,0,1,-1,120,217
+2523052,Premier League,league,2018-05-10,José Mourinho,Permanent,West Ham,a,0,0,0,120,217
+2523117,Premier League,league,2018-05-13,José Mourinho,Permanent,Watford,h,1,0,1,121,218
+2750073,FA Cup,knockout,2018-05-19,José Mourinho,Permanent,Chelsea,a,0,1,-1,120,217
+2781955,Premier League,league,2018-08-10,José Mourinho,Permanent,Leicester,h,2,1,1,121,218
+2781964,Premier League,league,2018-08-19,José Mourinho,Permanent,Brighton,a,2,3,-1,120,217
+2781979,Premier League,league,2018-08-27,José Mourinho,Permanent,Tottenham,h,0,3,-3,117,214
+2781985,Premier League,league,2018-09-02,José Mourinho,Permanent,Burnley,a,2,0,2,119,216
+2782002,Premier League,league,2018-09-15,José Mourinho,Permanent,Watford,a,2,1,1,120,217
+2876460,Champions League,league,2018-09-19,José Mourinho,Permanent,Young Boys,a,3,0,3,123,220
+2782012,Premier League,league,2018-09-22,José Mourinho,Permanent,Wolves,h,1,1,0,123,220
+2876440,League Cup,knockout,2018-09-25,José Mourinho,Permanent,Derby,h,2,2,0,123,220
+2782022,Premier League,league,2018-09-29,José Mourinho,Permanent,West Ham,a,1,3,-2,121,218
+2876462,Champions League,league,2018-10-02,José Mourinho,Permanent,Valencia,h,0,0,0,121,218
+2782030,Premier League,league,2018-10-06,José Mourinho,Permanent,Newcastle,h,3,2,1,122,219
+2782037,Premier League,league,2018-10-20,José Mourinho,Permanent,Chelsea,a,2,2,0,122,219
+2876464,Champions League,league,2018-10-23,José Mourinho,Permanent,Juventus,h,0,1,-1,121,218
+2782050,Premier League,league,2018-10-28,José Mourinho,Permanent,Everton,h,2,1,1,122,219
+2782055,Premier League,league,2018-11-03,José Mourinho,Permanent,Bournemouth,a,2,1,1,123,220
+2876465,Champions League,league,2018-11-07,José Mourinho,Permanent,Juventus,a,2,1,1,124,221
+2782071,Premier League,league,2018-11-11,José Mourinho,Permanent,Man City,a,1,3,-2,122,219
+2782079,Premier League,league,2018-11-24,José Mourinho,Permanent,Crystal Palace,h,0,0,0,122,219
+2876467,Champions League,league,2018-11-27,José Mourinho,Permanent,Young Boys,h,1,0,1,123,220
+2782093,Premier League,league,2018-12-01,José Mourinho,Permanent,Southampton,a,2,2,0,123,220
+2782101,Premier League,league,2018-12-05,José Mourinho,Permanent,Arsenal,h,2,2,0,123,220
+2782111,Premier League,league,2018-12-08,José Mourinho,Permanent,Fulham,h,4,1,3,126,223
+2876470,Champions League,league,2018-12-12,José Mourinho,Permanent,Valencia,a,1,2,-1,125,222
+2782118,Premier League,league,2018-12-16,José Mourinho,Permanent,Liverpool,a,1,3,-2,123,220
+2782126,Premier League,league,2018-12-22,Ole Gunnar Solskjaer,Interim,Cardiff,a,5,1,4,4,224
+2782140,Premier League,league,2018-12-26,Ole Gunnar Solskjaer,Interim,Huddersfield,h,3,1,2,6,226
+2782150,Premier League,league,2018-12-30,Ole Gunnar Solskjaer,Interim,Bournemouth,h,4,1,3,9,229
+2782161,Premier League,league,2019-01-02,Ole Gunnar Solskjaer,Interim,Newcastle,a,2,0,2,11,231
+2942379,FA Cup,knockout,2019-01-05,Ole Gunnar Solskjaer,Interim,Reading,h,2,0,2,13,233
+2782172,Premier League,league,2019-01-13,Ole Gunnar Solskjaer,Interim,Tottenham,a,1,0,1,14,234
+2782179,Premier League,league,2019-01-19,Ole Gunnar Solskjaer,Interim,Brighton,h,2,1,1,15,235
+2961430,FA Cup,knockout,2019-01-25,Ole Gunnar Solskjaer,Interim,Arsenal,a,3,1,2,17,237
+2782189,Premier League,league,2019-01-29,Ole Gunnar Solskjaer,Interim,Burnley,h,2,2,0,17,237
+2782200,Premier League,league,2019-02-03,Ole Gunnar Solskjaer,Interim,Leicester,a,1,0,1,18,238
+2782206,Premier League,league,2019-02-09,Ole Gunnar Solskjaer,Interim,Fulham,a,3,0,3,21,241
+2947298,Champions League,knockout,2019-02-12,Ole Gunnar Solskjaer,Interim,PSG,h,0,2,-2,19,239
+2978889,FA Cup,knockout,2019-02-18,Ole Gunnar Solskjaer,Interim,Chelsea,a,2,0,2,21,241
+2782221,Premier League,league,2019-02-24,Ole Gunnar Solskjaer,Interim,Liverpool,h,0,0,0,21,241
+2782228,Premier League,league,2019-02-27,Ole Gunnar Solskjaer,Interim,Crystal Palace,a,3,1,2,23,243
+2782239,Premier League,league,2019-03-02,Ole Gunnar Solskjaer,Interim,Southampton,h,3,2,1,24,244
+2947306,Champions League,knockout,2019-03-06,Ole Gunnar Solskjaer,Interim,PSG,a,3,1,2,26,246
+2782244,Premier League,league,2019-03-10,Ole Gunnar Solskjaer,Interim,Arsenal,a,0,2,-2,24,244
+2992815,FA Cup,knockout,2019-03-16,Ole Gunnar Solskjaer,Interim,Wolves,a,1,2,-1,23,243
+2782272,Premier League,league,2019-03-30,Ole Gunnar Solskjaer,Permanent,Watford,h,2,1,1,24,244
+2782283,Premier League,league,2019-04-02,Ole Gunnar Solskjaer,Permanent,Wolves,a,1,2,-1,23,243
+3010093,Champions League,knockout,2019-04-10,Ole Gunnar Solskjaer,Permanent,Barcelona,h,0,1,-1,22,242
+2782290,Premier League,league,2019-04-13,Ole Gunnar Solskjaer,Permanent,West Ham,h,2,1,1,23,243
+3010094,Champions League,knockout,2019-04-16,Ole Gunnar Solskjaer,Permanent,Barcelona,a,0,3,-3,20,240
+2782298,Premier League,league,2019-04-21,Ole Gunnar Solskjaer,Permanent,Everton,a,0,4,-4,16,236
+2782259,Premier League,league,2019-04-24,Ole Gunnar Solskjaer,Permanent,Man City,h,0,2,-2,14,234
+2782310,Premier League,league,2019-04-28,Ole Gunnar Solskjaer,Permanent,Chelsea,h,1,1,0,14,234
+2782319,Premier League,league,2019-05-05,Ole Gunnar Solskjaer,Permanent,Huddersfield,a,1,1,0,14,234
+2782330,Premier League,league,2019-05-12,Ole Gunnar Solskjaer,Permanent,Cardiff,h,0,2,-2,12,232
+3055747,Premier League,league,2019-08-11,Ole Gunnar Solskjaer,Permanent,Chelsea,h,4,0,4,16,236
+3055757,Premier League,league,2019-08-19,Ole Gunnar Solskjaer,Permanent,Wolves,a,1,1,0,16,236
+3055762,Premier League,league,2019-08-24,Ole Gunnar Solskjaer,Permanent,Crystal Palace,h,1,2,-1,15,235
+3055776,Premier League,league,2019-08-31,Ole Gunnar Solskjaer,Permanent,Southampton,a,1,1,0,15,235
+3055782,Premier League,league,2019-09-14,Ole Gunnar Solskjaer,Permanent,Leicester,h,1,0,1,16,236
+3171197,Europa League,league,2019-09-19,Ole Gunnar Solskjaer,Permanent,FC Astana,h,1,0,1,17,237
+3055797,Premier League,league,2019-09-22,Ole Gunnar Solskjaer,Permanent,West Ham,a,0,2,-2,15,235
+3168626,League Cup,knockout,2019-09-25,Ole Gunnar Solskjaer,Permanent,Rochdale,h,1,1,0,15,235
+3055804,Premier League,league,2019-09-30,Ole Gunnar Solskjaer,Permanent,Arsenal,h,1,1,0,15,235
+3171196,Europa League,league,2019-10-03,Ole Gunnar Solskjaer,Permanent,AZ Alkmaar,a,0,0,0,15,235
+3055813,Premier League,league,2019-10-06,Ole Gunnar Solskjaer,Permanent,Newcastle,a,0,1,-1,14,234
+3055824,Premier League,league,2019-10-20,Ole Gunnar Solskjaer,Permanent,Liverpool,h,1,1,0,14,234
+3171199,Europa League,league,2019-10-24,Ole Gunnar Solskjaer,Permanent,Partizan Beograd,a,1,0,1,15,235
+3055834,Premier League,league,2019-10-27,Ole Gunnar Solskjaer,Permanent,Norwich,a,3,1,2,17,237
+3191328,League Cup,knockout,2019-10-30,Ole Gunnar Solskjaer,Permanent,Chelsea,a,2,1,1,18,238
+3055840,Premier League,league,2019-11-02,Ole Gunnar Solskjaer,Permanent,Bournemouth,a,0,1,-1,17,237
+3171201,Europa League,league,2019-11-07,Ole Gunnar Solskjaer,Permanent,Partizan Beograd,h,3,0,3,20,240
+3055852,Premier League,league,2019-11-10,Ole Gunnar Solskjaer,Permanent,Brighton,h,3,1,2,22,242
+3055865,Premier League,league,2019-11-24,Ole Gunnar Solskjaer,Permanent,Sheff Utd,a,3,3,0,22,242
+3171205,Europa League,league,2019-11-28,Ole Gunnar Solskjaer,Permanent,FC Astana,a,1,2,-1,21,241
+3055872,Premier League,league,2019-12-01,Ole Gunnar Solskjaer,Permanent,Aston Villa,h,2,2,0,21,241
+3055883,Premier League,league,2019-12-04,Ole Gunnar Solskjaer,Permanent,Tottenham,h,2,1,1,22,242
+3055892,Premier League,league,2019-12-07,Ole Gunnar Solskjaer,Permanent,Man City,a,2,1,1,23,243
+3171204,Europa League,league,2019-12-12,Ole Gunnar Solskjaer,Permanent,AZ Alkmaar,h,4,0,4,27,247
+3055904,Premier League,league,2019-12-15,Ole Gunnar Solskjaer,Permanent,Everton,h,1,1,0,27,247
+3212365,League Cup,knockout,2019-12-18,Ole Gunnar Solskjaer,Permanent,Colchester,h,3,0,3,30,250
+3055916,Premier League,league,2019-12-22,Ole Gunnar Solskjaer,Permanent,Watford,a,0,2,-2,28,248
+3055924,Premier League,league,2019-12-26,Ole Gunnar Solskjaer,Permanent,Newcastle,h,4,1,3,31,251
+3055930,Premier League,league,2019-12-28,Ole Gunnar Solskjaer,Permanent,Burnley,a,2,0,2,33,253
+3055938,Premier League,league,2020-01-01,Ole Gunnar Solskjaer,Permanent,Arsenal,a,0,2,-2,31,251
+3231223,FA Cup,knockout,2020-01-04,Ole Gunnar Solskjaer,Permanent,Wolves,a,0,0,0,31,251
+3237220,League Cup,knockout,2020-01-07,Ole Gunnar Solskjaer,Permanent,Man City,h,1,3,-2,29,249
+3055954,Premier League,league,2020-01-11,Ole Gunnar Solskjaer,Permanent,Norwich,h,4,0,4,33,253
+3248539,FA Cup,knockout,2020-01-15,Ole Gunnar Solskjaer,Permanent,Wolves,h,1,0,1,34,254
+3055961,Premier League,league,2020-01-19,Ole Gunnar Solskjaer,Permanent,Liverpool,a,0,2,-2,32,252
+3055974,Premier League,league,2020-01-22,Ole Gunnar Solskjaer,Permanent,Burnley,h,0,2,-2,30,250
+3249672,FA Cup,knockout,2020-01-26,Ole Gunnar Solskjaer,Permanent,Tranmere,a,6,0,6,36,256
+3237222,League Cup,knockout,2020-01-29,Ole Gunnar Solskjaer,Permanent,Man City,a,1,0,1,37,257
+3055983,Premier League,league,2020-02-01,Ole Gunnar Solskjaer,Permanent,Wolves,h,0,0,0,37,257
+3055991,Premier League,league,2020-02-17,Ole Gunnar Solskjaer,Permanent,Chelsea,a,2,0,2,39,259
+3236287,Europa League,knockout,2020-02-20,Ole Gunnar Solskjaer,Permanent,Club Brugge,a,1,1,0,39,259
+3056004,Premier League,league,2020-02-23,Ole Gunnar Solskjaer,Permanent,Watford,h,3,0,3,42,262
+3236288,Europa League,knockout,2020-02-27,Ole Gunnar Solskjaer,Permanent,Club Brugge,h,5,0,5,47,267
+3056011,Premier League,league,2020-03-01,Ole Gunnar Solskjaer,Permanent,Everton,a,1,1,0,47,267
+3267699,FA Cup,knockout,2020-03-05,Ole Gunnar Solskjaer,Permanent,Derby,a,3,0,3,50,270
+3056024,Premier League,league,2020-03-08,Ole Gunnar Solskjaer,Permanent,Man City,h,2,0,2,52,272
+3284794,Europa League,knockout,2020-03-12,Ole Gunnar Solskjaer,Permanent,LASK,a,5,0,5,57,277
+3056035,Premier League,league,2020-06-19,Ole Gunnar Solskjaer,Permanent,Tottenham,a,1,1,0,57,277
+3056042,Premier League,league,2020-06-24,Ole Gunnar Solskjaer,Permanent,Sheff Utd,h,3,0,3,60,280
+3287551,FA Cup,knockout,2020-06-27,Ole Gunnar Solskjaer,Permanent,Norwich,a,2,1,1,61,281
+3056051,Premier League,league,2020-06-30,Ole Gunnar Solskjaer,Permanent,Brighton,a,3,0,3,64,284
+3056062,Premier League,league,2020-07-04,Ole Gunnar Solskjaer,Permanent,Bournemouth,h,5,2,3,67,287
+3056069,Premier League,league,2020-07-09,Ole Gunnar Solskjaer,Permanent,Aston Villa,a,3,0,3,70,290
+3056082,Premier League,league,2020-07-13,Ole Gunnar Solskjaer,Permanent,Southampton,h,2,2,0,70,290
+3056091,Premier League,league,2020-07-16,Ole Gunnar Solskjaer,Permanent,Crystal Palace,a,2,0,2,72,292
+3354531,FA Cup,knockout,2020-07-19,Ole Gunnar Solskjaer,Permanent,Chelsea,h,1,3,-2,70,290
+3056102,Premier League,league,2020-07-22,Ole Gunnar Solskjaer,Permanent,West Ham,h,1,1,0,70,290
+3056113,Premier League,league,2020-07-26,Ole Gunnar Solskjaer,Permanent,Leicester,a,2,0,2,72,292
+3284802,Europa League,knockout,2020-08-05,Ole Gunnar Solskjaer,Permanent,LASK,h,2,1,1,73,293
+3363676,Europa League,knockout,2020-08-10,Ole Gunnar Solskjaer,Permanent,FC København,h,1,0,1,74,294
+3363679,Europa League,knockout,2020-08-16,Ole Gunnar Solskjaer,Permanent,Sevilla,a,1,2,-1,73,293
+3411365,Premier League,league,2020-09-19,Ole Gunnar Solskjaer,Permanent,Crystal Palace,h,1,3,-2,71,291
+3434041,League Cup,knockout,2020-09-22,Ole Gunnar Solskjaer,Permanent,Luton,a,3,0,3,74,294
+3411369,Premier League,league,2020-09-26,Ole Gunnar Solskjaer,Permanent,Brighton,a,3,2,1,75,295
+3447820,League Cup,knockout,2020-09-30,Ole Gunnar Solskjaer,Permanent,Brighton,a,3,0,3,78,298
+3411385,Premier League,league,2020-10-04,Ole Gunnar Solskjaer,Permanent,Tottenham,h,1,6,-5,73,293
+3411395,Premier League,league,2020-10-17,Ole Gunnar Solskjaer,Permanent,Newcastle,a,4,1,3,76,296
+3462201,Champions League,league,2020-10-20,Ole Gunnar Solskjaer,Permanent,PSG,a,2,1,1,77,297
+3411405,Premier League,league,2020-10-24,Ole Gunnar Solskjaer,Permanent,Chelsea,h,0,0,0,77,297
+3462203,Champions League,league,2020-10-28,Ole Gunnar Solskjaer,Permanent,RB Leipzig,h,5,0,5,82,302
+3411414,Premier League,league,2020-11-01,Ole Gunnar Solskjaer,Permanent,Arsenal,h,0,1,-1,81,301
+3462204,Champions League,league,2020-11-04,Ole Gunnar Solskjaer,Permanent,Başakşehir,a,1,2,-1,80,300
+3411423,Premier League,league,2020-11-07,Ole Gunnar Solskjaer,Permanent,Everton,a,3,1,2,82,302
+3411434,Premier League,league,2020-11-21,Ole Gunnar Solskjaer,Permanent,West Brom,h,1,0,1,83,303
+3462207,Champions League,league,2020-11-24,Ole Gunnar Solskjaer,Permanent,Başakşehir,h,4,1,3,86,306
+3411446,Premier League,league,2020-11-29,Ole Gunnar Solskjaer,Permanent,Southampton,a,3,2,1,87,307
+3462209,Champions League,league,2020-12-02,Ole Gunnar Solskjaer,Permanent,PSG,h,1,3,-2,85,305
+3411458,Premier League,league,2020-12-05,Ole Gunnar Solskjaer,Permanent,West Ham,a,3,1,2,87,307
+3462211,Champions League,league,2020-12-08,Ole Gunnar Solskjaer,Permanent,RB Leipzig,a,2,3,-1,86,306
+3411465,Premier League,league,2020-12-12,Ole Gunnar Solskjaer,Permanent,Man City,h,0,0,0,86,306
+3411474,Premier League,league,2020-12-17,Ole Gunnar Solskjaer,Permanent,Sheff Utd,a,3,2,1,87,307
+3411484,Premier League,league,2020-12-20,Ole Gunnar Solskjaer,Permanent,Leeds,h,6,2,4,91,311
+3461127,League Cup,knockout,2020-12-23,Ole Gunnar Solskjaer,Permanent,Everton,a,2,0,2,93,313
+3411493,Premier League,league,2020-12-26,Ole Gunnar Solskjaer,Permanent,Leicester,a,2,2,0,93,313
+3411504,Premier League,league,2020-12-29,Ole Gunnar Solskjaer,Permanent,Wolves,h,1,0,1,94,314
+3411514,Premier League,league,2021-01-01,Ole Gunnar Solskjaer,Permanent,Aston Villa,h,2,1,1,95,315
+3500936,League Cup,knockout,2021-01-06,Ole Gunnar Solskjaer,Permanent,Man City,h,0,2,-2,93,313
+3491312,FA Cup,knockout,2021-01-09,Ole Gunnar Solskjaer,Permanent,Watford,h,1,0,1,94,314
+3411340,Premier League,league,2021-01-12,Ole Gunnar Solskjaer,Permanent,Burnley,a,1,0,1,95,315
+3411534,Premier League,league,2021-01-17,Ole Gunnar Solskjaer,Permanent,Liverpool,a,0,0,0,95,315
+3411521,Premier League,league,2021-01-20,Ole Gunnar Solskjaer,Permanent,Fulham,a,2,1,1,96,316
+3510574,FA Cup,knockout,2021-01-24,Ole Gunnar Solskjaer,Permanent,Liverpool,h,3,2,1,97,317
+3411542,Premier League,league,2021-01-27,Ole Gunnar Solskjaer,Permanent,Sheff Utd,h,1,2,-1,96,316
+3411549,Premier League,league,2021-01-30,Ole Gunnar Solskjaer,Permanent,Arsenal,a,0,0,0,96,316
+3411565,Premier League,league,2021-02-02,Ole Gunnar Solskjaer,Permanent,Southampton,h,9,0,9,105,325
+3411574,Premier League,league,2021-02-06,Ole Gunnar Solskjaer,Permanent,Everton,h,3,3,0,105,325
+3510590,FA Cup,knockout,2021-02-09,Ole Gunnar Solskjaer,Permanent,West Ham,h,1,0,1,106,326
+3411587,Premier League,league,2021-02-14,Ole Gunnar Solskjaer,Permanent,West Brom,a,1,1,0,106,326
+3497181,Europa League,knockout,2021-02-18,Ole Gunnar Solskjaer,Permanent,Real Sociedad,a,4,0,4,110,330
+3411595,Premier League,league,2021-02-21,Ole Gunnar Solskjaer,Permanent,Newcastle,h,3,1,2,112,332
+3497182,Europa League,knockout,2021-02-25,Ole Gunnar Solskjaer,Permanent,Real Sociedad,h,0,0,0,112,332
+3411599,Premier League,league,2021-02-28,Ole Gunnar Solskjaer,Permanent,Chelsea,a,0,0,0,112,332
+3411631,Premier League,league,2021-03-03,Ole Gunnar Solskjaer,Permanent,Crystal Palace,a,0,0,0,112,332
+3411614,Premier League,league,2021-03-07,Ole Gunnar Solskjaer,Permanent,Man City,a,2,0,2,114,334
+3542765,Europa League,knockout,2021-03-11,Ole Gunnar Solskjaer,Permanent,Milan,h,1,1,0,114,334
+3411625,Premier League,league,2021-03-14,Ole Gunnar Solskjaer,Permanent,West Ham,h,1,0,1,115,335
+3542766,Europa League,knockout,2021-03-18,Ole Gunnar Solskjaer,Permanent,Milan,a,1,0,1,116,336
+3533166,FA Cup,knockout,2021-03-21,Ole Gunnar Solskjaer,Permanent,Leicester,a,1,3,-2,114,334
+3411645,Premier League,league,2021-04-04,Ole Gunnar Solskjaer,Permanent,Brighton,h,2,1,1,115,335
+3557697,Europa League,knockout,2021-04-08,Ole Gunnar Solskjaer,Permanent,Granada,a,2,0,2,117,337
+3411656,Premier League,league,2021-04-11,Ole Gunnar Solskjaer,Permanent,Tottenham,a,3,1,2,119,339
+3557698,Europa League,knockout,2021-04-15,Ole Gunnar Solskjaer,Permanent,Granada,h,2,0,2,121,341
+3411665,Premier League,league,2021-04-18,Ole Gunnar Solskjaer,Permanent,Burnley,h,3,1,2,123,343
+3411672,Premier League,league,2021-04-25,Ole Gunnar Solskjaer,Permanent,Leeds,a,0,0,0,123,343
+3557705,Europa League,knockout,2021-04-29,Ole Gunnar Solskjaer,Permanent,Roma,h,6,2,4,127,347
+3557706,Europa League,knockout,2021-05-06,Ole Gunnar Solskjaer,Permanent,Roma,a,2,3,-1,126,346
+3411690,Premier League,league,2021-05-09,Ole Gunnar Solskjaer,Permanent,Aston Villa,a,3,1,2,128,348
+3411702,Premier League,league,2021-05-11,Ole Gunnar Solskjaer,Permanent,Leicester,h,1,2,-1,127,347
+3411684,Premier League,league,2021-05-13,Ole Gunnar Solskjaer,Permanent,Liverpool,h,2,4,-2,125,345
+3411714,Premier League,league,2021-05-18,Ole Gunnar Solskjaer,Permanent,Fulham,h,1,1,0,125,345
+3411728,Premier League,league,2021-05-23,Ole Gunnar Solskjaer,Permanent,Wolves,a,2,1,1,126,346
+3557709,Europa League,knockout,2021-05-26,Ole Gunnar Solskjaer,Permanent,Villarreal,a,1,1,0,126,346
+3609934,Premier League,league,2021-08-14,Ole Gunnar Solskjaer,Permanent,Leeds,h,5,1,4,130,350
+3609946,Premier League,league,2021-08-22,Ole Gunnar Solskjaer,Permanent,Southampton,a,1,1,0,130,350
+3609958,Premier League,league,2021-08-29,Ole Gunnar Solskjaer,Permanent,Wolves,a,1,0,1,131,351
+3609966,Premier League,league,2021-09-11,Ole Gunnar Solskjaer,Permanent,Newcastle,h,4,1,3,134,354
+3714058,Champions League,league,2021-09-14,Ole Gunnar Solskjaer,Permanent,Young Boys,a,1,2,-1,133,353
+3609977,Premier League,league,2021-09-19,Ole Gunnar Solskjaer,Permanent,West Ham,a,2,1,1,134,354
+3712998,League Cup,knockout,2021-09-22,Ole Gunnar Solskjaer,Permanent,West Ham,h,0,1,-1,133,353
+3609986,Premier League,league,2021-09-25,Ole Gunnar Solskjaer,Permanent,Aston Villa,h,0,1,-1,132,352
+3714061,Champions League,league,2021-09-29,Ole Gunnar Solskjaer,Permanent,Villarreal,h,2,1,1,133,353
+3609995,Premier League,league,2021-10-02,Ole Gunnar Solskjaer,Permanent,Everton,h,1,1,0,133,353
+3610003,Premier League,league,2021-10-16,Ole Gunnar Solskjaer,Permanent,Leicester,a,2,4,-2,131,351
+3714063,Champions League,league,2021-10-20,Ole Gunnar Solskjaer,Permanent,Atalanta,h,3,2,1,132,352
+3610016,Premier League,league,2021-10-24,Ole Gunnar Solskjaer,Permanent,Liverpool,h,0,5,-5,127,347
+3610026,Premier League,league,2021-10-30,Ole Gunnar Solskjaer,Permanent,Tottenham,a,3,0,3,130,350
+3714065,Champions League,league,2021-11-02,Ole Gunnar Solskjaer,Permanent,Atalanta,a,2,2,0,130,350
+3610036,Premier League,league,2021-11-06,Ole Gunnar Solskjaer,Permanent,Man City,h,0,2,-2,128,348
+3610047,Premier League,league,2021-11-20,Ole Gunnar Solskjaer,Permanent,Watford,a,1,4,-3,125,345
+3714066,Champions League,league,2021-11-23,Michael Carrick,Caretaker,Villarreal,a,2,0,2,2,347
+3610053,Premier League,league,2021-11-28,Michael Carrick,Caretaker,Chelsea,a,1,1,0,2,347
+3610065,Premier League,league,2021-12-02,Michael Carrick,Caretaker,Arsenal,h,3,2,1,3,348
+3610072,Premier League,league,2021-12-05,Ralf Rangnick,Interim,Crystal Palace,h,1,0,1,1,349
+3714068,Champions League,league,2021-12-08,Ralf Rangnick,Interim,Young Boys,h,1,1,0,1,349
+3610089,Premier League,league,2021-12-11,Ralf Rangnick,Interim,Norwich,a,1,0,1,2,350
+3610115,Premier League,league,2021-12-27,Ralf Rangnick,Interim,Newcastle,a,1,1,0,2,350
+3610128,Premier League,league,2021-12-30,Ralf Rangnick,Interim,Burnley,h,3,1,2,4,352
+3610137,Premier League,league,2022-01-03,Ralf Rangnick,Interim,Wolves,h,0,1,-1,3,351
+3777846,FA Cup,knockout,2022-01-10,Ralf Rangnick,Interim,Aston Villa,h,1,0,1,4,352
+3610140,Premier League,league,2022-01-15,Ralf Rangnick,Interim,Aston Villa,a,2,2,0,4,352
+3610091,Premier League,league,2022-01-19,Ralf Rangnick,Interim,Brentford,a,3,1,2,6,354
+3610157,Premier League,league,2022-01-22,Ralf Rangnick,Interim,West Ham,h,1,0,1,7,355
+3799289,FA Cup,knockout,2022-02-04,Ralf Rangnick,Interim,Middlesbrough,h,1,1,0,7,355
+3610162,Premier League,league,2022-02-08,Ralf Rangnick,Interim,Burnley,a,1,1,0,7,355
+3610175,Premier League,league,2022-02-12,Ralf Rangnick,Interim,Southampton,h,1,1,0,7,355
+3610103,Premier League,league,2022-02-15,Ralf Rangnick,Interim,Brighton,h,2,0,2,9,357
+3610184,Premier League,league,2022-02-20,Ralf Rangnick,Interim,Leeds,a,4,2,2,11,359
+3780918,Champions League,knockout,2022-02-23,Ralf Rangnick,Interim,Atletico Madrid,a,1,1,0,11,359
+3610197,Premier League,league,2022-02-26,Ralf Rangnick,Interim,Watford,h,0,0,0,11,359
+3610204,Premier League,league,2022-03-06,Ralf Rangnick,Interim,Man City,a,1,4,-3,8,356
+3610217,Premier League,league,2022-03-12,Ralf Rangnick,Interim,Tottenham,h,3,2,1,9,357
+3780926,Champions League,knockout,2022-03-15,Ralf Rangnick,Interim,Atletico Madrid,h,0,1,-1,8,356
+3610233,Premier League,league,2022-04-02,Ralf Rangnick,Interim,Leicester,h,1,1,0,8,356
+3610246,Premier League,league,2022-04-09,Ralf Rangnick,Interim,Everton,a,0,1,-1,7,355
+3610256,Premier League,league,2022-04-16,Ralf Rangnick,Interim,Norwich,h,3,2,1,8,356
+3610223,Premier League,league,2022-04-19,Ralf Rangnick,Interim,Liverpool,a,0,4,-4,4,352
+3610269,Premier League,league,2022-04-23,Ralf Rangnick,Interim,Arsenal,a,1,3,-2,2,350
+3610296,Premier League,league,2022-04-28,Ralf Rangnick,Interim,Chelsea,h,1,1,0,2,350
+3610276,Premier League,league,2022-05-02,Ralf Rangnick,Interim,Brentford,h,3,0,3,5,353
+3610287,Premier League,league,2022-05-07,Ralf Rangnick,Interim,Brighton,a,0,4,-4,1,349
+3610305,Premier League,league,2022-05-22,Ralf Rangnick,Interim,Crystal Palace,a,0,1,-1,0,348
+3900940,Premier League,league,2022-08-07,Erik ten Hag,Permanent,Brighton,h,1,2,-1,-1,347
+3900944,Premier League,league,2022-08-13,Erik ten Hag,Permanent,Brentford,a,0,4,-4,-5,343
+3900958,Premier League,league,2022-08-22,Erik ten Hag,Permanent,Liverpool,h,2,1,1,-4,344
+3900970,Premier League,league,2022-08-27,Erik ten Hag,Permanent,Southampton,a,1,0,1,-3,345
+3900976,Premier League,league,2022-09-01,Erik ten Hag,Permanent,Leicester,a,1,0,1,-2,346
+3900987,Premier League,league,2022-09-04,Erik ten Hag,Permanent,Arsenal,h,3,1,2,0,348
+4010305,Europa League,league,2022-09-08,Erik ten Hag,Permanent,Real Sociedad,h,0,1,-1,-1,347
+4010307,Europa League,league,2022-09-15,Erik ten Hag,Permanent,FC Sheriff,a,2,0,2,1,349
+3901019,Premier League,league,2022-10-02,Erik ten Hag,Permanent,Man City,a,3,6,-3,-2,346
+4010310,Europa League,league,2022-10-06,Erik ten Hag,Permanent,Omonia Nicosia,a,3,2,1,-1,347
+3901027,Premier League,league,2022-10-09,Erik ten Hag,Permanent,Everton,a,2,1,1,0,348
+4010311,Europa League,league,2022-10-13,Erik ten Hag,Permanent,Omonia Nicosia,h,1,0,1,1,349
+3901038,Premier League,league,2022-10-16,Erik ten Hag,Permanent,Newcastle,h,0,0,0,1,349
+3901051,Premier League,league,2022-10-19,Erik ten Hag,Permanent,Tottenham,h,2,0,2,3,351
+3901053,Premier League,league,2022-10-22,Erik ten Hag,Permanent,Chelsea,a,1,1,0,3,351
+4010313,Europa League,league,2022-10-27,Erik ten Hag,Permanent,FC Sheriff,h,3,0,3,6,354
+3901070,Premier League,league,2022-10-30,Erik ten Hag,Permanent,West Ham,h,1,0,1,7,355
+4010315,Europa League,league,2022-11-03,Erik ten Hag,Permanent,Real Sociedad,a,1,0,1,8,356
+3901072,Premier League,league,2022-11-06,Erik ten Hag,Permanent,Aston Villa,a,1,3,-2,6,354
+4009216,League Cup,knockout,2022-11-10,Erik ten Hag,Permanent,Aston Villa,h,4,2,2,8,356
+3901084,Premier League,league,2022-11-13,Erik ten Hag,Permanent,Fulham,a,2,1,1,9,357
+4062033,League Cup,knockout,2022-12-21,Erik ten Hag,Permanent,Burnley,h,2,0,2,11,359
+3901100,Premier League,league,2022-12-27,Erik ten Hag,Permanent,Nottm Forest,h,3,0,3,14,362
+3901111,Premier League,league,2022-12-31,Erik ten Hag,Permanent,Wolves,a,1,0,1,15,363
+3901120,Premier League,league,2023-01-03,Erik ten Hag,Permanent,Bournemouth,h,3,0,3,18,366
+4072408,FA Cup,knockout,2023-01-06,Erik ten Hag,Permanent,Everton,h,3,1,2,20,368
+4086130,League Cup,knockout,2023-01-10,Erik ten Hag,Permanent,Charlton,h,3,0,3,23,371
+3901127,Premier League,league,2023-01-14,Erik ten Hag,Permanent,Man City,h,2,1,1,24,372
+3900994,Premier League,league,2023-01-18,Erik ten Hag,Permanent,Crystal Palace,a,1,1,0,24,372
+3901132,Premier League,league,2023-01-22,Erik ten Hag,Permanent,Arsenal,a,2,3,-1,23,371
+4096567,League Cup,knockout,2023-01-25,Erik ten Hag,Permanent,Nottm Forest,a,3,0,3,26,374
+4094714,FA Cup,knockout,2023-01-28,Erik ten Hag,Permanent,Reading,h,3,1,2,28,376
+4096569,League Cup,knockout,2023-02-01,Erik ten Hag,Permanent,Nottm Forest,h,2,0,2,30,378
+3901147,Premier League,league,2023-02-04,Erik ten Hag,Permanent,Crystal Palace,h,2,1,1,31,379
+3901007,Premier League,league,2023-02-08,Erik ten Hag,Permanent,Leeds,h,2,2,0,31,379
+3901156,Premier League,league,2023-02-12,Erik ten Hag,Permanent,Leeds,a,2,0,2,33,381
+4060616,Europa League,knockout,2023-02-16,Erik ten Hag,Permanent,Barcelona,a,2,2,0,33,381
+3901167,Premier League,league,2023-02-19,Erik ten Hag,Permanent,Leicester,h,3,0,3,36,384
+4060624,Europa League,knockout,2023-02-23,Erik ten Hag,Permanent,Barcelona,h,2,1,1,37,385
+4100320,League Cup,knockout,2023-02-26,Erik ten Hag,Permanent,Newcastle,h,2,0,2,39,387
+4113168,FA Cup,knockout,2023-03-01,Erik ten Hag,Permanent,West Ham,h,3,1,2,41,389
+3901187,Premier League,league,2023-03-05,Erik ten Hag,Permanent,Liverpool,a,0,7,-7,34,382
+4128631,Europa League,knockout,2023-03-09,Erik ten Hag,Permanent,Real Betis,h,4,1,3,37,385
+3901198,Premier League,league,2023-03-12,Erik ten Hag,Permanent,Southampton,h,0,0,0,37,385
+4128639,Europa League,knockout,2023-03-16,Erik ten Hag,Permanent,Real Betis,a,1,0,1,38,386
+4131189,FA Cup,knockout,2023-03-19,Erik ten Hag,Permanent,Fulham,h,3,1,2,40,388
+3901219,Premier League,league,2023-04-02,Erik ten Hag,Permanent,Newcastle,a,0,2,-2,38,386
+3901178,Premier League,league,2023-04-05,Erik ten Hag,Permanent,Brentford,h,1,0,1,39,387
+3901228,Premier League,league,2023-04-08,Erik ten Hag,Permanent,Everton,h,2,0,2,41,389
+4140613,Europa League,knockout,2023-04-13,Erik ten Hag,Permanent,Sevilla,h,2,2,0,41,389
+3901237,Premier League,league,2023-04-16,Erik ten Hag,Permanent,Nottm Forest,a,2,0,2,43,391
+4140614,Europa League,knockout,2023-04-20,Erik ten Hag,Permanent,Sevilla,a,0,3,-3,40,388
+4141880,FA Cup,knockout,2023-04-23,Erik ten Hag,Permanent,Brighton,a,0,0,0,40,388
+3901255,Premier League,league,2023-04-27,Erik ten Hag,Permanent,Tottenham,a,2,2,0,40,388
+3901270,Premier League,league,2023-04-30,Erik ten Hag,Permanent,Aston Villa,h,1,0,1,41,389
+3901205,Premier League,league,2023-05-04,Erik ten Hag,Permanent,Brighton,a,0,1,-1,40,388
+3901280,Premier League,league,2023-05-07,Erik ten Hag,Permanent,West Ham,a,0,1,-1,39,387
+3901290,Premier League,league,2023-05-13,Erik ten Hag,Permanent,Wolves,h,2,0,2,41,389
+3901292,Premier League,league,2023-05-20,Erik ten Hag,Permanent,Bournemouth,a,1,0,1,42,390
+3901250,Premier League,league,2023-05-25,Erik ten Hag,Permanent,Chelsea,h,4,1,3,45,393
+3901310,Premier League,league,2023-05-28,Erik ten Hag,Permanent,Fulham,h,2,1,1,46,394
+4141911,FA Cup,knockout,2023-06-03,Erik ten Hag,Permanent,Man City,a,1,2,-1,45,393
+4193459,Premier League,league,2023-08-14,Erik ten Hag,Permanent,Wolves,h,1,0,1,46,394
+4193477,Premier League,league,2023-08-19,Erik ten Hag,Permanent,Tottenham,a,0,2,-2,44,392
+4193487,Premier League,league,2023-08-26,Erik ten Hag,Permanent,Nottm Forest,h,3,2,1,45,393
+4193490,Premier League,league,2023-09-03,Erik ten Hag,Permanent,Arsenal,a,1,3,-2,43,391
+4193504,Premier League,league,2023-09-16,Erik ten Hag,Permanent,Brighton,h,1,3,-2,41,389
+4314996,Champions League,league,2023-09-20,Erik ten Hag,Permanent,Bayern München,a,3,4,-1,40,388
+4193513,Premier League,league,2023-09-23,Erik ten Hag,Permanent,Burnley,a,1,0,1,41,389
+4313494,League Cup,knockout,2023-09-26,Erik ten Hag,Permanent,Crystal Palace,h,3,0,3,44,392
+4193524,Premier League,league,2023-09-30,Erik ten Hag,Permanent,Crystal Palace,h,0,1,-1,43,391
+4314998,Champions League,league,2023-10-03,Erik ten Hag,Permanent,Galatasaray,h,2,3,-1,42,390
+4193537,Premier League,league,2023-10-07,Erik ten Hag,Permanent,Brentford,h,2,1,1,43,391
+4193548,Premier League,league,2023-10-21,Erik ten Hag,Permanent,Sheff Utd,a,2,1,1,44,392
+4315000,Champions League,league,2023-10-24,Erik ten Hag,Permanent,FC København,h,1,0,1,45,393
+4193557,Premier League,league,2023-10-29,Erik ten Hag,Permanent,Man City,h,0,3,-3,42,390
+4338085,League Cup,knockout,2023-11-01,Erik ten Hag,Permanent,Newcastle,h,0,3,-3,39,387
+4193563,Premier League,league,2023-11-04,Erik ten Hag,Permanent,Fulham,a,1,0,1,40,388
+4315002,Champions League,league,2023-11-08,Erik ten Hag,Permanent,FC København,a,3,4,-1,39,387
+4193577,Premier League,league,2023-11-11,Erik ten Hag,Permanent,Luton,h,1,0,1,40,388
+4193653,Premier League,league,2023-11-26,Erik ten Hag,Permanent,Everton,a,3,0,3,43,391
+4315004,Champions League,league,2023-11-29,Erik ten Hag,Permanent,Galatasaray,a,3,3,0,43,391
+4193668,Premier League,league,2023-12-02,Erik ten Hag,Permanent,Newcastle,a,0,1,-1,42,390
+4193680,Premier League,league,2023-12-06,Erik ten Hag,Permanent,Chelsea,h,2,1,1,43,391
+4193687,Premier League,league,2023-12-09,Erik ten Hag,Permanent,Bournemouth,h,0,3,-3,40,388
+4315006,Champions League,league,2023-12-12,Erik ten Hag,Permanent,Bayern München,h,0,1,-1,39,387
+4193696,Premier League,league,2023-12-17,Erik ten Hag,Permanent,Liverpool,a,0,0,0,39,387
+4193709,Premier League,league,2023-12-23,Erik ten Hag,Permanent,West Ham,a,0,2,-2,37,385
+4193718,Premier League,league,2023-12-26,Erik ten Hag,Permanent,Aston Villa,h,3,2,1,38,386
+4193727,Premier League,league,2023-12-30,Erik ten Hag,Permanent,Nottm Forest,a,1,2,-1,37,385
+4374885,FA Cup,knockout,2024-01-08,Erik ten Hag,Permanent,Wigan,a,2,0,2,39,387
+4193738,Premier League,league,2024-01-14,Erik ten Hag,Permanent,Tottenham,h,2,2,0,39,387
+4397794,FA Cup,knockout,2024-01-28,Erik ten Hag,Permanent,Newport,a,4,2,2,41,389
+4193747,Premier League,league,2024-02-01,Erik ten Hag,Permanent,Wolves,a,4,3,1,42,390
+4193758,Premier League,league,2024-02-04,Erik ten Hag,Permanent,West Ham,h,3,0,3,45,393
+4193761,Premier League,league,2024-02-11,Erik ten Hag,Permanent,Aston Villa,a,2,1,1,46,394
+4193775,Premier League,league,2024-02-18,Erik ten Hag,Permanent,Luton,a,2,1,1,47,395
+4193788,Premier League,league,2024-02-24,Erik ten Hag,Permanent,Fulham,h,1,2,-1,46,394
+4414637,FA Cup,knockout,2024-02-28,Erik ten Hag,Permanent,Nottm Forest,a,1,0,1,47,395
+4193796,Premier League,league,2024-03-03,Erik ten Hag,Permanent,Man City,a,1,3,-2,45,393
+4193808,Premier League,league,2024-03-09,Erik ten Hag,Permanent,Everton,h,2,0,2,47,395
+4435125,FA Cup,knockout,2024-03-17,Erik ten Hag,Permanent,Liverpool,h,4,3,1,48,396
+4193823,Premier League,league,2024-03-30,Erik ten Hag,Permanent,Brentford,a,1,1,0,48,396
+4193837,Premier League,league,2024-04-04,Erik ten Hag,Permanent,Chelsea,a,3,4,-1,47,395
+4193847,Premier League,league,2024-04-07,Erik ten Hag,Permanent,Liverpool,h,2,2,0,47,395
+4193851,Premier League,league,2024-04-13,Erik ten Hag,Permanent,Bournemouth,a,2,2,0,47,395
+4447992,FA Cup,knockout,2024-04-21,Erik ten Hag,Permanent,Coventry,a,3,3,0,47,395
+4193818,Premier League,league,2024-04-24,Erik ten Hag,Permanent,Sheff Utd,h,4,2,2,49,397
+4193875,Premier League,league,2024-04-27,Erik ten Hag,Permanent,Burnley,h,1,1,0,49,397
+4193886,Premier League,league,2024-05-06,Erik ten Hag,Permanent,Crystal Palace,a,0,4,-4,45,393
+4193895,Premier League,league,2024-05-12,Erik ten Hag,Permanent,Arsenal,h,0,1,-1,44,392
+4193867,Premier League,league,2024-05-15,Erik ten Hag,Permanent,Newcastle,h,3,2,1,45,393
+4193903,Premier League,league,2024-05-19,Erik ten Hag,Permanent,Brighton,a,2,0,2,47,395
+4448111,FA Cup,knockout,2024-05-25,Erik ten Hag,Permanent,Man City,a,2,1,1,48,396
+4485126,Community Shield,knockout,2024-08-10,Erik ten Hag,Permanent,Man City,a,1,1,0,48,396
+4506263,Premier League,league,2024-08-16,Erik ten Hag,Permanent,Fulham,h,1,0,1,49,397
+4506275,Premier League,league,2024-08-24,Erik ten Hag,Permanent,Brighton,a,1,2,-1,48,396
+4506289,Premier League,league,2024-09-01,Erik ten Hag,Permanent,Liverpool,h,0,3,-3,45,393
+4506300,Premier League,league,2024-09-14,Erik ten Hag,Permanent,Southampton,a,3,0,3,48,396
+4620886,League Cup,knockout,2024-09-17,Erik ten Hag,Permanent,Barnsley,h,7,0,7,55,403
+4506305,Premier League,league,2024-09-21,Erik ten Hag,Permanent,Crystal Palace,a,0,0,0,55,403
+4622038,Europa League,league,2024-09-25,Erik ten Hag,Permanent,FC Twente,h,1,1,0,55,403
+4506319,Premier League,league,2024-09-29,Erik ten Hag,Permanent,Tottenham,h,0,3,-3,52,400
+4622026,Europa League,league,2024-10-03,Erik ten Hag,Permanent,FC Porto,a,3,3,0,52,400
+4506324,Premier League,league,2024-10-06,Erik ten Hag,Permanent,Aston Villa,a,0,0,0,52,400
+4506397,Premier League,league,2024-10-19,Erik ten Hag,Permanent,Brentford,h,2,1,1,53,401
+4622055,Europa League,league,2024-10-24,Erik ten Hag,Permanent,Fenerbahçe,a,1,1,0,53,401
+4506417,Premier League,league,2024-10-27,Erik ten Hag,Permanent,West Ham,a,1,2,-1,52,400
+4646921,League Cup,knockout,2024-10-30,Ruud van Nistelrooy,Caretaker,Leicester,h,5,2,3,3,403
+4506467,Premier League,league,2024-11-03,Ruud van Nistelrooy,Caretaker,Chelsea,h,1,1,0,3,403
+4622036,Europa League,league,2024-11-07,Ruud van Nistelrooy,Caretaker,PAOK Thessaloniki,h,2,0,2,5,405
+4506478,Premier League,league,2024-11-10,Ruud van Nistelrooy,Caretaker,Leicester,h,3,0,3,8,408
+4506538,Premier League,league,2024-11-24,Ruben Amorim,Permanent,Ipswich,a,1,1,0,0,408
+4622037,Europa League,league,2024-11-28,Ruben Amorim,Permanent,Bodø/Glimt,h,3,2,1,1,409
+4506418,Premier League,league,2024-12-01,Ruben Amorim,Permanent,Everton,h,4,0,4,5,413
+4506424,Premier League,league,2024-12-04,Ruben Amorim,Permanent,Arsenal,a,0,2,-2,3,411
+4506440,Premier League,league,2024-12-07,Ruben Amorim,Permanent,Nottm Forest,h,2,3,-1,2,410
+4622120,Europa League,league,2024-12-12,Ruben Amorim,Permanent,Viktoria Plzen,a,2,1,1,3,411
+4506448,Premier League,league,2024-12-15,Ruben Amorim,Permanent,Man City,a,2,1,1,4,412
+4667718,League Cup,knockout,2024-12-19,Ruben Amorim,Permanent,Tottenham,a,3,4,-1,3,411
+4506460,Premier League,league,2024-12-22,Ruben Amorim,Permanent,Bournemouth,h,0,3,-3,0,408
+4506492,Premier League,league,2024-12-26,Ruben Amorim,Permanent,Wolves,a,0,2,-2,-2,406
+4506500,Premier League,league,2024-12-30,Ruben Amorim,Permanent,Newcastle,h,0,2,-2,-4,404
+4506508,Premier League,league,2025-01-05,Ruben Amorim,Permanent,Liverpool,a,2,2,0,-4,404
+4684071,FA Cup,knockout,2025-01-12,Ruben Amorim,Permanent,Arsenal,a,1,1,0,-4,404
+4506522,Premier League,league,2025-01-16,Ruben Amorim,Permanent,Southampton,h,3,1,2,-2,406
+4506529,Premier League,league,2025-01-19,Ruben Amorim,Permanent,Brighton,h,1,3,-2,-4,404
+4622035,Europa League,league,2025-01-23,Ruben Amorim,Permanent,Rangers,h,2,1,1,-3,405
+4506607,Premier League,league,2025-01-26,Ruben Amorim,Permanent,Fulham,a,1,0,1,-2,406
+4622150,Europa League,league,2025-01-30,Ruben Amorim,Permanent,FCSB,a,2,0,2,0,408
+4506619,Premier League,league,2025-02-02,Ruben Amorim,Permanent,Crystal Palace,h,0,2,-2,-2,406
+4710565,FA Cup,knockout,2025-02-07,Ruben Amorim,Permanent,Leicester,h,2,1,1,-1,407
+4506631,Premier League,league,2025-02-16,Ruben Amorim,Permanent,Tottenham,a,0,1,-1,-2,406
+4506636,Premier League,league,2025-02-22,Ruben Amorim,Permanent,Everton,a,2,2,0,-2,406
+4506342,Premier League,league,2025-02-26,Ruben Amorim,Permanent,Ipswich,h,3,2,1,-1,407
+4730565,FA Cup,knockout,2025-03-02,Ruben Amorim,Permanent,Fulham,h,1,1,0,-1,407
+4737589,Europa League,knockout,2025-03-06,Ruben Amorim,Permanent,Real Sociedad,a,1,1,0,-1,407
+4506348,Premier League,league,2025-03-09,Ruben Amorim,Permanent,Arsenal,h,1,1,0,-1,407
+4737597,Europa League,knockout,2025-03-13,Ruben Amorim,Permanent,Real Sociedad,h,4,1,3,2,410
+4506359,Premier League,league,2025-03-16,Ruben Amorim,Permanent,Leicester,a,3,0,3,5,413
+4506366,Premier League,league,2025-04-01,Ruben Amorim,Permanent,Nottm Forest,a,0,1,-1,4,412
+4506380,Premier League,league,2025-04-06,Ruben Amorim,Permanent,Man City,h,0,0,0,4,412
+4737719,Europa League,knockout,2025-04-10,Ruben Amorim,Permanent,Lyon,a,2,2,0,4,412
+4506389,Premier League,league,2025-04-13,Ruben Amorim,Permanent,Newcastle,a,1,4,-3,1,409
+4737723,Europa League,knockout,2025-04-17,Ruben Amorim,Permanent,Lyon,h,5,4,1,2,410
+4506550,Premier League,league,2025-04-20,Ruben Amorim,Permanent,Wolves,h,0,1,-1,1,409
+4506553,Premier League,league,2025-04-27,Ruben Amorim,Permanent,Bournemouth,a,1,1,0,1,409
+4737725,Europa League,knockout,2025-05-01,Ruben Amorim,Permanent,Athletic Club,a,3,0,3,4,412
+4506565,Premier League,league,2025-05-04,Ruben Amorim,Permanent,Brentford,a,3,4,-1,3,411
+4737727,Europa League,knockout,2025-05-08,Ruben Amorim,Permanent,Athletic Club,h,4,1,3,6,414
+4506577,Premier League,league,2025-05-11,Ruben Amorim,Permanent,West Ham,h,0,2,-2,4,412
+4506587,Premier League,league,2025-05-16,Ruben Amorim,Permanent,Chelsea,a,0,1,-1,3,411
+4737728,Europa League,knockout,2025-05-21,Ruben Amorim,Permanent,Tottenham,a,0,1,-1,2,410
+4506597,Premier League,league,2025-05-25,Ruben Amorim,Permanent,Aston Villa,h,2,0,2,4,412
+4813382,Premier League,league,2025-08-17,Ruben Amorim,Permanent,Arsenal,h,0,1,-1,3,411
+4813391,Premier League,league,2025-08-24,Ruben Amorim,Permanent,Fulham,a,1,1,0,3,411
+4927193,League Cup,knockout,2025-08-27,Ruben Amorim,Permanent,Grimsby,a,2,2,0,3,411
+4813400,Premier League,league,2025-08-30,Ruben Amorim,Permanent,Burnley,h,3,2,1,4,412
+4813412,Premier League,league,2025-09-14,Ruben Amorim,Permanent,Man City,a,0,3,-3,1,409
+4813421,Premier League,league,2025-09-20,Ruben Amorim,Permanent,Chelsea,h,2,1,1,2,410
+4813426,Premier League,league,2025-09-27,Ruben Amorim,Permanent,Brentford,a,1,3,-2,0,408
+4813442,Premier League,league,2025-10-04,Ruben Amorim,Permanent,Sunderland,h,2,0,2,2,410
+4813449,Premier League,league,2025-10-19,Ruben Amorim,Permanent,Liverpool,a,2,1,1,3,411
+4813462,Premier League,league,2025-10-25,Ruben Amorim,Permanent,Brighton,h,4,2,2,5,413
+4813471,Premier League,league,2025-11-01,Ruben Amorim,Permanent,Nottm Forest,a,2,2,0,5,413
+4813483,Premier League,league,2025-11-08,Ruben Amorim,Permanent,Tottenham,a,2,2,0,5,413
+4813492,Premier League,league,2025-11-24,Ruben Amorim,Permanent,Everton,h,0,1,-1,4,412
+4813498,Premier League,league,2025-11-30,Ruben Amorim,Permanent,Crystal Palace,a,2,1,1,5,413
+4813512,Premier League,league,2025-12-04,Ruben Amorim,Permanent,West Ham,h,1,1,0,5,413
+4813524,Premier League,league,2025-12-08,Ruben Amorim,Permanent,Wolves,a,4,1,3,8,416
+4813531,Premier League,league,2025-12-15,Ruben Amorim,Permanent,Bournemouth,h,4,4,0,8,416
+4813536,Premier League,league,2025-12-21,Ruben Amorim,Permanent,Aston Villa,a,1,2,-1,7,415
+4813551,Premier League,league,2025-12-26,Ruben Amorim,Permanent,Newcastle,h,1,0,1,8,416
+4813561,Premier League,league,2025-12-30,Ruben Amorim,Permanent,Wolves,h,1,1,0,8,416
+4813570,Premier League,league,2026-01-04,Ruben Amorim,Permanent,Leeds,a,1,1,0,8,416
+4813578,Premier League,league,2026-01-07,Darren Fletcher,Caretaker,Burnley,a,2,2,0,0,416
+5089922,FA Cup,knockout,2026-01-11,Darren Fletcher,Caretaker,Brighton,h,1,2,-1,-1,415
+4813590,Premier League,league,2026-01-17,Michael Carrick,Interim,Man City,h,2,0,2,5,417
+4813596,Premier League,league,2026-01-25,Michael Carrick,Interim,Arsenal,a,3,2,1,6,418

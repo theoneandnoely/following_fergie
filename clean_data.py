@@ -23,8 +23,11 @@ competitions = {
 }
 df['trophy'] = df['competition'].apply(lambda x: competitions[x]['trophy'])
 df['stage'] = df['competition'].apply(lambda x: competitions[x]['stage'])
+# Add Manager GD and Cumulative GD
+df['manager_gd'] = df.groupby(['manager'])['gd'].cumsum()
+df['cum_gd'] = df['gd'].cumsum()
 # Reorder columns and rename trophy to competition
-df = df[['trophy','stage','date','manager','manager_type','opponent','h_a','gf','ga','gd']]
+df = df[['trophy','stage','date','manager','manager_type','opponent','h_a','gf','ga','gd','manager_gd','cum_gd']]
 df.rename({'trophy':'competition'}, axis=1, inplace=True)
 # Export as CSV
 df.to_csv('./data/united_competitive_results_post_ferguson.csv')
