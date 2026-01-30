@@ -1,30 +1,15 @@
 <!DOCTYPE html>
 <head>
     <title>Following Fergie</title>
-    <style>
-        rect {
-            pointer-events: all;
-            fill-opacity: 0;
-            stroke-opacity: 0;
-            z-index: 1;
-        }
-        .tooltip {
-            position: absolute;
-            padding: 10px;
-            background-color: white;
-            color: black;
-            /* border: 1px solid #c3102b; */
-            border-radius: 10px;
-            display: none;
-            opacity: 0.75;
-            font-family: sans-serif;
-            font-size:0.75em;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css"/>
     <script src="https://unpkg.com/d3@7.9.0/dist/d3.min.js"></script>
 </head>
 <body>
-    <div id="chart-container"></div>
+    <div id="header" style="display:flex-row; gap:1px">
+        <h1>Following Fergie</h1>
+        <p class="subheading">A quantitative look into Manchester United F.C. since the retirement of Sir Alex Ferguson.</p>
+    </div>
+    <div class="chart-container" id="total-cum-gd-line"></div>
 
     <script src="index.js"></script>
 </body>

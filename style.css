@@ -1,0 +1,106 @@
+body {
+    margin: 20px;
+    font-family: sans-serif;
+
+    h1 {
+        font-size:5em;
+        line-height:0.1em;
+        padding:0px;
+        margin:0.5em 0.5em 0.5em 0em;
+    }
+
+    .subheading {
+        font-size: 0.75em;
+        margin:0.5em 0.25em 0.25em 0.5em;
+    }
+
+    .listening_rect {
+    pointer-events: all;
+    fill-opacity: 0;
+    stroke-opacity: 0;
+    z-index: 1;
+    }
+
+    .tooltip {
+        position: absolute;
+        padding: 10px;
+        background-color: white;
+        color: black;
+        /* border: 1px solid #c3102b; */
+        border-radius: 10px;
+        display: none;
+        opacity: 0.75;
+        font-size:0.75em;
+
+        .tooltip-container {
+            display:flex;
+            justify-content: space-between;
+            gap:2px;
+        }
+
+        hr {
+            height:1px;
+            border:0;
+        }
+    }
+    
+    .match-details {
+        text-align: left;
+        display:flex-row;
+    }
+
+    .match-date {
+        font-size:0.75em;
+    }
+
+    .tick {
+        line {
+            stroke-width: 0.5;
+            stroke-opacity: 0.1;
+        }
+        text {
+            fill:#777;
+        }
+    }
+
+    .gridlines {
+        stroke: #eee;
+        stroke-width: 0.5;
+    }
+
+    .timeframe {
+        rect {
+            fill: #eee;
+        }
+        text {
+            font-size:0.5em;
+            text-anchor:middle;
+        }
+    }
+
+    #lines {
+        stroke-width:1;
+        fill:none;
+
+        #interim_manager_paths {
+            stroke-dasharray: 4, 2;
+        }
+
+        #caretaker_manager_paths {
+            stroke-dasharray: 2,2;
+        }
+    }
+
+    .chart-text {
+        fill:#777
+    }
+
+    .axis-title {
+        text-anchor:middle;
+        font-size:1em;
+    }
+
+    .chart-title {
+        font-size:1.5em;
+    }
+}
