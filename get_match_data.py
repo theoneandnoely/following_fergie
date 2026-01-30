@@ -3,6 +3,7 @@ from datetime import datetime
 import pandas as pd
 import time
 from requests.exceptions import RequestException
+from os.path import isfile
 
 def get_match_details(session:requests.Session, base_url:str, match_id:str) -> dict[list]:
     '''
@@ -87,7 +88,7 @@ def get_init_team_fixtures(session:requests.Session, base_url:str, team_id:str) 
         raise
 
 
-def get_team_fixtures(session:requests.Session, base_url:str, team_id:str, before:str) -> dict[list]:
+def get_team_fixtures(session:requests.Session, base_url:str, team_id:str, before:str=None, after:str=None) -> dict[list]:
     '''
     Docstring for get_team_fixtures
     
@@ -103,37 +104,74 @@ def get_team_fixtures(session:requests.Session, base_url:str, team_id:str, befor
     # Ensure `team_id` and `before` are strings
     if type(team_id) != str:
         team_id = str(team_id)
-    if type(before) != str:
-        before = str(before)
-    try:
-        resp = session.get(f'{base_url}pageableFixtures?teamId={team_id}&before={before}')
-        resp.raise_for_status()
-        data = resp.json()['matches']
-        fixtures = {
-            'match_id':[],
-            'competition':[],
-            'date':[],
-            'opponent':[],
-            'h_a':[]
-        }
-        post_ferguson = True
-        for d in data:
-            date = datetime.fromisoformat(d['status']['utcTime'][:10])
-            if date < datetime.fromisoformat('2013-07-01'):
-                post_ferguson = False
-            else:
-                fixtures['match_id'].append(d['id'])
-                fixtures['competition'].append(d['tournament']['name'])
-                fixtures['date'].append(date)
-                fixtures['opponent'].append(d['opponent']['name'])
-                if d['home']['name'] == 'Man United':
-                    fixtures['h_a'].append('h')
+    if before:
+        if type(before) != str:
+            before = str(before)
+        try:
+            resp = session.get(f'{base_url}pageableFixtures?teamId={team_id}&before={before}')
+            resp.raise_for_status()
+            data = resp.json()['matches']
+            fixtures = {
+                'match_id':[],
+                'competition':[],
+                'date':[],
+                'opponent':[],
+                'h_a':[]
+            }
+            post_ferguson = True
+            for d in data:
+                date = datetime.fromisoformat(d['status']['utcTime'][:10])
+                if date < datetime.fromisoformat('2013-07-01'):
+                    post_ferguson = False
                 else:
-                    fixtures['h_a'].append('a')
-        return post_ferguson, fixtures
-    except RequestException:
-        print(f'Error requesting fixtures for {team_id} before {before}')
-        raise
+                    fixtures['match_id'].append(d['id'])
+                    fixtures['competition'].append(d['tournament']['name'])
+                    fixtures['date'].append(date)
+                    fixtures['opponent'].append(d['opponent']['name'])
+                    if d['home']['name'] == 'Man United':
+                        fixtures['h_a'].append('h')
+                    else:
+                        fixtures['h_a'].append('a')
+            return post_ferguson, fixtures
+        except RequestException:
+            print(f'Error requesting fixtures for {team_id} before {before}')
+            raise
+    if after:
+        if type(after) != str:
+            after = str(after)
+        try:
+            resp = session.get(f'{base_url}pageableFixtures?teamId={team_id}&after={after}')
+            resp.raise_for_status()
+            data = resp.json()['matches']
+            fixtures = {
+                'match_id':[],
+                'competition':[],
+                'date':[],
+                'opponent':[],
+                'h_a':[]
+            }
+            post_ferguson = True
+            up_to_date = False
+            for d in data:
+                date = datetime.fromisoformat(d['status']['utcTime'][:10])
+                if date < datetime.fromisoformat('2013-07-01'):
+                    post_ferguson = False
+                elif date > datetime.now():
+                    up_to_date = True
+                    break
+                else:
+                    fixtures['match_id'].append(d['id'])
+                    fixtures['competition'].append(d['tournament']['name'])
+                    fixtures['date'].append(date)
+                    fixtures['opponent'].append(d['opponent']['name'])
+                    if d['home']['name'] == 'Man United':
+                        fixtures['h_a'].append('h')
+                    else:
+                        fixtures['h_a'].append('a')
+            return post_ferguson, up_to_date, fixtures
+        except RequestException:
+            print(f'Error requesting fixtures for {team_id} before {before}')
+            raise
 
 
 if __name__ == '__main__':
@@ -160,60 +198,74 @@ if __name__ == '__main__':
         {'name':'David Moyes','from':datetime.fromisoformat('2013-07-01'),'to':datetime.fromisoformat('2014-04-23'),'type':'Permanent'}
     ]
 
-    results = {
-        'match_id':[],
-        'competition':[],
-        'date':[],
-        'manager':[],
-        'manager_type':[],
-        'opponent':[],
-        'h_a':[],
-        'gf':[],
-        'ga':[],
-        'gd':[]
-    }
-
-    with requests.Session() as s:
-        # Set Headers to be used in all requests for the session
-        s.headers.update(headers)
-        init_fixtures = get_init_team_fixtures(s,base_url,united_id)
-        for i in range(len(init_fixtures['match_id'])):
-            time.sleep(1)
-            id = init_fixtures['match_id'][i]
-            h_a = init_fixtures['h_a'][i]
-            date = init_fixtures['date'][i]
-            goals = get_match_details(s, base_url, str(id))
-            if h_a == 'h':
-                gf = len(goals['home'])
-                ga = len(goals['away'])
-            else:
-                gf = len(goals['away'])
-                ga = len(goals['home'])
-            for m in managers:
-                if date >= m['from'] and date < m['to']:
-                    results['manager'].append(m['name'])
-                    results['manager_type'].append(m['type'])
-                    break
-            results['match_id'].append(id)
-            results['competition'].append(init_fixtures['competition'][i])
-            results['date'].append(date)
-            results['opponent'].append(init_fixtures['opponent'][i])
-            results['h_a'].append(h_a)
-            results['gf'].append(gf)
-            results['ga'].append(ga)
-            results['gd'].append(gf - ga)
-        min_id = init_fixtures['match_id'][0]
-        post_ferguson = True
-        while post_ferguson:
-            print(f'Post Fergie: {post_ferguson} | Earliest date: {min(results['date'])} | Min ID: {min_id}')
-            time.sleep(1)
-            post_ferguson, fixtures = get_team_fixtures(s, base_url, united_id, str(min_id))
-            min_id = fixtures['match_id'][0]
-            for i in range(len(fixtures['match_id'])):
+    # Check if data already exists
+    data_exists = isfile('./data/united_results_post_ferguson_latest.csv')
+    if data_exists:
+        results_df = pd.read_csv('./data/united_results_post_ferguson_latest.csv').drop('Unnamed: 0', axis=1).sort_values(by=['date'])
+        results = results_df.to_dict('list')
+        after = str(results['match_id'][-1])
+        up_to_date = False
+        updated = False
+        with requests.Session() as s:
+            s.headers.update(headers)
+            while up_to_date == False:
                 time.sleep(1)
-                id = fixtures['match_id'][i]
-                h_a = fixtures['h_a'][i]
-                date = fixtures['date'][i]
+                post_ferguson, up_to_date, fixtures = get_team_fixtures(s, base_url, united_id, after=after)
+                if len(fixtures['match_id']) == 0:
+                    print('No new data. Data files not updated.')
+                else:
+                    updated = True
+                for i in range(len(fixtures['match_id'])):
+                    time.sleep(1)
+                    id = fixtures['match_id'][i]
+                    h_a = fixtures['h_a'][i]
+                    date = fixtures['date'][i]
+                    goals = get_match_details(s, base_url, str(id))
+                    if h_a == 'h':
+                        gf = len(goals['home'])
+                        ga = len(goals['away'])
+                    else:
+                        gf = len(goals['away'])
+                        ga = len(goals['home'])
+                    for m in managers:
+                        if date >= m['from'] and date < m['to']:
+                            results['manager'].append(m['name'])
+                            results['manager_type'].append(m['type'])
+                            break
+                    results['match_id'].append(id)
+                    results['competition'].append(fixtures['competition'][i])
+                    results['date'].append(date)
+                    results['opponent'].append(fixtures['opponent'][i])
+                    results['h_a'].append(h_a)
+                    results['gf'].append(gf)
+                    results['ga'].append(ga)
+                    results['gd'].append(gf - ga)
+                # print(f'ID: {after} | Up to date: {up_to_date} | Num Fixtures: {len(fixtures['match_id'])}')
+    else:
+        results = {
+            'match_id':[],
+            'competition':[],
+            'date':[],
+            'manager':[],
+            'manager_type':[],
+            'opponent':[],
+            'h_a':[],
+            'gf':[],
+            'ga':[],
+            'gd':[]
+        }
+        updated = True
+        with requests.Session() as s:
+            # Set Headers to be used in all requests for the session
+            s.headers.update(headers)
+
+            # Get initial data based on current season
+            init_fixtures = get_init_team_fixtures(s,base_url,united_id)
+            for i in range(len(init_fixtures['match_id'])):
+                time.sleep(1)
+                id = init_fixtures['match_id'][i]
+                h_a = init_fixtures['h_a'][i]
+                date = init_fixtures['date'][i]
                 goals = get_match_details(s, base_url, str(id))
                 if h_a == 'h':
                     gf = len(goals['home'])
@@ -227,13 +279,49 @@ if __name__ == '__main__':
                         results['manager_type'].append(m['type'])
                         break
                 results['match_id'].append(id)
-                results['competition'].append(fixtures['competition'][i])
+                results['competition'].append(init_fixtures['competition'][i])
                 results['date'].append(date)
-                results['opponent'].append(fixtures['opponent'][i])
+                results['opponent'].append(init_fixtures['opponent'][i])
                 results['h_a'].append(h_a)
                 results['gf'].append(gf)
                 results['ga'].append(ga)
                 results['gd'].append(gf - ga)
-    df = pd.DataFrame.from_dict(results)
-    df.to_csv(f'./data/united_results_post_ferguson_extracted_{datetime.now().strftime('%Y%m%d%H%M%S')}.csv')
-    df.to_csv('./data/united_results_post_ferguson_latest.csv')
+            
+            # Get the id for the oldest match returned and keep pulling older matches until we hit the start of the post-Fergie era (2013-07-01)
+            min_id = init_fixtures['match_id'][0]
+            post_ferguson = True
+            while post_ferguson:
+                time.sleep(1)
+                post_ferguson, up_to_date, fixtures = get_team_fixtures(s, base_url, united_id, before=str(min_id))
+                min_id = fixtures['match_id'][0]
+                for i in range(len(fixtures['match_id'])):
+                    time.sleep(1)
+                    id = fixtures['match_id'][i]
+                    h_a = fixtures['h_a'][i]
+                    date = fixtures['date'][i]
+                    goals = get_match_details(s, base_url, str(id))
+                    if h_a == 'h':
+                        gf = len(goals['home'])
+                        ga = len(goals['away'])
+                    else:
+                        gf = len(goals['away'])
+                        ga = len(goals['home'])
+                    for m in managers:
+                        if date >= m['from'] and date < m['to']:
+                            results['manager'].append(m['name'])
+                            results['manager_type'].append(m['type'])
+                            break
+                    results['match_id'].append(id)
+                    results['competition'].append(fixtures['competition'][i])
+                    results['date'].append(date)
+                    results['opponent'].append(fixtures['opponent'][i])
+                    results['h_a'].append(h_a)
+                    results['gf'].append(gf)
+                    results['ga'].append(ga)
+                    results['gd'].append(gf - ga)
+    
+    # Convert dict to DataFrame and save as CSV file (latest + backup) if there are new updates
+    if updated:
+        df = pd.DataFrame.from_dict(results)
+        df.to_csv(f'./data/united_results_post_ferguson_extracted_{datetime.now().strftime('%Y%m%d%H%M%S')}.csv')
+        df.to_csv('./data/united_results_post_ferguson_latest.csv')

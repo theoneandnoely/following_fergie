@@ -297,7 +297,6 @@ function moved(e) {
     const [xCoord] = e.type === "touchmove" ? [e.touches[0].clientX - this.getBoundingClientRect().left - this.clientLeft, e.touches[0].clientY] : d3.pointer(e, this); 
     const bisectDate = d3.bisector(d => d.date).left;
     const x0 = x.invert(xCoord);
-    console.log(x0);
     const i = bisectDate(data, x0, 1);
     const d0 = data[i-1];
     const d1 = data[i];
