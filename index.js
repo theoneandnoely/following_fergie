@@ -361,16 +361,24 @@ function left() {
     tooltip.style("display","none");
 }
 
-if ("ontouchstart" in document) {
-    listening_rect
-        .style("-webkit-tap-highlight-color", "transparent")
-        .on("touchmove", moved)
-        .on("touchend", left)
-} else {
-    listening_rect
-        .on("mousemove",moved)
-        .on("mouseleave",left)
-}
+// if ("ontouchstart" in document) {
+//     listening_rect
+//         .style("-webkit-tap-highlight-color", "transparent")
+//         .on("touchmove", moved)
+//         .on("touchend", left)
+// } else {
+//     listening_rect
+//         .on("mousemove",moved)
+//         .on("mouseleave",left)
+// }
+
+listening_rect
+    .style("-webkit-tap-highlight-color", "transparent")
+    .on("touchmove", moved)
+    .on("mousemove", moved)
+    .on("touchend", left)
+    .on("mouseleave", left)
+;
 
 // // Create mouse move function
 // listening_rect.on("mousemove", function(event) {
