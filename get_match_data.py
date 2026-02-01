@@ -265,7 +265,7 @@ if __name__ == '__main__':
                 time.sleep(1)
                 id = init_fixtures['match_id'][i]
                 h_a = init_fixtures['h_a'][i]
-                date = init_fixtures['date'][i]
+                date = init_fixtures['date'][i][:10]
                 goals = get_match_details(s, base_url, str(id))
                 if h_a == 'h':
                     gf = len(goals['home'])

@@ -1,8 +1,10 @@
 import pandas as pd
+from datetime import datetime
 # Import Data
 df = pd.read_csv('./data/united_results_post_ferguson_latest.csv',index_col=1).drop('Unnamed: 0', axis=1)
 # Sort By Match Date
 df = df.sort_values(by=['date'])
+df['date'] = df['date'].apply(lambda x: datetime.fromisoformat(x[:10]))
 # Remove Friendlies and Pre-season Competitions
 df = df[df['competition'] != 'Club Friendlies']
 df = df[df['competition'].str.contains('Champions Cup') == False]
@@ -29,5 +31,6 @@ df['cum_gd'] = df['gd'].cumsum()
 # Reorder columns and rename trophy to competition
 df = df[['trophy','stage','date','manager','manager_type','opponent','h_a','gf','ga','gd','manager_gd','cum_gd']]
 df.rename({'trophy':'competition'}, axis=1, inplace=True)
+
 # Export as CSV
 df.to_csv('./data/united_competitive_results_post_ferguson.csv')
