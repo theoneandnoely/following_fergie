@@ -1,6 +1,15 @@
 // Set dimensions and margins for chart
+const minWidth = 600;
+const maxWidth = 1000;
+
 const margin = { top: 40, right: 40, bottom: 50, left: 50 };
-const width = window.innerWidth - margin.left - margin.right;
+let width = maxWidth;
+if (window.innerWidth < minWidth){
+    width = minWidth;
+} else {
+    width = window.innerWidth - margin.left - margin.right;
+}
+
 const height = window.innerHeight - margin.top - margin.bottom;
 
 // Set up the x and y scales
