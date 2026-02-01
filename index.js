@@ -7,10 +7,10 @@ let width = maxWidth;
 if (window.innerWidth < minWidth){
     width = minWidth;
 } else {
-    width = window.innerWidth - margin.left - margin.right;
+    width = window.innerWidth - margin.left - margin.right - 40;
 }
 
-const height = window.innerHeight - margin.top - margin.bottom;
+const height = (width / 16) * 9;
 
 // Set up the x and y scales
 const x = d3.scaleTime()
