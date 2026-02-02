@@ -1,16 +1,17 @@
+// import { lineChart } from "./lineChart.js";
+
 // Set dimensions and margins for chart
 const minWidth = 600;
-const maxWidth = 1000;
 
 const margin = { top: 40, right: 40, bottom: 50, left: 50 };
-let width = maxWidth;
+let width;
 if (window.innerWidth < minWidth){
     width = minWidth;
 } else {
     width = window.innerWidth - margin.left - margin.right - 40;
 }
 
-const height = (width / 16) * 9;
+const height = ((width / 16) * 9) - margin.top - margin.bottom - 40;
 
 // Set up the x and y scales
 const x = d3.scaleTime()
@@ -19,7 +20,7 @@ const y = d3.scaleLinear()
     .range([height, 0]);
 
 // Create the SVG element and append it to the chart container
-const svg = d3.select("#total-cum-gd-line")
+const svg = d3.select("#goals-line")
     .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
@@ -28,7 +29,7 @@ const svg = d3.select("#total-cum-gd-line")
 ;
 
 // Create tooltip div
-const tooltip = d3.select("#total-cum-gd-line")
+const tooltip = d3.select("#goals-line")
     .append("div")
     .attr("class", "tooltip")
 ;
@@ -61,7 +62,47 @@ colourMap
     .set('Darren Fletcher','#eed99b')
 ;
 
+// Menu options const
+const yAxisOptions = [
+    { value: 'cumulative_gd', text: 'Cumulative Goal Difference' },
+    { value: 'goals_scored', text: 'Goals Scored' },
+    { value: 'goals_conceded', text: 'Goals Conceded'},
+];
+const xAxisOptions = [
+    { value: 'date', text: 'Match Date', type: 'date' },
+    { value: 'games_in_charge', text: 'Games in Charge', type: 'quantitative'},
+];
+
 // Load the data from the CSV
+const csvPath = "data/united_competitive_results_post_ferguson.csv";
+const parseDate = d3.timeParse("%Y-%m-%d");
+const parseRow = (d) => {
+    d.date = parseDate(d.date);
+    d.logo = logoMap.get(d.competition);
+    d.gf = +d.gf;
+    d.ga = +d.ga;
+    d.gd = +d.gd;
+    d.manager_gf = +d.manager_gf;
+    d.manager_ga = +d.manager_ga;
+    d.manager_gd = +d.manager_gd;
+    d.cum_gf = +d.cum_gf;
+    d.cum_ga = +d.cum_ga;
+    d.cum_gd = +d.cum_gd;
+    d.games_in_charge = +d.games_in_charge;
+}
+
+const main = () => {
+    const plot = lineChart()
+        .width(width)
+        .height(height)
+        .data(d3.csv(csvPath, parseRow))
+        .xValue('date')
+        .yValue('cumulative_gd')
+        .colourMap(colourMap)
+    ;
+    svg.call(plot);
+}
+
 d3.csv("data/united_competitive_results_post_ferguson.csv").then(function (data) {
     const parseDate = d3.timeParse("%Y-%m-%d");
     data.forEach(d => {
