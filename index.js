@@ -1,4 +1,4 @@
-// import { lineChart } from "./lineChart.js";
+import { lineChart } from "./lineChart.js";
 
 // Set dimensions and margins for chart
 const minWidth = 600;
@@ -102,6 +102,8 @@ const main = () => {
     ;
     svg.call(plot);
 }
+
+// main();
 
 d3.csv("data/united_competitive_results_post_ferguson.csv").then(function (data) {
     const parseDate = d3.timeParse("%Y-%m-%d");
@@ -293,11 +295,14 @@ d3.csv("data/united_competitive_results_post_ferguson.csv").then(function (data)
             day:"numeric"
         };
 
+        console.log(`yPos: ${yPos} | height: ${height} | top value: ${yPos < (height/2) ? yPos + margin.top + 10 : yPos - margin.top - 10}`)
+
         tooltip
             .style("display", "block")
-            .style("left", `${xPos < (width/4) ? (xPos + margin.left + 10) : (xPos - margin.left - 80)}px`)
-            .style("right", `${xPos < (width/4) ? width - margin.right - 120 - xPos : (width + margin.right - 20) - xPos}px`)
-            .style("top", `${yPos < (height/2) ? yPos + margin.top + 10 : yPos - margin.top - 10}px`)
+            .style("position", "absolute")
+            .style("left", `${xPos < (width/4) ? (xPos + margin.left + 20) : (xPos + margin.left - 100)}px`)
+            // .style("right", `${xPos < (width/4) ? -xPos : -xPos}px`)
+            .style("top", `${yPos < (height/2) ? (yPos + margin.top + 120) : (yPos + margin.top) - 10}px`)
             .style("border",`1px solid ${colourMap.get(d.manager)}`)
             .html(
                 `<div class="tooltip-container" id="match-container">
@@ -324,7 +329,9 @@ d3.csv("data/united_competitive_results_post_ferguson.csv").then(function (data)
                 </div>`
             )
         ;
+        console.log(tooltip._groups[0][0].style.left, tooltip._groups[0][0].style.right, tooltip._groups[0][0].style.top);
     }
+    
 
     function left() {
         circle.transition()
