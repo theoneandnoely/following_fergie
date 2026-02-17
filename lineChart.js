@@ -10,14 +10,14 @@ export const lineChart = () => {
 
 
     const my = (selection) => {
-        const x = (xType === 'date'
+        const x = (xValue === 'date'
             ? d3.scaleTime()
-                .domain([0,width])
+                .range([0,width])
             : d3.scaleLinear()
-                .domain([0,width])
+                .range([0,width])
         );
         const y = d3.scaleLinear()
-            .domain([height,0])
+            .range([height,0])
         ;
 
         // Group data by manager_type
@@ -41,19 +41,19 @@ export const lineChart = () => {
         );
 
         // Set x and y domains based on the x/y value selected
-        x.domain(xType === 'date' ? d3.extent(data, d => d.date) : [d3.min(data, d => d.games_in_charge), d3.max(data, d => d.games_in_charge)]);
+        x.domain(xValue === 'date' ? d3.extent(data, d => d.date) : [0, d3.max(data, d => d.games_in_charge)]);
         y.domain(
             yValue === 'cumulative_gd'
-            ? [d3.min(data,d => xType === 'date' ? d.cum_gd : d.manager_gd), d3.max(data, d => xType === 'date' ? d.cum_gd : d.manager_gd)]
+            ? [d3.min(data,d => xValue === 'date' ? d.cum_gd : d.manager_gd), d3.max(data, d => xValue === 'date' ? d.cum_gd : d.manager_gd)]
             : (
                 yValue === 'goals_scored'
-                ? [d3.min(data, d => xType === 'date' ? d.cum_gf : d.manager_gf), d3.max(data, d => xType === 'date' ? d.cum_gf : d.manager_gf)]
-                : [d3.min(data, d => xType === 'date' ? d.cum_ga : d.manager_ga), d3.max(data, d => xType === 'date' ? d.cum_ga : d.manager_ga)]
+                ? [d3.min(data, d => xValue === 'date' ? d.cum_gf : d.manager_gf), d3.max(data, d => xValue === 'date' ? d.cum_gf : d.manager_gf)]
+                : [d3.min(data, d => xValue === 'date' ? d.cum_ga : d.manager_ga), d3.max(data, d => xValue === 'date' ? d.cum_ga : d.manager_ga)]
             )
         );
 
         // Add x and y axes
-        if (xType === 'date') {
+        if (xValue === 'date') {
             selection
                 .selectAll('g.xAxis')
                 .data([null])
@@ -202,5 +202,5 @@ export const lineChart = () => {
         return arguments.length ? ((timeframes = _), my) : timeframes;
     }
 
-    return my
+    return my;
 }
