@@ -4,53 +4,37 @@ export const lineChart = () => {
     let data;
     let xValue;
     let yValue;
-    let xType;
+    let extents;
     let colourMap;
     let timeframes;
 
 
     const my = (selection) => {
-        const x = (xValue === 'date'
+        const x = (
+            xValue === 'date'
             ? d3.scaleTime()
                 .range([0,width])
+                .domain(extents.x.date)
             : d3.scaleLinear()
-                .range([0,width])
+                .range([0, width])
+                .domain(extents.x.games)
         );
         const y = d3.scaleLinear()
             .range([height,0])
         ;
 
-        // Group data by manager_type
-        const types = d3.group(
-            data,
-            (d) => d.manager_type
-        );
-
-        // Group each manager type by manager
-        const permanents = d3.group(
-            types.get("Permanent"),
-            (d) => d.manager
-        );
-        const interims = d3.group(
-            types.get("Interim"),
-            (d) => d.manager
-        );
-        const caretakers = d3.group(
-            types.get("Caretaker"),
-            (d) => d.manager
-        );
-
         // Set x and y domains based on the x/y value selected
-        x.domain(xValue === 'date' ? d3.extent(data, d => d.date) : [0, d3.max(data, d => d.games_in_charge)]);
+        // x.domain(xValue === 'date' ? d3.extent(data, d => d.date) : [0, d3.max(data, d => d.games_in_charge)]);
         y.domain(
             yValue === 'cumulative_gd'
-            ? [d3.min(data,d => xValue === 'date' ? d.cum_gd : d.manager_gd), d3.max(data, d => xValue === 'date' ? d.cum_gd : d.manager_gd)]
+            ? (xValue === 'date' ? extents.y.cumulative.gd : extents.y.manager.gd)
             : (
                 yValue === 'goals_scored'
-                ? [d3.min(data, d => xValue === 'date' ? d.cum_gf : d.manager_gf), d3.max(data, d => xValue === 'date' ? d.cum_gf : d.manager_gf)]
-                : [d3.min(data, d => xValue === 'date' ? d.cum_ga : d.manager_ga), d3.max(data, d => xValue === 'date' ? d.cum_ga : d.manager_ga)]
+                ? (xValue === 'date' ? extents.y.cumulative.gf : extents.y.manager.gf)
+                : (xValue === 'date' ? extents.y.cumulative.ga : extents.y.manager.ga)
             )
         );
+        
 
         // Add x and y axes
         if (xValue === 'date') {
@@ -143,31 +127,78 @@ export const lineChart = () => {
             )
         ;
 
-        const g_lines = selection.append('g').attr('id','lines');
-        g_lines.append('g')
-            .attr('id','permanent_manager_paths')
-            .selectAll('.permanent_manager_path')
-                .data(permanents)
-                .join('path')
-                    .attr('d',(d) => line(d[1]))
-                    .attr('stroke', (d) => colourMap.get(d[0]))
+        const t = d3.transition().duration(250);
+
+        selection.selectAll('path')
+                .data(data)
+                .join(
+                    (enter) => enter
+                        .append('path')
+                            .attr('d',(d) => line(d[1]))
+                            .attr('stroke', (d) => colourMap.get(d[0]))
+                            .attr('fill','none')
+                        .call(
+                            (enter) => enter
+                                .transition(t)
+                                .attr('d', (d) => line(d[1]))
+                        ),
+                    (update) => update
+                        .call(
+                            (update) => update
+                                .transition(t)
+                                .attr('d', (d) => line(d[1]))
+                        ),
+                    (exit) => exit.remove()
+                )
         ;
-        g_lines.append('g')
-            .attr('id','interim_manager_paths')
-            .selectAll('.interim_manager_path')
-                .data(interims)
-                .join('path')
-                    .attr('d',(d) => line(d[1]))
-                    .attr('stroke',(d) => colourMap.get(d[0]))
-        ;
-        g_lines.append('g')
-            .attr('id','caretaker_manager_paths')
-            .selectAll('.caretaker_manager_path')
-                .data(caretakers)
-                .join('path')
-                    .attr('d',(d) => line(d[1]))
-                    .attr('stroke',(d) => colourMap.get(d[0]))
-        ;
+        // const interim_paths = g_lines.append('g')
+        //     .attr('id','interim_manager_paths')
+        // ;
+        // interim_paths.selectAll('path')
+        //         .data(interims)
+        //         .join(
+        //             (enter) => enter
+        //                 .append('path')
+        //                     .attr('d','')
+        //                     .attr('stroke', (d) => colourMap.get(d[0]))
+        //                 .call(
+        //                     (enter) => enter
+        //                         .transition(t)
+        //                         .attr('d', (d) => line(d[1]))
+        //                 ),
+        //             (update) => update
+        //                 .call(
+        //                     (update) => update
+        //                         .transition(t)
+        //                         .attr('d', (d) => line(d[1]))
+        //                 ),
+        //             (exit) => exit.remove()
+        //         )
+        // ;
+        // const caretaker_paths = g_lines.append('g')
+        //     .attr('id','caretaker_manager_paths')
+        // ;
+        // caretaker_paths.selectAll('path')
+        //         .data(caretakers)
+        //         .join(
+        //             (enter) => enter
+        //                 .append('path')
+        //                     .attr('d','')
+        //                     .attr('stroke', (d) => colourMap.get(d[0]))
+        //                 .call(
+        //                     (enter) => enter
+        //                         .transition(t)
+        //                         .attr('d', (d) => line(d[1]))
+        //                 ),
+        //             (update) => update
+        //                 .call(
+        //                     (update) => update
+        //                         .transition(t)
+        //                         .attr('d', (d) => line(d[1]))
+        //                 ),
+        //             (exit) => exit.remove()
+        //         )
+        // ;
     };
 
     my.width = function (_) {
@@ -186,8 +217,8 @@ export const lineChart = () => {
         return arguments.length ? ((xValue = _),my) : xValue;
     };
 
-    my.xType = function (_) {
-        return arguments.length ? ((xType = _),my) : xType;
+    my.extents = function (_) {
+        return arguments.length ? ((extents = _),my) : extents;
     };
 
     my.yValue = function (_) {

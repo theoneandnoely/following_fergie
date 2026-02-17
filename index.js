@@ -1,4 +1,5 @@
 import { lineChart } from "./lineChart.js";
+import { menu } from "./menu.js";
 
 // Set dimensions and margins for chart
 const minWidth = 600;
@@ -14,10 +15,10 @@ if (window.innerWidth < minWidth){
 const height = ((width / 16) * 9) - margin.top - margin.bottom - 40;
 
 // Set up the x and y scales
-const x = d3.scaleTime()
-    .range([0, width]);
-const y = d3.scaleLinear()
-    .range([height, 0]);
+// const x = d3.scaleTime()
+//     .range([0, width]);
+// const y = d3.scaleLinear()
+//     .range([height, 0]);
 
 // Create the SVG element and append it to the chart container
 const svg = d3.select("#goals-line")
@@ -92,18 +93,118 @@ const parseRow = (d) => {
     return d;
 }
 
+const menu_container = d3.select('#goals-line')
+    .append('div')
+        .attr('class','menu-container')
+;
+
+const xMenu = menu_container
+    .append('div')
+        .attr('id','x-menu')
+;
+
+const yMenu = menu_container
+    .append('div')
+        .attr('id','y-menu')
+;
+
 const main = async () => {
+    // Extract and parse data
     const data = await d3.csv(csvPath, parseRow);
-    const plot = lineChart()
+
+    // Split data by manager type > manager
+    const types = d3.group(
+        data,
+        (d) => d.manager_type
+    );
+    const permanents = d3.group(
+        types.get("Permanent"),
+        (d) => d.manager
+    );
+    const interims = d3.group(
+        types.get("Interim"),
+        (d) => d.manager
+    );
+    const caretakers = d3.group(
+        types.get("Caretaker"),
+        (d) => d.manager
+    );
+
+    const extents = {
+        'x':{
+            'date': d3.extent(data, d => d.date),
+            'games': d3.extent(data, d => d.games_in_charge)
+        },
+        'y':{
+            'cumulative':{
+                'gd': d3.extent(data, d => d.cum_gd),
+                'gf': d3.extent(data, d => d.cum_gf),
+                'ga': d3.extent(data, d => d.cum_ga)
+            },
+            'manager': {
+                'gd': d3.extent(data, d => d.manager_gd),
+                'gf': d3.extent(data, d => d.manager_gf),
+                'ga': d3.extent(data, d => d.manager_ga)
+            }
+        }
+    }
+
+    const permanent_plot = lineChart()
         .width(width)
         .height(height)
-        .data(data)
+        .data(permanents)
         .xValue('date')
         .yValue('cumulative_gd')
+        .extents(extents)
+        .colourMap(colourMap)
+    ;
+    const interim_plot = lineChart()
+        .width(width)
+        .height(height)
+        .data(interims)
+        .xValue('date')
+        .yValue('cumulative_gd')
+        .extents(extents)
+        .colourMap(colourMap)
+    ;
+    const caretaker_plot = lineChart()
+        .width(width)
+        .height(height)
+        .data(caretakers)
+        .xValue('date')
+        .yValue('cumulative_gd')
+        .extents(extents)
         .colourMap(colourMap)
     ;
     svg.call(
-        plot);
+        permanent_plot);
+    // svg.call(interim_plot);
+    // svg.call(caretaker_value);
+
+    xMenu.call(
+        menu()
+            .id('x-menu')
+            .labelText('X:')
+            .options(xAxisOptions)
+            .on('change', value => {
+                svg.call(permanent_plot.xValue(value));
+                // svg.call(interim_plot.xValue(value));
+                // svg.call(caretaker_plot.xValue(value));
+            })
+    )
+
+    yMenu.call(
+        menu()
+            .id('y-menu')
+            .labelText('Y:')
+            .options(yAxisOptions)
+            .on('change', value => {
+                svg.call(
+                    permanent_plot
+                        .yValue(value)
+                );
+            })
+    )
 };
 
 main();

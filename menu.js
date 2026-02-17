@@ -25,7 +25,7 @@ export const menu = () => {
             .data(options)
             .join('option')
                 .attr('value',(d) => d.value)
-                .text((d) => d.label)
+                .text((d) => d.text)
         ;
     };
 
@@ -38,7 +38,7 @@ export const menu = () => {
     };
 
     my.options = function (_) {
-        return arguments.lenght ? ((options = _), my) : options;
+        return arguments.length ? ((options = _), my) : options;
     };
 
     my.on = function () {
