@@ -144,7 +144,7 @@ export const lineChart = () => {
         ;
 
         // Add shaded areas
-        const g_non_playing = selection
+        const g_timeframes = selection
             .selectAll('#non-playing-periods')
             .data([null])
             .join(
@@ -153,7 +153,7 @@ export const lineChart = () => {
                         .attr('id','non-playing-periods')
             )
         ;
-        const g_timeframes = g_non_playing.selectAll('.timeframe')
+        g_timeframes.selectAll('.timeframe')
             .data(timeframes)
             .join(
                 (enter) => enter
@@ -164,10 +164,6 @@ export const lineChart = () => {
                         .attr('y', height)
                         .attr('width', d => x(d.end) - x(d.start))
                         .attr('height', 0)
-                    // .append('text')
-                    //     .attr('x', d => (x(d.end) - x(d.start))/2)
-                    //     .attr('y', 10)
-                    //     .text(d => Object.hasOwn(d, 'label') ? d.label : null)
                     .call(
                         (enter) => enter
                             .transition(t)
@@ -176,93 +172,14 @@ export const lineChart = () => {
                     ),
                 (update) => update
                     .call(
-                        (update) => console.log(update._groups.childNodes)
-                            // .transition(t)
-                            // .attr('y', xValue === 'date' ? 0 : height)
-                            // .attr('height', xValue === 'date' ? height : 0)
-                    )
+                        (update) => update.selectAll('rect')
+                            .transition(t)
+                            .attr('y', xValue === 'date' ? 0 : height)
+                            .attr('height', xValue === 'date' ? height : 0)
+                    ),
+                (exit) => exit.remove()
             )
         ;
-        // g_timeframes
-        //     .append('rect')
-        //         .attr('x',d => x(d.start))
-        //         .attr('y',0)
-        //         .attr('width',d => x(d.end) - x(d.start))
-        //         .attr('height',height)
-        // ;
-        // g_timeframes.selectAll('.timeframe')
-        //     .data(timeframes)
-        //     .join(
-        //         (enter) => enter.append('g')
-        //             .attr('class','timeframe'),
-        //         (exit) => exit.transition(t).remove()
-        //     )
-        //     .select('rect')
-        //         // .data(d => d)
-        //         .join(
-        //             (enter) => enter
-        //                 .append('rect')
-        //                     .attr('x', d => x(d.start))
-        //                     .attr('y', height)
-        //                     .attr('width', d => x(d.end) - x(d.start))
-        //                     .attr('height', 0)
-        //                 .call(
-        //                     (enter) => enter
-        //                         .transition(t)
-        //                         .attr('y', 0)
-        //                         .attr('height', height)
-        //                 ),
-        //             (update) => update
-        //                 .call(
-        //                     (update) => update
-        //                         .transition(t)
-        //                         .attr('y',xValue === 'date' ? 0 : height)
-        //                         .attr('height', xValue === 'date' ? height : 0)
-        //                 ),
-        //             (exit) => exit
-        //                 .call(
-        //                     (exit) => exit
-        //                         .transition(t)
-        //                         .attr('height',0)
-        //                         .attr('y',height)
-        //                 )
-        //                 .call(
-        //                     (exit) => exit.transition(t).remove()
-        //                 )
-        //         )
-        //     .selectAll('text')
-        //     .data(d => d)
-        //     .join(
-        //         (enter) => enter.append('text')
-        //             .attr('x', d => x(d.start) + (x(d.end) - x(d.start))/2)
-        //             .attr('y', 10)
-        //             .text(d => Object.hasOwn(d,'label') ? d.label : ''),
-        //         (update) => update
-        //             .call(
-        //                 (update) => update
-        //                     .transition(t)
-        //                     .attr('opacity',xValue === 'date' ? 1 : 0)
-        //             ),
-        //         (exit) => exit.transition(t).remove()
-        //     )
-        ;
-        // console.log(g_timeframes.selectAll('.timeframe').data(timeframes).datum());
-        // g_timeframes.filter(d => Object.hasOwn(d,'label'))
-        //     .data(timeframes)
-        //     .join(
-        //         (enter) => enter.append('text')
-        //             .attr('x', d => x(d.start) + (x(d.end) - x(d.start))/2)
-        //             .attr('y',10)
-        //             .text(d => d.label),
-        //         (update) => update
-        //             .call(
-        //                 (update) => update
-        //                     .transition(t)
-        //                     .attr('opacity',xValue === 'date' ? 1 : 0)
-        //             ),
-        //         (exit) => exit.transition(t).remove()
-        //     )
-        // ;
 
         // Line Generator needs to account for the selecting the right x / y data
         const line = d3.line()
@@ -336,7 +253,6 @@ export const lineChart = () => {
                             .attr('class','permanent_manager_path')
                             .attr('d',(d) => line(d[1]))
                             .attr('stroke', (d) => colourMap.get(d[0]))
-                            // .attr('fill','none')
                         .call(
                             (enter) => enter
                                 .transition(t)
