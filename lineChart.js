@@ -26,11 +26,11 @@ export const lineChart = () => {
         // Set x and y domains based on the x/y value selected
         y.domain(
             yValue === 'cumulative_gd'
-            ? (xValue === 'date' ? extents.y.cumulative.gd : extents.y.manager.gd)
+            ? (xValue === 'date' ? [d3.min([extents.y.cumulative.gd[0],0]),extents.y.cumulative.gd[1]] : [d3.min([extents.y.manager.gd[0],0]),extents.y.manager.gd[1]])
             : (
                 yValue === 'goals_scored'
-                ? (xValue === 'date' ? extents.y.cumulative.gf : extents.y.manager.gf)
-                : (xValue === 'date' ? extents.y.cumulative.ga : extents.y.manager.ga)
+                ? (xValue === 'date' ? [d3.min([extents.y.cumulative.gf[0],0]),extents.y.cumulative.gf[1]] : [d3.min([extents.y.manager.gf[0],0]),extents.y.manager.gf[1]])
+                : (xValue === 'date' ? [d3.min([extents.y.cumulative.ga[0],0]),extents.y.cumulative.ga[1]] : [d3.min([extents.y.manager.ga[0],0]),extents.y.manager.ga[1]])
             )
         );
         
