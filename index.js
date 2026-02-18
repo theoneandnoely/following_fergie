@@ -125,6 +125,22 @@ const main = async () => {
         }
     }
 
+    const timeframes = [
+        {start: parseDate('2014-05-12'),end: parseDate('2014-08-15'),},
+        {start: parseDate('2015-05-25'),end: parseDate('2015-08-07'),},
+        {start: parseDate('2016-05-22'),end: parseDate('2016-08-06'),},
+        {start: parseDate('2017-05-25'),end: parseDate('2017-08-07'),},
+        {start: parseDate('2018-05-20'),end: parseDate('2018-08-09'),},
+        {start: parseDate('2019-05-13'),end: parseDate('2019-08-10'),},
+        {start: parseDate('2020-07-27'), end: parseDate('2020-08-04'),},
+        {start: parseDate('2021-05-27'),end: parseDate('2021-08-13'),},
+        {start: parseDate('2022-05-23'),end: parseDate('2022-08-06'),},
+        {start: parseDate('2023-06-04'),end: parseDate('2023-08-13'),},
+        {start: parseDate('2024-05-26'),end: parseDate('2024-08-09'),},
+        {start: parseDate('2025-05-26'), end: parseDate('2025-08-16'),},
+        {start: parseDate('2020-03-13'),end: parseDate('2020-06-18'),label: 'COVID-19 Shutdown',},
+    ]
+
     const plot = lineChart()
         .width(width)
         .height(height)
@@ -133,6 +149,7 @@ const main = async () => {
         .yValue('cumulative_gd')
         .extents(extents)
         .colourMap(colourMap)
+        .timeframes(timeframes)
     ;
     svg.call(plot);
 
