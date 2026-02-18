@@ -17,7 +17,7 @@ export const lineChart = () => {
                 .domain(extents.x.date)
             : d3.scaleLinear()
                 .range([0, width])
-                .domain(extents.x.games)
+                .domain([0,extents.x.games[1]])
         );
         const y = d3.scaleLinear()
             .range([height,0])
@@ -167,16 +167,55 @@ export const lineChart = () => {
                 )
             )
         ;
+        
+        const types = d3.group(data, (d) => d.manager_type);
+        const permanents = d3.group(types.get("Permanent"), (d) => d.manager);
+        const interims = d3.group(types.get("Interim"), (d) => d.manager);
+        const caretakers = d3.group(types.get("Caretaker"), (d) => d.manager);
 
+        const g_lines = selection
+            .selectAll('#lines')
+            .data([null])
+            .join(
+                (enter) => enter
+                    .append('g')
+                    .attr('id','lines')
+            )
+        ;
 
-        selection.selectAll('path')
-                .data(data)
+        const g_perm = g_lines
+            .selectAll('#permanent_manager_paths')
+            .data([null])
+            .join(
+                (enter) => enter.append('g')
+                    .attr('id','permanent_manager_paths')
+            )
+        ;
+
+        const g_interim = g_lines
+            .selectAll('#interim_manager_paths')
+            .data([null])
+            .join(
+                (enter) => enter.append('g').attr('id','interim_manager_paths')
+            )
+        ;
+
+        const g_caretaker = g_lines
+            .selectAll('#caretaker_manager_paths')
+            .data([null])
+            .join(
+                (enter) => enter.append('g').attr('id','caretaker_manager_paths')
+            )
+
+        g_perm.selectAll('.permanent_manager_path')
+                .data(permanents)
                 .join(
                     (enter) => enter
                         .append('path')
+                            .attr('class','permanent_manager_path')
                             .attr('d',(d) => line(d[1]))
                             .attr('stroke', (d) => colourMap.get(d[0]))
-                            .attr('fill','none')
+                            // .attr('fill','none')
                         .call(
                             (enter) => enter
                                 .transition(t)
@@ -191,54 +230,42 @@ export const lineChart = () => {
                     (exit) => exit.remove()
                 )
         ;
-        // const interim_paths = g_lines.append('g')
-        //     .attr('id','interim_manager_paths')
-        // ;
-        // interim_paths.selectAll('path')
-        //         .data(interims)
-        //         .join(
-        //             (enter) => enter
-        //                 .append('path')
-        //                     .attr('d','')
-        //                     .attr('stroke', (d) => colourMap.get(d[0]))
-        //                 .call(
-        //                     (enter) => enter
-        //                         .transition(t)
-        //                         .attr('d', (d) => line(d[1]))
-        //                 ),
-        //             (update) => update
-        //                 .call(
-        //                     (update) => update
-        //                         .transition(t)
-        //                         .attr('d', (d) => line(d[1]))
-        //                 ),
-        //             (exit) => exit.remove()
-        //         )
-        // ;
-        // const caretaker_paths = g_lines.append('g')
-        //     .attr('id','caretaker_manager_paths')
-        // ;
-        // caretaker_paths.selectAll('path')
-        //         .data(caretakers)
-        //         .join(
-        //             (enter) => enter
-        //                 .append('path')
-        //                     .attr('d','')
-        //                     .attr('stroke', (d) => colourMap.get(d[0]))
-        //                 .call(
-        //                     (enter) => enter
-        //                         .transition(t)
-        //                         .attr('d', (d) => line(d[1]))
-        //                 ),
-        //             (update) => update
-        //                 .call(
-        //                     (update) => update
-        //                         .transition(t)
-        //                         .attr('d', (d) => line(d[1]))
-        //                 ),
-        //             (exit) => exit.remove()
-        //         )
-        // ;
+        g_interim.selectAll('.interim_manager_path')
+                .data(interims)
+                .join(
+                    (enter) => enter
+                        .append('path')
+                            .attr('class','interim_manager_path')
+                            .attr('d',(d) => line(d[1]))
+                            .attr('stroke', (d) => colourMap.get(d[0]))
+                        .call(
+                            (enter) => enter.transition(t).attr('d',(d) => line(d[1]))
+                        ),
+                    (update) => update
+                        .call(
+                            (update) => update.transition(t).attr('d',(d) => line(d[1]))
+                        ),
+                        (exit) => exit.remove()
+                )
+        ;
+        g_caretaker.selectAll('.caretaker_manager_path')
+                .data(caretakers)
+                .join(
+                    (enter) => enter
+                        .append('path')
+                            .attr('class','caretaker_manager_path')
+                            .attr('d',(d) => line(d[1]))
+                            .attr('stroke',(d) => colourMap.get(d[0]))
+                        .call(
+                            (enter) => enter.transition(t).attr('d',(d) => line(d[1]))
+                        ),
+                    (update) => update
+                        .call(
+                            (update) => update.transition(t).attr('d',(d) => line(d[1]))
+                        ),
+                    (exit) => exit.remove()
+                )
+        ;
     };
 
     my.width = function (_) {

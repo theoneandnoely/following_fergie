@@ -112,24 +112,6 @@ const main = async () => {
     // Extract and parse data
     const data = await d3.csv(csvPath, parseRow);
 
-    // Split data by manager type > manager
-    const types = d3.group(
-        data,
-        (d) => d.manager_type
-    );
-    const permanents = d3.group(
-        types.get("Permanent"),
-        (d) => d.manager
-    );
-    const interims = d3.group(
-        types.get("Interim"),
-        (d) => d.manager
-    );
-    const caretakers = d3.group(
-        types.get("Caretaker"),
-        (d) => d.manager
-    );
-
     const extents = {
         'x':{
             'date': d3.extent(data, d => d.date),
@@ -152,30 +134,30 @@ const main = async () => {
     const permanent_plot = lineChart()
         .width(width)
         .height(height)
-        .data(permanents)
+        .data(data)
         .xValue('date')
         .yValue('cumulative_gd')
         .extents(extents)
         .colourMap(colourMap)
     ;
-    const interim_plot = lineChart()
-        .width(width)
-        .height(height)
-        .data(interims)
-        .xValue('date')
-        .yValue('cumulative_gd')
-        .extents(extents)
-        .colourMap(colourMap)
-    ;
-    const caretaker_plot = lineChart()
-        .width(width)
-        .height(height)
-        .data(caretakers)
-        .xValue('date')
-        .yValue('cumulative_gd')
-        .extents(extents)
-        .colourMap(colourMap)
-    ;
+    // const interim_plot = lineChart()
+    //     .width(width)
+    //     .height(height)
+    //     .data(interims)
+    //     .xValue('date')
+    //     .yValue('cumulative_gd')
+    //     .extents(extents)
+    //     .colourMap(colourMap)
+    // ;
+    // const caretaker_plot = lineChart()
+    //     .width(width)
+    //     .height(height)
+    //     .data(caretakers)
+    //     .xValue('date')
+    //     .yValue('cumulative_gd')
+    //     .extents(extents)
+    //     .colourMap(colourMap)
+    // ;
     svg.call(
         permanent_plot);
     // svg.call(interim_plot);
