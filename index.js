@@ -14,12 +14,6 @@ if (window.innerWidth < minWidth){
 
 const height = ((width / 16) * 9) - margin.top - margin.bottom - 40;
 
-// Set up the x and y scales
-// const x = d3.scaleTime()
-//     .range([0, width]);
-// const y = d3.scaleLinear()
-//     .range([height, 0]);
-
 // Create the SVG element and append it to the chart container
 const svg = d3.select("#goals-line")
     .append("svg")
@@ -131,7 +125,7 @@ const main = async () => {
         }
     }
 
-    const permanent_plot = lineChart()
+    const plot = lineChart()
         .width(width)
         .height(height)
         .data(data)
@@ -140,28 +134,7 @@ const main = async () => {
         .extents(extents)
         .colourMap(colourMap)
     ;
-    // const interim_plot = lineChart()
-    //     .width(width)
-    //     .height(height)
-    //     .data(interims)
-    //     .xValue('date')
-    //     .yValue('cumulative_gd')
-    //     .extents(extents)
-    //     .colourMap(colourMap)
-    // ;
-    // const caretaker_plot = lineChart()
-    //     .width(width)
-    //     .height(height)
-    //     .data(caretakers)
-    //     .xValue('date')
-    //     .yValue('cumulative_gd')
-    //     .extents(extents)
-    //     .colourMap(colourMap)
-    // ;
-    svg.call(
-        permanent_plot);
-    // svg.call(interim_plot);
-    // svg.call(caretaker_plot);
+    svg.call(plot);
 
     xMenu.call(
         menu()
@@ -169,9 +142,7 @@ const main = async () => {
             .labelText('X:')
             .options(xAxisOptions)
             .on('change', value => {
-                svg.call(permanent_plot.xValue(value));
-                // svg.call(interim_plot.xValue(value));
-                // svg.call(caretaker_plot.xValue(value));
+                svg.call(plot.xValue(value));
             })
     )
 
@@ -181,10 +152,7 @@ const main = async () => {
             .labelText('Y:')
             .options(yAxisOptions)
             .on('change', value => {
-                svg.call(
-                    permanent_plot
-                        .yValue(value)
-                );
+                svg.call(plot.yValue(value));
             })
     )
 };
