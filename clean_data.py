@@ -46,7 +46,7 @@ def games_in_charge(match_id):
 df['games_in_charge'] = df['match_id'].apply(lambda x: games_in_charge(x))
 
 # Reorder columns and rename trophy to competition
-df = df[['match_id','trophy','stage','date','manager','manager_type','opponent','h_a','gf','ga','gd','manager_gd','cum_gd','games_in_charge']]
+df = df[['match_id','trophy','stage','date','manager','manager_type','opponent','h_a','gf','ga','gd','manager_gf','manager_ga','manager_gd','cum_gf','cum_ga','cum_gd','games_in_charge']]
 df.rename({'trophy':'competition'}, axis=1, inplace=True)
 
 # Export as CSV

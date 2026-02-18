@@ -24,7 +24,6 @@ export const lineChart = () => {
         ;
 
         // Set x and y domains based on the x/y value selected
-        // x.domain(xValue === 'date' ? d3.extent(data, d => d.date) : [0, d3.max(data, d => d.games_in_charge)]);
         y.domain(
             yValue === 'cumulative_gd'
             ? (xValue === 'date' ? extents.y.cumulative.gd : extents.y.manager.gd)
@@ -35,10 +34,18 @@ export const lineChart = () => {
             )
         );
         
+        const axes_container = selection
+            .selectAll('.axis-container')
+            .data([null])
+            .join(
+                (enter) => enter
+                    .append('g')
+                        .attr('class','axis-container')
+            )
 
         // Add x and y axes
         if (xValue === 'date') {
-            selection
+            axes_container
                 .selectAll('g.xAxis')
                 .data([null])
                 .join('g')
@@ -51,7 +58,7 @@ export const lineChart = () => {
                     .call(g => g.select('.domain').remove())
             ;
         } else {
-            selection
+            axes_container
                 .selectAll('g.xAxis')
                 .data([null])
                 .join('g')
@@ -62,7 +69,7 @@ export const lineChart = () => {
             ;
         }
 
-        selection
+        axes_container
             .selectAll('g.yAxis')
             .data([null])
             .join('g')
@@ -71,35 +78,69 @@ export const lineChart = () => {
                 .call(g => g.select('.domain').remove())
         ;
         
+        
+        const t = d3.transition().duration(250);
 
         // Add gridlines
         const xGrid = selection
-            .append('g')
-            .attr('class','gridlines')
-            .attr('id','vertical-grid')
+            .selectAll('#vertical-grid')
+            .data([null])
+            .join(
+                (enter) => enter
+                    .append('g')
+                    .attr('class','gridlines')
+                    .attr('id','vertical-grid')
+            )
         ;
         xGrid
-            .selectAll('xGrid')
+            .selectAll('line')
             .data(x.ticks())
-            .join('line')
-                .attr('x1', d => x(d))
-                .attr('x2', d => x(d))
-                .attr('y1', 0)
-                .attr('y2', height)
+            .join(
+                (enter) => enter
+                    .append('line')
+                        .attr('x1', d => x(d))
+                        .attr('x2', d => x(d))
+                        .attr('y1', 0)
+                        .attr('y2', height),
+                (update) => update
+                    .call(
+                        (update) => update
+                            .transition(t)
+                            .attr('x1',d => x(d))
+                            .attr('x2',d => x(d))
+                    ),
+                (exit) => exit.remove()
+            )
         ;
         const yGrid = selection
-            .append('g')
-            .attr('class','gridlines')
-            .attr('id','horizontal-grid')
+            .selectAll('#horizontal-grid')
+            .data([null])
+            .join(
+                (enter) => enter
+                    .append('g')
+                    .attr('class','gridlines')
+                    .attr('id','horizontal-grid')
+            )
         ;
         yGrid
-            .selectAll('yGrid')
+            .selectAll('line')
             .data(y.ticks())
-            .join('line')
-                .attr('x1', 0)
-                .attr('x2', width)
-                .attr('y1', d => y(d))
-                .attr('y2', d => y(d))
+            .join(
+                (enter) => enter
+                    .append('line')
+                        .attr('x1', 0)
+                        .attr('x2', width)
+                        .attr('y1', d => y(d))
+                        .attr('y2', d => y(d)),
+                (update) => update
+                    .call(
+                        (update) => update
+                            .transition(t)
+                            .attr('y1', d => y(d))
+                            .attr('y2', d => y(d))
+                    ),
+                (exit) => exit.remove()
+            )
         ;
 
         // Line Generator needs to account for the selecting the right x / y data
@@ -127,7 +168,6 @@ export const lineChart = () => {
             )
         ;
 
-        const t = d3.transition().duration(250);
 
         selection.selectAll('path')
                 .data(data)

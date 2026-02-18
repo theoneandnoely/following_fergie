@@ -179,7 +179,7 @@ const main = async () => {
     svg.call(
         permanent_plot);
     // svg.call(interim_plot);
-    // svg.call(caretaker_value);
+    // svg.call(caretaker_plot);
 
     xMenu.call(
         menu()
